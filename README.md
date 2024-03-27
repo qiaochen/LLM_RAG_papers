@@ -50,7 +50,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > Comments
 > With a competent LLM and good retrieval system accompanied by techniques like [Chain of Thoughts Prompting](https://arxiv.org/abs/2201.11903), RAG has the potential to perform comparably well or even better than fine-tuned LLMs in a new domain. It is also much more flexible to manipulate external knowledge bases for updating or filtering knowledge. However, the potential new bottlenecks now are:
 >      1) A good retriever and/or a reranker
->      2) the  
+>      2) the ability of LLM that can distracting  
 
 A technique gaining increasing attention:
 
@@ -58,9 +58,10 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTk2NjAwLC00NTY1ODU1OTEsMTAyMj
-AwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0OTgzLC01NDcwMzkw
-ODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLDU1NjAxNTUzMywtNz
-UwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1NTc3LC00MDIxMDgx
-NywtMTYyNzQyODcsMTg3ODAxNTc1NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTYwNjQzNDk3NywtNDU2NTg1NTkxLDEwMj
+IwMDc3MjgsLTY0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5
+MDgxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLT
+c1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtNDAyMTA4
+MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2MTJdfQ
+==
 -->
