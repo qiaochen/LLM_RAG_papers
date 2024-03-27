@@ -29,9 +29,9 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	>-- If not, can we decouple some knowledge component from the parameters? The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which are also more frequently triggered, and hence better contained in the model parameters. Finally, in corporation with 3) and 4), a certain degree of common sense knowledge should be learned to support acceptable  behaviors of LLMs, thus knowledge in 1) is better contained in the model parameters .
 
 - Retrieval-augmented generation (RAG):
-	-  a solution to decoupling knowledge from model parameters:
+	-  a solution to decoupling knowledge from model parameters, in the ca:
 		- Model parameters: Knowledge 1), 3), 4)
-		- E
+		- External knowledge base: Knowledge 2)
 
 A technique gaining increasing attention:
 
@@ -39,7 +39,7 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDc0MDE1MSwtMTA2NTg3NDk4MywtNT
+eyJoaXN0b3J5IjpbLTYxMDI1ODM5NywtMTA2NTg3NDk4MywtNT
 Q3MDM5MDgxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1
 MzMsLTc1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtND
 AyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2
