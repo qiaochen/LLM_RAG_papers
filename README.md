@@ -42,7 +42,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	-  Important components in RAG:
 		- LLM
 		- Retriever
-			- Embeder
+			- Embedder
 		- Reranker
 		- Indexed resources
 	- In a vanila RAG system, LLM is fixed, so the upper bound of the response quality is determined by the retrieval system and the external resources. 
@@ -52,8 +52,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > Comments
 > With a competent LLM and good retrieval system accompanied by techniques like [Chain of Thoughts Prompting](https://arxiv.org/abs/2201.11903), RAG has the potential to perform comparably well or even better than fine-tuned LLMs in a new domain. It is also much more flexible to manipulate external knowledge for updating or filtering information. However, the potentially incurred new bottlenecks now are:
 >      1) A "good" retriever and/or a reranker:
-	>      
->      2) the ability of LLM that can distracting  
+>      2) the ability of LLM that can well hdistracting  
 
 A technique gaining increasing attention:
 
@@ -61,10 +60,10 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDkyMTI4LDIwMjQwOTk3MDUsLTQ1Nj
-U4NTU5MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5
-ODMsLTU0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNT
-U2MDE1NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1
-NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTk5NjEyMTAzOCwyMDI0MDk5NzA1LC00NT
+Y1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0
+OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLD
+U1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1
+NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1NiwtMj
+A4ODc0NjYxMl19
 -->
