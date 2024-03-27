@@ -28,7 +28,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	>-- Is it necessary to encode all the knowledge in parametric form?
 	>-- If not, can we decouple some knowledge component from the parameters? The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which are also more frequently triggered, and hence better contained in the model parameters. Finally, in corporation with 3) and 4), a certain degree of common sense knowledge should be learned to support acceptable  behaviors of LLMs, thus knowledge in 1) is better contained in the model parameters .
 
-- Retrieval-augmented generation (RAG):
+- [Retrieval-augmented generation (RAG)](https://arxiv.org/abs/2005.11401):
 	-  a solution to decoupling knowledge from model parameters, in the case of domain specific QA:
 		- Fixed Model parameters: Knowledge 1), 3), 4)
 		- External knowledge base (on the fly): Knowledge 2)
@@ -40,9 +40,9 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODM2MjIyNSwtMTA2NTg3NDk4MywtNT
-Q3MDM5MDgxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1
-MzMsLTc1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtND
-AyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2
-MTJdfQ==
+eyJoaXN0b3J5IjpbNzAxMzg2MDUxLC02NDgzNjIyMjUsLTEwNj
+U4NzQ5ODMsLTU0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIw
+MjEsNTU2MDE1NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01Mz
+cwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2
+LC0yMDg4NzQ2NjEyXX0=
 -->
