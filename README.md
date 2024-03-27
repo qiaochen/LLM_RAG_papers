@@ -6,7 +6,7 @@
 		- Complete Transformers with both encoder and decoders, e.g., [BART](https://arxiv.org/abs/1910.13461), [T-5](https://arxiv.org/abs/1910.10683)
 	- [Mamba](https://arxiv.org/abs/2312.00752)
 	
-Adopting next token prediction (so coined causal language models) as a simple learning task, base models of Decoder-only LLMs are usually pretrained on huge amount of  training data for months, consuming hundreds and thousands of GPUs or XPUs, which is not really practical for small groups.   Continual training, or fine tuning with pretrained LLMs hence play a role in adapting LLMs for specific interests. 
+Adopting next token prediction (so coined causal language models) as a simple learning task, base models of Decoder-only LLMs are usually pretrained on huge amount of  training data for months, consuming hundreds and thousands of GPUs or XPUs, which is not really practical for small groups.   Continual training, or fine tuning with pretrained LLMs hence play a role in adapting LLMs for specific interest. 
 - Fine tuning:
 	- In the narrowest sense, it refers to continual training LLMs on specific corpora of interest, so that those previously less underscored specific co-occurrence patterns of tokens (word/subword) can be captured by the model parameters. The same next token prediction can be the basic fine-tuning task. If so, the training result is, like the original pretrained model, also a base model. 
 	- A pretrained or fine tuned __base model__ can be good at text generation, but still can not be well used to conduct instruct following tasks, e.g., instruct it to summarize, answer questions or chat. To enable the instruct following ability, there is a need for _instruct fine tuning_.    
@@ -18,14 +18,14 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- In a more specific sense, instruct tuning may be used to only adapt the base LLMs to a single NLP task, e.g. question answering.
 	- Generated tokens for answers are compared with ground-truth for measuring losses and updating model parameters.   
 
-Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (which encodes world knowledge). Plain fine-tuning may capture new patterns at the cost of fo old patterns, while instruct tuning may sacrifice world knowledge for 
+Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (which encode world knowledge). Plain fine-tuning may capture new patterns at the cost of  old patterns, while instruct tuning may sacrifice world knowledge for 
  
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5NjExMjc5LDcyNzQ5ODA4MywtNTM3MD
+eyJoaXN0b3J5IjpbLTQxMzQ5NDc0LDcyNzQ5ODA4MywtNTM3MD
 Y1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1Niwt
 MjA4ODc0NjYxMl19
 -->
