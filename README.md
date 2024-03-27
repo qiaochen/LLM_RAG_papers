@@ -16,15 +16,16 @@ Adopting next token prediction (so coined causal language models) as a simple le
 		- [Self-instruct GPT3](https://arxiv.org/abs/2212.10560)
 		- [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html), 
 	- In a more specific sense, instruct tuning may be used to only adapt the base LLMs to a single NLP task, e.g. question answering.
-	- Generated tokens (may or may not necessary be next token style) for  
+	- Generated tokens for answers are compared with ground-truth for measuring losses and updating model parameters.   
 
-Note, the purposes of  and instruct tuning are different, 
+Note, the purposes of plain fine tuning and instruct tuning are different. Inst
+ 
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTk4NTAyOSw3Mjc0OTgwODMsLTUzNz
+eyJoaXN0b3J5IjpbLTc2MjIyMzc1MCw3Mjc0OTgwODMsLTUzNz
 A2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYs
 LTIwODg3NDY2MTJdfQ==
 -->
