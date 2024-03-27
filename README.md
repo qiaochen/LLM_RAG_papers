@@ -13,12 +13,14 @@ Adopting next token prediction (so coined causal language models) as a simple le
 - Instruct fine tuning:
 	- Mainly for enabling LLM bases to respond to different tasks according to the task-specific meta information described in the instruction. Example projects include:
 		- Alpaca:
-		-  
+		```
+	
+		`` 
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODcyNzYzNCwtNDAyMTA4MTcsLTE2Mj
+eyJoaXN0b3J5IjpbMTg5MTEzNTIxMSwtNDAyMTA4MTcsLTE2Mj
 c0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2MTJdfQ==
 -->
