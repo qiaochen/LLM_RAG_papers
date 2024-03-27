@@ -6,7 +6,7 @@
 		- Complete Transformers with both encoder and decoders, e.g., [BART](https://arxiv.org/abs/1910.13461), [T-5](https://arxiv.org/abs/1910.10683)
 	- [Mamba](https://arxiv.org/abs/2312.00752)
 	
-Base models of Decoder-only LLMs are usually pretrained on huge amount of  training data for months, with hundreds of thounds of  
+Adopting next token prediction (so coined causal language models) as a simple learning task, base models of Decoder-only LLMs are usually pretrained on huge amount of  training data for months, con
 
 - Fine tuning
 - Instruct fine tuning
@@ -15,6 +15,6 @@ Base models of Decoder-only LLMs are usually pretrained on huge amount of  train
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDg1MjMsMTg3ODAxNTc1NiwtMjA4OD
-c0NjYxMl19
+eyJoaXN0b3J5IjpbLTEzMzIyOTYwMDYsMTg3ODAxNTc1NiwtMj
+A4ODc0NjYxMl19
 -->
