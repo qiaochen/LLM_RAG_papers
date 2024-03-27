@@ -19,13 +19,15 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- To train, generated tokens for answers or responses are compared with ground-truth for measuring losses and updating model parameters.   
 
 Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following ability.
+
+
  
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3NDk2MzU1LDcyNzQ5ODA4MywtNTM3MD
-Y1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1Niwt
-MjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTc1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNz
+A2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYs
+LTIwODg3NDY2MTJdfQ==
 -->
