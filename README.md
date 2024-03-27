@@ -41,7 +41,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 		- LLM
 		- Retrieval[, and Reranker]
 		- Indexed resources
-	- In a vanila RAG system, LLM can be a fixed model, so the upper bound of the response quality is decided on the retrieval system. At a small resource scale (e.g., < 10k documents), vector base
+	- In a vanila RAG system, LLM can be a fixed model, so the upper bound of the response quality is decided on the retrieval system and the external resources. At a small resource scale (e.g., < 10k documents), dense vector approach with vector databases () can be a good solution.
 
 A technique gaining increasing attention:
 
@@ -49,9 +49,9 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTA0MjA4NSwtNjQ4MzYyMjI1LC0xMD
-Y1ODc0OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUy
-MDIxLDU1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNT
-M3MDY1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1
-NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE4MTY5MDc3NDcsLTY0ODM2MjIyNSwtMT
+A2NTg3NDk4MywtNTQ3MDM5MDgxLC02MTg5Mjk5NDEsMjA3Nzc1
+MjAyMSw1NTYwMTU1MzMsLTc1MDUxNDk0NSw3Mjc0OTgwODMsLT
+UzNzA2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3
+NTYsLTIwODg3NDY2MTJdfQ==
 -->
