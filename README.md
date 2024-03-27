@@ -18,7 +18,7 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- In a more specific sense, instruct tuning may be used to only adapt the base LLMs to a single NLP task, e.g. question answering.
 	- To train, generated tokens for answers or responses are compared with ground-truth for measuring losses and updating model parameters.   
 
-Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following ability.
+Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following related input-output token generation associations.
 
 
  
@@ -27,7 +27,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNz
-A2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYs
-LTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMjI4NzYyMTU1LC03NTA1MTQ5NDUsNzI3ND
+k4MDgzLC01MzcwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4Nywx
+ODc4MDE1NzU2LC0yMDg4NzQ2NjEyXX0=
 -->
