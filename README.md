@@ -30,7 +30,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 - Retrieval-augmented generation (RAG):
 	-  a solution to decoupling knowledge from model parameters:
-		- 1
+		- Model parameters: Knowledge 1), 3), 4)
+		- E
 
 A technique gaining increasing attention:
 
@@ -38,9 +39,9 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE5MDMxODgsLTEwNjU4NzQ5ODMsLT
-U0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1
-NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLT
-QwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbMjA3MDc0MDE1MSwtMTA2NTg3NDk4MywtNT
+Q3MDM5MDgxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1
+MzMsLTc1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtND
+AyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2
+MTJdfQ==
 -->
