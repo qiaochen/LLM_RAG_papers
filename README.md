@@ -1,5 +1,6 @@
-1. ## Finetunning
+Keywords:
+Retrieval-augmented generation (RAG);
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjMyNzk0MjYsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbNTM2ODEwMDQzLC0yMDg4NzQ2NjEyXX0=
 -->
