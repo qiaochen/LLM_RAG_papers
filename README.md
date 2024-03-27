@@ -55,7 +55,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 >      2) LLM's ability of 
 >      Questions:
 >      1. Would the ability of something best included in the "meta knowledge of behaviors such as instruct-following, prompt understanding etc" ?
->      If so, then it might be helpful to explicitly fine-tune models to better capture such knowledge (There are increasing ).  
+>      If so, then it might be helpful to explicitly fine-tune models to better capture such knowledge (There is increasing research interest in this direction).  
 
 A technique gaining increasing attention:
 
@@ -63,10 +63,10 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTc4NjI0MiwyMDI0MDk5NzA1LC00NT
-Y1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0
-OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLD
-U1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1
-NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1NiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbODg5NTk0NjAxLDIwMjQwOTk3MDUsLTQ1Nj
+U4NTU5MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5
+ODMsLTU0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNT
+U2MDE1NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1
+NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMD
+g4NzQ2NjEyXX0=
 -->
