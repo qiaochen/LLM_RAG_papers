@@ -20,7 +20,7 @@ Adopting next token prediction (so coined causal language models) as a simple le
 
 Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following related token generation patterns.
 
-> Comments and transition to RAG
+> Comments
 >- The strategy of the above practices is to inject all kinds of knowledge into the parametric models through training or fine tuning, which is very expensive (require substantial resources to be kept up-to-date, yet they struggle to capture long-tail knowledge), less flexible and manageable. 
 >- Meanwhile, the different knowledge implicitly encoded in the parametric models can be roughly divided into: 1) Factual knowledge, their relations and common sense, and 2) different domains; 3) meta knowledge of linguistics or conventional usage patterns for generating human-understandable discourses; 4) meta knowledge of behaviors such as instruct-following, prompt understanding etc.
 >- It can be noted that pretraining LLM bases is mainly for gaining knowledge in 1) & 3); domain-specific finetuning is mainly for 2); while instruct tuning is aimed at 4); Reinforcement learning from human feedback (RLHF) is for improving 3);
@@ -35,7 +35,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	-  Important components in RAG:
 		- LLM
 		- Retrieval[, and Reranker]
-	- In a vanila RAG system, LLM can be a fixed model, so the  
+	- In a vanila RAG system, LLM can be a fixed model, so the upper bound of the  
 
 A technique gaining increasing attention:
 
@@ -43,7 +43,7 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI3Mzg0MCwtNjQ4MzYyMjI1LC0xMD
+eyJoaXN0b3J5IjpbLTkxMTkxNDA5OSwtNjQ4MzYyMjI1LC0xMD
 Y1ODc0OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUy
 MDIxLDU1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNT
 M3MDY1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1
