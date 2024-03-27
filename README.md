@@ -40,8 +40,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	-  Important components in RAG:
 		- LLM
 		- Retrieval[, and Reranker]
-		- Indexed 
-	- In a vanila RAG system, LLM can be a fixed model, so the upper bound of the  
+		- Indexed resources
+	- In a vanila RAG system, LLM can be a fixed model, so the upper bound of the response quality is decided on the retrieval system. At a small resource scale (e.g., < 10k documents), vector base
 
 A technique gaining increasing attention:
 
@@ -49,7 +49,7 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ1OTg2MSwtNjQ4MzYyMjI1LC0xMD
+eyJoaXN0b3J5IjpbMTE5NTA0MjA4NSwtNjQ4MzYyMjI1LC0xMD
 Y1ODc0OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUy
 MDIxLDU1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNT
 M3MDY1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1
