@@ -34,6 +34,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	>The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which are also more frequently triggered, and hence better contained in the model parameters. Finally, in corporation with 3) and 4), a certain degree of common sense knowledge should be learned to support acceptable  behaviors of LLMs, thus knowledge in 1) is better contained in the model parameters .
 
 - [Retrieval-augmented generation (RAG)](https://arxiv.org/abs/2005.11401):
+	![](https://media.licdn.com/dms/image/D4D12AQHY76w85U8W5g/article-cover_image-shrink_720_1280/0/1695787886133?e=1717027200&v=beta&t=IyS5v27mnHUC1C9DWDq7ddJ-hFzndAxOAGcyNiuxHG8)
 	- [Recent survey](https://arxiv.org/abs/2312.10997) 
 	- a solution to decoupling knowledge from model parameters, in the case of domain specific QA:
 		- Fixed Model parameters: Knowledge 1), 3), 4)
@@ -54,9 +55,9 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0xMD
-Y1ODc0OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUy
-MDIxLDU1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNT
-M3MDY1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1
-NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbOTk2MzU2Mjg0LDEwMjIwMDc3MjgsLTY0OD
+M2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC02MTg5Mjk5
+NDEsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1MDUxNDk0NSw3Mj
+c0OTgwODMsLTUzNzA2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3
+LDE4NzgwMTU3NTYsLTIwODg3NDY2MTJdfQ==
 -->
