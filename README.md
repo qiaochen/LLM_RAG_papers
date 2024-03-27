@@ -41,7 +41,9 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 		- External knowledge base (on the fly): Knowledge 2)
 	-  Important components in RAG:
 		- LLM
-		- Retrieval[, and Reranker]
+		- Retriever
+			- Embeder
+		- Reranker
 		- Indexed resources
 	- In a vanila RAG system, LLM is fixed, so the upper bound of the response quality is determined by the retrieval system and the external resources. 
 		- At a small resource scale (e.g., < 10k documents), dense vector approach with vector databases (e.g., [qdrant](https://qdrant.tech/articles/sparse-vectors/), [faiss](https://faiss.ai/index.html)) can be a good solution. However, the vectors and indexes (e.g., by [Hierarchical Navigable Small World (HNSW)](https://arxiv.org/abs/1603.09320)) are loaded to RAM, which may not be applicable to a larger scale.
@@ -59,10 +61,10 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMj
-IwMDc3MjgsLTY0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5
-MDgxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLT
-c1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtNDAyMTA4
-MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbMTMxNDkyMTI4LDIwMjQwOTk3MDUsLTQ1Nj
+U4NTU5MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5
+ODMsLTU0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNT
+U2MDE1NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1
+NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMD
+g4NzQ2NjEyXX0=
 -->
