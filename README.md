@@ -1,4 +1,4 @@
-#### Key concepts:
+#### Background and Key concepts:
 - Large Language Models (LLM): 
 	- [Transformer](https://arxiv.org/abs/1706.03762) architecture-based:
 		- Decoder-only Transformers, e.g. [GPT](https://paperswithcode.com/paper/improving-language-understanding-by) and its extensions
@@ -58,10 +58,10 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjQzNDk3NywtNDU2NTg1NTkxLDEwMj
-IwMDc3MjgsLTY0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5
-MDgxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLT
-c1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtNDAyMTA4
-MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTE5MjQyNzU1NzQsLTQ1NjU4NTU5MSwxMD
+IyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5ODMsLTU0NzAz
+OTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1NTMzLC
+03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLTQwMjEw
+ODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMDg4NzQ2NjEyXX
+0=
 -->
