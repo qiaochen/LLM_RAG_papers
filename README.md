@@ -32,7 +32,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	-  a solution to decoupling knowledge from model parameters, in the case of domain specific QA:
 		- Fixed Model parameters: Knowledge 1), 3), 4)
 		- External knowledge base (on the fly): Knowledge 2)
-	- Vanila RAG 
+	- 
 
 A technique gaining increasing attention:
 
@@ -40,7 +40,7 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDE1NTQ0OCwtMTA2NTg3NDk4MywtNT
+eyJoaXN0b3J5IjpbLTY0ODM2MjIyNSwtMTA2NTg3NDk4MywtNT
 Q3MDM5MDgxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1
 MzMsLTc1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtND
 AyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2
