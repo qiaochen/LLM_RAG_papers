@@ -6,7 +6,7 @@
 		- Complete Transformers with both encoder and decoders, e.g., [BART](https://arxiv.org/abs/1910.13461), [T-5](https://arxiv.org/abs/1910.10683)
 	- [Mamba](https://arxiv.org/abs/2312.00752)
 	
-Adopting next token prediction (so coined causal language models) as a simple learning task, base models of Decoder-only LLMs are usually pretrained on huge amount of  training data for months, con
+Adopting next token prediction (so coined causal language models) as a simple learning task, base models of Decoder-only LLMs are usually pretrained on huge amount of  training data for months, consuming hundreds and thousands of GPUs or XPUs, which is not really practical for small groups.   Con
 
 - Fine tuning
 - Instruct fine tuning
@@ -15,6 +15,6 @@ Adopting next token prediction (so coined causal language models) as a simple le
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzIyOTYwMDYsMTg3ODAxNTc1NiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTg1MTkxNjA5NSwxODc4MDE1NzU2LC0yMD
+g4NzQ2NjEyXX0=
 -->
