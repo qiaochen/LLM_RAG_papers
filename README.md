@@ -20,14 +20,14 @@ Adopting next token prediction (so coined causal language models) as a simple le
 
 Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following related token generation patterns.
 
->There are many different kinds of knowledge that are implicitly encoded in the parametric models.   
+>Different knowledge are implicitly encoded in the parametric models. World   
  
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2MDE1NTMzLC03NTA1MTQ5NDUsNzI3ND
-k4MDgzLC01MzcwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4Nywx
-ODc4MDE1NzU2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNDgzMTc3NjA5LDU1NjAxNTUzMywtNzUwNT
+E0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1NTc3LC00MDIxMDgxNywt
+MTYyNzQyODcsMTg3ODAxNTc1NiwtMjA4ODc0NjYxMl19
 -->
