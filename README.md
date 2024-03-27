@@ -20,15 +20,16 @@ Adopting next token prediction (so coined causal language models) as a simple le
 
 Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following related token generation patterns.
 
->- Different knowledge can be implicitly encoded in the parametric models. For example: 1) Factual knowledge of common sense, different domains; 2) meta linguisic knowledge for generating human-understandable discourses; 3) meta behavioral knowledge of instruct-following, prompting understanding etc.
->- The strategy of the above practices inject all kinds of knowledge into the parametric models through training or fine tuning, .    
+
+>- The strategy of the above practices is to inject all kinds of knowledge into the parametric models through training or fine tuning, which is, usually, very cumbersome, and less flexible. 
+> The Different knowledge can be implicitly encoded in the parametric models. For example: 1) Factual knowledge of common sense, different domains; 2) meta linguisic knowledge for generating human-understandable discourses; 3) meta behavioral knowledge of instruct-following, prompting understanding etc.   
  
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU3NTk0MzEsNTU2MDE1NTMzLC03NT
-A1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLTQwMjEwODE3
-LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTI4MjcxNTc5OSw1NTYwMTU1MzMsLTc1MD
+UxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtNDAyMTA4MTcs
+LTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2MTJdfQ==
 -->
