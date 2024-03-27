@@ -6,12 +6,13 @@
 		- Complete Transformers with both encoder and decoders, e.g., [BART](https://arxiv.org/abs/1910.13461), [T-5](https://arxiv.org/abs/1910.10683)
 	- [Mamba](https://arxiv.org/abs/2312.00752)
 		
-- Retrieval-augmented generation (RAG): 
+- Retrieval-augmented generation (RAG):
+	- 
 - Fine tuning
 - Instruct fine tuning
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjQxNjEzNSwxODc4MDE1NzU2LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE1MjM5NzQxNzQsMTg3ODAxNTc1NiwtMj
+A4ODc0NjYxMl19
 -->
