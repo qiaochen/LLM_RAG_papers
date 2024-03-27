@@ -14,13 +14,18 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- Mainly for enabling LLM bases to respond to different tasks according to the task-specific meta information described in the instruction. Example projects include:
 		- Alpaca:
 		```
-	
-		`` 
+	Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+	### Instruction:
+	{instruction}
+	### Input:
+	{input}
+	### Response:
+	```
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTEzNTIxMSwtNDAyMTA4MTcsLTE2Mj
+eyJoaXN0b3J5IjpbMjAwNDAyNTAwNiwtNDAyMTA4MTcsLTE2Mj
 c0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2MTJdfQ==
 -->
