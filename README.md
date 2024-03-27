@@ -28,16 +28,17 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	>-- Is it necessary to encode all the knowledge in parametric form?
 	>-- If not, can we decouple some knowledge component from the parameters? The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which are also more frequently triggered, and hence better contained in the model parameters. Finally, in corporation with 3) and 4), a certain degree of common sense knowledge should be learned to support acceptable  behaviors of LLMs, thus knowledge in 1) is better contained in the model parameters .
 
-__One Decouple knowledge from parametric model__
+__One solution to decoupling knowledge from model parameters__
 
+A technique gaining increasing attention:
 - Retrieval-augmented generation (RAG):
-	- 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQxNDc5NzcsLTEwNjU4NzQ5ODMsLT
-U0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1
-NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLT
-QwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbMTYwODA4NTg4LC0xMDY1ODc0OTgzLC01ND
+cwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLDU1NjAxNTUz
+MywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1NTc3LC00MD
+IxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1NiwtMjA4ODc0NjYx
+Ml19
 -->
