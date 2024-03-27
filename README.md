@@ -6,7 +6,7 @@
 		- Complete Transformers with both encoder and decoders, e.g., [BART](https://arxiv.org/abs/1910.13461), [T-5](https://arxiv.org/abs/1910.10683)
 	- [Mamba](https://arxiv.org/abs/2312.00752)
 	
-Adopting next token prediction (so coined causal language models) as a simple learning task, base models of Decoder-only LLMs are usually pretrained on huge amount of  training data for months, consuming hundreds and thousands of GPUs or XPUs, which is not really practical for small groups.   Continual training, or fine tuning with pretrained LLMs hence play a role in adapting LLMs for many downstream tasks. 
+Adopting next token prediction (so coined causal language models) as a simple learning task, base models of Decoder-only LLMs are usually pretrained on huge amount of  training data for months, consuming hundreds and thousands of GPUs or XPUs, which is not really practical for small groups.   Continual training, or fine tuning with pretrained LLMs hence play a role in adapting LLMs for specific interests. 
 - Fine tuning:
 	- In the narrowest sense, it refers to continual training LLMs on specific corpora of interest, so that those previously less underscored specific co-occurrence patterns of tokens (word/subword) can be captured by the model parameters. The same next token prediction can be the basic fine-tuning task, result of which is also a base model, than 
 - Instruct fine tuning
@@ -15,6 +15,6 @@ Adopting next token prediction (so coined causal language models) as a simple le
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwOD
-g3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTI3MzYxMzM4MywtMTYyNzQyODcsMTg3OD
+AxNTc1NiwtMjA4ODc0NjYxMl19
 -->
