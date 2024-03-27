@@ -11,11 +11,12 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- In the narrowest sense, it refers to continual training LLMs on specific corpora of interest, so that those previously less underscored specific co-occurrence patterns of tokens (word/subword) can be captured by the model parameters. The same next token prediction can be the basic fine-tuning task. If so, the training result is, like the original pretrained model, also a base model. 
 	- A pretrained or fine tuned __base model__ can be good at text generation, but still can not be well used to conduct instruct following tasks, e.g., instruct it to summarize, answer questions or chat. To enable the instruct following ability, there is a need for _instruct fine tuning_.    
 - Instruct [fine] tuning:
-	- In a more general sense, for tuning LLM bases to conduct different tasks according to the task-specific meta information described in the instruction. There is also motivation to generalise such ability to unseen instructions after tuning. Example projects include:
+	- In a more general sense, for tuning LLM bases to conduct different tasks according to the task-specific meta information described in the instruction. There is also motivation to generalise such ability to unseen instructions (e.g., tasks) after tuning. Example projects include:
 		- [Super-NaturalInstructions](https://arxiv.org/pdf/2204.07705.pdf)
 		- [Self-instruct GPT3](https://arxiv.org/abs/2212.10560)
 		- [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html), 
-	- In a more specific sense, instruct tuning may be used to only adapt the base LLMs to a single NLP task, e.g. question answering. Tokens generated (may or may not necessary be next token style) for 
+	- In a more specific sense, instruct tuning may be used to only adapt the base LLMs to a single NLP task, e.g. question answering.
+	- Generated tokens (may or may not necessary be next token style) for  
 
 Note, the purposes of  and instruct tuning are different, 
 - Retrieval-augmented generation (RAG):
@@ -23,7 +24,7 @@ Note, the purposes of  and instruct tuning are different,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzQyOTgxNyw3Mjc0OTgwODMsLTUzNz
+eyJoaXN0b3J5IjpbMTExNTk4NTAyOSw3Mjc0OTgwODMsLTUzNz
 A2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYs
 LTIwODg3NDY2MTJdfQ==
 -->
