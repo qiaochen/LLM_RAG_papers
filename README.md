@@ -48,8 +48,9 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 		- Traditional  retrieval system such as [Lucene](https://lucene.apache.org/) based [Solr](https://solr.apache.org/) and  [Elasticsearch](https://www.elastic.co/downloads/elasticsearch) can be a rescue in such scenarios. They are based on classic techniques such as BM25 and inverted index.
 
 > Comments
-> With a competent LLM and good retrieval system accompanied by techniques like [Chain of Thoughts Prompting](https://arxiv.org/abs/2201.11903), RAG has the potential to perform comparably well or even better than fine-tuned LLMs in a new domain. It is also much more flexible to manipulate external knowledge bases for updating or filtering knowledge. However, the new bottlenecks now can be:
->    1)   
+> With a competent LLM and good retrieval system accompanied by techniques like [Chain of Thoughts Prompting](https://arxiv.org/abs/2201.11903), RAG has the potential to perform comparably well or even better than fine-tuned LLMs in a new domain. It is also much more flexible to manipulate external knowledge bases for updating or filtering knowledge. However, the potential new bottlenecks now are:
+>      1) A good retriever and/or a reranker
+>      2) the  
 
 A technique gaining increasing attention:
 
@@ -57,7 +58,7 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2MTIyMjM3LC00NTY1ODU1OTEsMTAyMj
+eyJoaXN0b3J5IjpbLTgzOTk2NjAwLC00NTY1ODU1OTEsMTAyMj
 AwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0OTgzLC01NDcwMzkw
 ODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLDU1NjAxNTUzMywtNz
 UwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1NTc3LC00MDIxMDgx
