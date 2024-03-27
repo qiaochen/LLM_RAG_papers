@@ -16,16 +16,16 @@ Adopting next token prediction (so coined causal language models) as a simple le
 		- [Self-instruct GPT3](https://arxiv.org/abs/2212.10560)
 		- [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html), 
 	- In a more specific sense, instruct tuning may be used to only adapt the base LLMs to a single NLP task, e.g. question answering.
-	- Generated tokens for answers are compared with ground-truth for measuring losses and updating model parameters.   
+	- To train, generated tokens for answers or responses are compared with ground-truth for measuring losses and updating model parameters.   
 
-Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (which encode world knowledge). Plain fine-tuning may capture new patterns at the cost of  old patterns, while instruct tuning may sacrifice world knowledge for 
+Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following ability.
  
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzcwMjA3MTUsNzI3NDk4MDgzLC01Mz
-cwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2
-LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbODY3NDk2MzU1LDcyNzQ5ODA4MywtNTM3MD
+Y1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1Niwt
+MjA4ODc0NjYxMl19
 -->
