@@ -1,4 +1,4 @@
-#### Background and Key concepts:
+#### Background, key concepts and comments:
 - Large Language Models (LLM): 
 	- [Transformer](https://arxiv.org/abs/1706.03762) architecture-based:
 		- Decoder-only Transformers, e.g. [GPT](https://paperswithcode.com/paper/improving-language-understanding-by) and its extensions
@@ -48,7 +48,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 		- Traditional  retrieval system such as [Lucene](https://lucene.apache.org/) based [Solr](https://solr.apache.org/) and  [Elasticsearch](https://www.elastic.co/downloads/elasticsearch) can be a rescue in such scenarios. They are based on classic techniques such as BM25 and inverted index.
 
 > Comments
-> With a competent LLM and good retrieval system accompanied by techniques like [Chain of Thoughts Prompting](https://arxiv.org/abs/2201.11903), RAG has the potential to perform comparably well or even better than fine-tuned LLMs in a new domain. It is also much more flexible to manipulate external knowledge bases for updating or filtering knowledge. However, the potential new bottlenecks now are:
+> With a competent LLM and good retrieval system accompanied by techniques like [Chain of Thoughts Prompting](https://arxiv.org/abs/2201.11903), RAG has the potential to perform comparably well or even better than fine-tuned LLMs in a new domain. It is also much more flexible to manipulate external knowledge for updating or filtering information. However, the potentially incurred new bottlenecks now are:
 >      1) A good retriever and/or a reranker
 >      2) the ability of LLM that can distracting  
 
@@ -58,7 +58,7 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQyNzU1NzQsLTQ1NjU4NTU5MSwxMD
+eyJoaXN0b3J5IjpbLTExNjc5Mjg4NjUsLTQ1NjU4NTU5MSwxMD
 IyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5ODMsLTU0NzAz
 OTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1NTMzLC
 03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLTQwMjEw
