@@ -11,12 +11,14 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- In the narrowest sense, it refers to continual training LLMs on specific corpora of interest, so that those previously less underscored specific co-occurrence patterns of tokens (word/subword) can be captured by the model parameters. The same next token prediction can be the basic fine-tuning task. If so, the training result is, like the original pretrained model, also a base model. 
 	- A pretrained or fine tuned __base model__ can be good at text generation, but still can not be well used to conduct instruct following tasks, e.g., instruct it to summarize, answer questions or chat. To enable the instruct following ability, there is a need for _instruct fine tuning_.    
 - Instruct fine tuning:
-	- Mainly for enabling LLM bases to respond to 
+	- Mainly for enabling LLM bases to respond to different tasks according to the task-specific meta information described in the instruction. Example projects include:
+		- Alpaca:
+		-  
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4NjIwNTc5LC00MDIxMDgxNywtMTYyNz
-QyODcsMTg3ODAxNTc1NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTExODcyNzYzNCwtNDAyMTA4MTcsLTE2Mj
+c0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2MTJdfQ==
 -->
