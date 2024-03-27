@@ -22,20 +22,20 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 > Comments and transition to RAG
 >- The strategy of the above practices is to inject all kinds of knowledge into the parametric models through training or fine tuning, which is very expensive (require substantial resources to be kept up-to-date, yet they struggle to capture long-tail knowledge), less flexible and manageable. 
->- Meanwhile, the different knowledge implicitly encoded in the parametric models can be roughly divided into: 1) Factual knowledge, their relations and common sense, and 2) different domains; 3) meta knowledge of linguistics or conventional usage patterns for generating human-understandable discourses; 4) meta  knowledge of behaviors such as instruct-following, prompting understanding etc.
+>- Meanwhile, the different knowledge implicitly encoded in the parametric models can be roughly divided into: 1) Factual knowledge, their relations and common sense, and 2) different domains; 3) meta knowledge of linguistics or conventional usage patterns for generating human-understandable discourses; 4) meta knowledge of behaviors such as instruct-following, prompt understanding etc.
 >- It can be noted that pretraining LLM bases is mainly for gaining knowledge in 1) & 3); domain-specific finetuning is mainly for 2); while instruct tuning is aimed at 4); Reinforcement learning from human feedback (RLHF) is for improving 3);
 >- __Questions__:
 	>-- Is it necessary to encode all the knowledge in parametric form?
-	>-- If not, can we decouple some knowledge component from the parameters, perhaps, more 
+	>-- If not, can we decouple some knowledge component from the parameters, perhaps, those less frequently involved in generating 
 
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTUxNzYyMjAsLTEwNjU4NzQ5ODMsLT
-U0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1
-NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLT
-QwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbLTk2MTYyNDc4MCwtMTA2NTg3NDk4MywtNT
+Q3MDM5MDgxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1
+MzMsLTc1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtND
+AyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2
+MTJdfQ==
 -->
