@@ -26,14 +26,14 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 >- It can be noted that pretraining LLM bases is mainly for gaining knowledge in 1) & 3); domain-specific finetuning is mainly for 2); while instruct tuning is aimed at 4); Reinforcement learning from human feedback (RLHF) is for improving 3);
 >- __Questions__:
 	>-- Is it necessary to encode all the knowledge in parametric form?
-	>-- If not, can we decouple some knowledge component from the parameters? The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which would be more frequently triggered, and hence better contained in the model parameters. Finally, in corporation with 3) and 4), a certain degree of common sense knowledge should be learned to support acceptable intelligent behaviors of LLMs, thus it is inevitable a base Model already grasping 1) .
+	>-- If not, can we decouple some knowledge component from the parameters? The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which are also more frequently triggered, and hence better contained in the model parameters. Finally, in corporation with 3) and 4), a certain degree of common sense knowledge should be learned to support acceptable  behaviors of LLMs, thus knowledge in 1) is better contained in the model parameters .
 
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYwNTc5MTgsLTEwNjU4NzQ5ODMsLT
+eyJoaXN0b3J5IjpbLTE2NDcyMTk2MzcsLTEwNjU4NzQ5ODMsLT
 U0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1
 NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLT
 QwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMDg4NzQ2
