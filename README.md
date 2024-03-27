@@ -18,14 +18,14 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- In a more specific sense, instruct tuning may be used to only adapt the base LLMs to a single NLP task, e.g. question answering.
 	- Generated tokens for answers are compared with ground-truth for measuring losses and updating model parameters.   
 
-Note, the purposes of plain fine tuning and instruct tuning are different. Inst
+Note, the purposes of plain fine tuning and instruct tuning are different. Instruct tuning may usually result in model forgetting token co patterns (which encodes world knowledge) 
  
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjIyMzc1MCw3Mjc0OTgwODMsLTUzNz
-A2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYs
-LTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbOTQ1NTM1OTE0LDcyNzQ5ODA4MywtNTM3MD
+Y1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1Niwt
+MjA4ODc0NjYxMl19
 -->
