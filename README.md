@@ -8,7 +8,7 @@
 	
 Adopting next token prediction (so coined causal language models) as a simple learning task, base models of Decoder-only LLMs are usually pretrained on huge amount of  training data for months, consuming hundreds and thousands of GPUs or XPUs, which is not really practical for small groups.   Continual training, or fine tuning with pretrained LLMs hence play a role in adapting LLMs for specific interest. 
 - Fine tuning:
-	- In the narrowest sense, it refers to continual training LLMs on specific corpora of interest, so that those previously less exposed co-occurrence patterns of tokens (word/subword) can be captured by the model parameters. With the Transformer architecture, the patterns can be dynamic, conditionally-based, and world knowledge is encoded in such patterns. The same next token prediction can be the basic fine-tuning task. If so, the training result is, like the original pretrained model, also a base model. 
+	- In the narrowest sense, it refers to continual training LLMs on specific corpora of interest, so that those previously less exposed co-occurrence patterns of tokens (word/subword) can be captured by the model parameters. With the propety of Transformer architecture, the patterns can be complex  and dynamically conditioned,  world knowledge is encoded in such patterns. The same next token prediction can be the basic fine-tuning task. If so, the training result is, like the original pretrained model, also a base model. 
 	- A pretrained or fine tuned __base model__ can be good at text generation, but still can not be well used to conduct instruct following tasks, e.g., instruct it to summarize, answer questions or chat. To enable the instruct following ability, there is a need for _instruct fine tuning_.    
 - Instruct [fine] tuning:
 	- In a more general sense, for tuning LLM bases to conduct different tasks according to the task-specific meta information described in the instruction. There is also motivation to generalise such ability to unseen instructions (e.g., tasks) after tuning. Example projects include:
@@ -25,7 +25,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDE0NDkyNiw3Mjc0OTgwODMsLTUzNz
+eyJoaXN0b3J5IjpbLTQwNjg1ODE2Nyw3Mjc0OTgwODMsLTUzNz
 A2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYs
 LTIwODg3NDY2MTJdfQ==
 -->
