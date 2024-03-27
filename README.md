@@ -22,16 +22,16 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 >- The strategy of the above practices is to inject all kinds of knowledge into the parametric models through training or fine tuning, which is very expensive (require substantial resources to be kept up-to-date, yet they struggle to capture long-tail knowledge), less flexible and manageable. 
->- The different knowledge implicitly encoded in the parametric models include: 1) Factual knowledge of common sense, different domains; 2) meta linguisic knowledge for generating human-understandable discourses; 3) meta behavioral knowledge of instruct-following, prompting understanding etc.
->- Given these, Is it possible to decouple some knowledge component from the parametric model, so that ?
+>- Meanwhile, the different knowledge implicitly encoded in the parametric models include: 1) Factual knowledge of common sense, and 2) different domains; 3) meta linguisic knowledge for generating human-understandable discourses; 4) meta behavioral knowledge of instruct-following, prompting understanding etc.
+>- Given these, it is noted that a pretraining  
  
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODkyOTk0MSwyMDc3NzUyMDIxLDU1Nj
-AxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1NTc3
-LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1NiwtMjA4OD
-c0NjYxMl19
+eyJoaXN0b3J5IjpbLTMyNDk1MzkwOCwtNjE4OTI5OTQxLDIwNz
+c3NTIwMjEsNTU2MDE1NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgz
+LC01MzcwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxODc4MD
+E1NzU2LC0yMDg4NzQ2NjEyXX0=
 -->
