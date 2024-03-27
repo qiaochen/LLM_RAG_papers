@@ -47,7 +47,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 		- At a small resource scale (e.g., < 10k documents), dense vector approach with vector databases (e.g., [qdrant](https://qdrant.tech/articles/sparse-vectors/), [faiss](https://faiss.ai/index.html)) can be a good solution. However, the vectors and indexes (e.g., by [Hierarchical Navigable Small World (HNSW)](https://arxiv.org/abs/1603.09320)) are loaded to RAM, which may not be applicable to a larger scale.
 		- Traditional  retrieval system such as [Lucene](https://lucene.apache.org/) based [Solr](https://solr.apache.org/) and  [Elasticsearch](https://www.elastic.co/downloads/elasticsearch) can be a rescue in such scenarios. They are based on classic techniques such as BM25 and inverted index.
 
-### Description
+> Comments
+> A good retrieval system accompanied with techniques like [Chain of Thoughts Prompting](https://arxiv.org/abs/2201.11903), RAG can performa
 
 A technique gaining increasing attention:
 
@@ -55,9 +56,10 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02ND
-gzNjIyMjUsLTEwNjU4NzQ5ODMsLTU0NzAzOTA4MSwtNjE4OTI5
-OTQxLDIwNzc3NTIwMjEsNTU2MDE1NTMzLC03NTA1MTQ5NDUsNz
-I3NDk4MDgzLC01MzcwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4
-NywxODc4MDE1NzU2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTc0Mzk0OTg5MCwtNDU2NTg1NTkxLDEwMj
+IwMDc3MjgsLTY0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5
+MDgxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLT
+c1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtNDAyMTA4
+MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2MTJdfQ
+==
 -->
