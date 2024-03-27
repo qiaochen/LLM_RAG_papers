@@ -42,8 +42,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 		- Retrieval[, and Reranker]
 		- Indexed resources
 	- In a vanila RAG system, LLM can be a fixed model, so the upper bound of the response quality is decided on the retrieval system and the external resources. 
-		- At a small resource scale (e.g., < 10k documents), dense vector approach with vector databases (e.g., [qdrant](https://qdrant.tech/articles/sparse-vectors/), [faiss](https://faiss.ai/index.html)) can be a good solution. However, the vectors and indexed ([Hierarchical Navigable Small World graphs](https://arxiv.org/abs/1603.09320)) are loaded 
-		- However,
+		- At a small resource scale (e.g., < 10k documents), dense vector approach with vector databases (e.g., [qdrant](https://qdrant.tech/articles/sparse-vectors/), [faiss](https://faiss.ai/index.html)) can be a good solution. However, the vectors and indexes (e.g., by [Hierarchical Navigable Small World (HNSW)](https://arxiv.org/abs/1603.09320)) are loaded 
+		- However, 
 
 A technique gaining increasing attention:
 
@@ -51,9 +51,9 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mzc4NDEyNSwtNjQ4MzYyMjI1LC0xMD
-Y1ODc0OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUy
-MDIxLDU1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNT
-M3MDY1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1
-NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMzAxMzExMjkxLC02NDgzNjIyMjUsLTEwNj
+U4NzQ5ODMsLTU0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIw
+MjEsNTU2MDE1NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01Mz
+cwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2
+LC0yMDg4NzQ2NjEyXX0=
 -->
