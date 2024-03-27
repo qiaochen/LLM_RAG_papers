@@ -6,7 +6,8 @@
 		- Complete Transformers with both encoder and decoders, e.g., [BART](https://arxiv.org/abs/1910.13461), [T-5](https://arxiv.org/abs/1910.10683)
 	- [Mamba](https://arxiv.org/abs/2312.00752)
 	
-Base models of Decoder-only LLMs are usually pretrained on huge amount of corpura  
+Base models of Decoder-only LLMs are usually pretrained on huge amount of  training data for months, with hundreds of thounds of  
+
 - Fine tuning
 - Instruct fine tuning
 - Retrieval-augmented generation (RAG):
@@ -14,6 +15,6 @@ Base models of Decoder-only LLMs are usually pretrained on huge amount of corpur
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE4NzM2ODMsMTg3ODAxNTc1NiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTc4MDg1MjMsMTg3ODAxNTc1NiwtMjA4OD
+c0NjYxMl19
 -->
