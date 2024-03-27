@@ -1,4 +1,6 @@
-#### zKe:
+#### Key concepts:
+
+### LLM
 - Large Language Models (LLM): 
 	- [Transformer](https://arxiv.org/abs/1706.03762) architecture-based:
 		- Decoder-only Transformers, e.g. [GPT](https://paperswithcode.com/paper/improving-language-understanding-by) and its extensions
@@ -27,7 +29,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5MzgwNTU0LC03NTA1MTQ5NDUsNzI3ND
+eyJoaXN0b3J5IjpbODMzMjk0MzIyLC03NTA1MTQ5NDUsNzI3ND
 k4MDgzLC01MzcwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4Nywx
 ODc4MDE1NzU2LC0yMDg4NzQ2NjEyXX0=
 -->
