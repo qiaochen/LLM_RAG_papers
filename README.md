@@ -23,15 +23,15 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 >- The strategy of the above practices is to inject all kinds of knowledge into the parametric models through training or fine tuning, which is very expensive (require substantial resources to be kept up-to-date, yet they struggle to capture long-tail knowledge), less flexible and manageable. 
 >- Meanwhile, the different knowledge implicitly encoded in the parametric models include: 1) Factual knowledge of common sense, and 2) different domains; 3) meta linguisic knowledge for generating human-understandable discourses; 4) meta behavioral knowledge of instruct-following, prompting understanding etc.
->- Given these, it can be noted that pretraining LLM bases is mainly for gaining knowledge in 1) & 3); domain-specific finetuning is for  
+>- Given these, it can be noted that pretraining LLM bases is mainly for gaining knowledge in 1) & 3); domain-specific finetuning is mainly for 2); while instruct tuning is aimed at 4); (DPO)  
  
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczNzY2NjI4LC02MTg5Mjk5NDEsMjA3Nz
-c1MjAyMSw1NTYwMTU1MzMsLTc1MDUxNDk0NSw3Mjc0OTgwODMs
-LTUzNzA2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMT
-U3NTYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMzQ2MzU2OTksLTYxODkyOTk0MSwyMDc3Nz
+UyMDIxLDU1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4Mywt
+NTM3MDY1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNT
+c1NiwtMjA4ODc0NjYxMl19
 -->
