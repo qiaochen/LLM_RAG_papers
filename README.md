@@ -1,4 +1,4 @@
-#### Keywords:
+#### zKe:
 - Large Language Models (LLM): 
 	- [Transformer](https://arxiv.org/abs/1706.03762) architecture-based:
 		- Decoder-only Transformers, e.g. [GPT](https://paperswithcode.com/paper/improving-language-understanding-by) and its extensions
@@ -18,7 +18,7 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- In a more specific sense, instruct tuning may be used to only adapt the base LLMs to a single NLP task, e.g. question answering.
 	- To train, generated tokens for answers or responses are compared with ground-truth for measuring losses and updating model parameters.   
 
-Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following related input-output token generation associations.
+Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following related token generation patterns.
 
 
  
@@ -27,7 +27,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4NzYyMTU1LC03NTA1MTQ5NDUsNzI3ND
+eyJoaXN0b3J5IjpbOTQ5MzgwNTU0LC03NTA1MTQ5NDUsNzI3ND
 k4MDgzLC01MzcwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4Nywx
 ODc4MDE1NzU2LC0yMDg4NzQ2NjEyXX0=
 -->
