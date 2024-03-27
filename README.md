@@ -56,7 +56,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 >      Questions:
 >      1. Would the ability of something best included in the "meta knowledge of behaviors such as instruct-following, prompt understanding etc" ?
 >      If so, then it might be helpful to explicitly fine-tune models to better capture such knowledge (There is increasing research interest in this direction). 
->      2. Current practices optimize parametric retrivers and/or rerankers independently, can  
+>      2. Are there any other approaches for optimizing retrievers and/or rerankers rather than doing independently,  
 
 A technique gaining increasing attention:
 
@@ -64,7 +64,7 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDI4NzY2NCwyMDI0MDk5NzA1LC00NT
+eyJoaXN0b3J5IjpbMTEwNTA3OTU4NiwyMDI0MDk5NzA1LC00NT
 Y1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0
 OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLD
 U1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1
