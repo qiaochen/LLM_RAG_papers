@@ -15,14 +15,14 @@ Adopting next token prediction (so coined causal language models) as a simple le
 		- [Super-NaturalInstructions](https://arxiv.org/pdf/2204.07705.pdf)
 		- [Self-instruct GPT3](https://arxiv.org/abs/2212.10560)
 		- [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html), 
-	- In a nar
-		
+	- In a more specific sense, instruct tuning may be used to only adapt the base LLMs to a single NLP task, e.g. question answering.
+	- In general, the purposes of 
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwMTc2OTEzLDcyNzQ5ODA4MywtNTM3MD
-Y1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1Niwt
-MjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE5NzM3ODY2MzQsNzI3NDk4MDgzLC01Mz
+cwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2
+LC0yMDg4NzQ2NjEyXX0=
 -->
