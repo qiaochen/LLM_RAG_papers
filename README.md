@@ -26,14 +26,14 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 >- It can be noted that pretraining LLM bases is mainly for gaining knowledge in 1) & 3); domain-specific finetuning is mainly for 2); while instruct tuning is aimed at 4); Reinforcement learning from human feedback (RLHF) is for improving 3);
 >- __Questions__:
 	>-- Is it necessary to encode all the knowledge in parametric form?
-	>-- If not, can we decouple some knowledge component from the parameters? The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which would be more frequently triggered, and hence better contained in the model parameters. Basic knowledge   
+	>-- If not, can we decouple some knowledge component from the parameters? The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which would be more frequently triggered, and hence better contained in the model parameters. Finally, as educated humans, prior world knowledge is also needed in 
 
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwNTI1ODY3LC0xMDY1ODc0OTgzLC01ND
+eyJoaXN0b3J5IjpbMzk5MDcxNjU0LC0xMDY1ODc0OTgzLC01ND
 cwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLDU1NjAxNTUz
 MywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1NTc3LC00MD
 IxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1NiwtMjA4ODc0NjYx
