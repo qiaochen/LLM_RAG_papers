@@ -23,14 +23,15 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > Comments
 >- The strategy of the above practices is to inject all kinds of knowledge into the parametric models through training or fine tuning, which is very expensive (require substantial resources to be kept up-to-date, yet they struggle to capture long-tail knowledge), less flexible and manageable. 
 >- Meanwhile, the different knowledge implicitly encoded in the parametric models can be roughly divided into: 
-	>    (1) Factual knowledge, their relations and common sense, and 
-	>   (2) different domains; 
-	>   3) meta knowledge of linguistics or conventional usage patterns for generating human-understandable discourses; 
-	>   4) meta knowledge of behaviors such as instruct-following, prompt understanding etc.
+	>    1) Factual knowledge, their relations and common sense, and 
+	>    2) different domains; 
+	>    3) meta knowledge of linguistics or conventional usage patterns for generating human-understandable discourses; 
+	>    4) meta knowledge of behaviors such as instruct-following, prompt understanding etc.
 >- It can be noted that pretraining LLM bases is mainly for gaining knowledge in 1) & 3); domain-specific finetuning is mainly for 2); while instruct tuning is aimed at 4); Reinforcement learning from human feedback (RLHF) is for improving 3);
 >- __Questions__:
-	>-- Is it necessary to encode all the knowledge in parametric form?
-	>-- If not, can we decouple some knowledge component from the parameters? The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which are also more frequently triggered, and hence better contained in the model parameters. Finally, in corporation with 3) and 4), a certain degree of common sense knowledge should be learned to support acceptable  behaviors of LLMs, thus knowledge in 1) is better contained in the model parameters .
+	>     - Is it necessary to encode all the knowledge in parametric form?
+	>     - If not, can we decouple some knowledge component from the parameters? 
+	>The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which are also more frequently triggered, and hence better contained in the model parameters. Finally, in corporation with 3) and 4), a certain degree of common sense knowledge should be learned to support acceptable  behaviors of LLMs, thus knowledge in 1) is better contained in the model parameters .
 
 - [Retrieval-augmented generation (RAG)](https://arxiv.org/abs/2005.11401):
 	-  a solution to decoupling knowledge from model parameters, in the case of domain specific QA:
@@ -39,6 +40,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	-  Important components in RAG:
 		- LLM
 		- Retrieval[, and Reranker]
+		- Indexed 
 	- In a vanila RAG system, LLM can be a fixed model, so the upper bound of the  
 
 A technique gaining increasing attention:
@@ -47,9 +49,9 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwMDkwMTM3LC02NDgzNjIyMjUsLTEwNj
-U4NzQ5ODMsLTU0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIw
-MjEsNTU2MDE1NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01Mz
-cwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2
-LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE3NjQ1OTg2MSwtNjQ4MzYyMjI1LC0xMD
+Y1ODc0OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUy
+MDIxLDU1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNT
+M3MDY1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1
+NiwtMjA4ODc0NjYxMl19
 -->
