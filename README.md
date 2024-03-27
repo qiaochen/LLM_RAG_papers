@@ -8,13 +8,14 @@
 	
 Adopting next token prediction (so coined causal language models) as a simple learning task, base models of Decoder-only LLMs are usually pretrained on huge amount of  training data for months, consuming hundreds and thousands of GPUs or XPUs, which is not really practical for small groups.   Continual training, or fine tuning with pretrained LLMs hence play a role in adapting LLMs for specific interests. 
 - Fine tuning:
-	- In the narrowest sense, it refers to continual training LLMs on specific corpora of interest, so that those previously less underscored specific co-occurrence patterns of tokens (word/subword) can be captured by the model parameters. The same next token prediction can be the basic fine-tuning task, the training result is, like the original pretrained model, also a base model. A base model i
+	- In the narrowest sense, it refers to continual training LLMs on specific corpora of interest, so that those previously less underscored specific co-occurrence patterns of tokens (word/subword) can be captured by the model parameters. The same next token prediction can be the basic fine-tuning task, the training result is, like the original pretrained model, also a base model. 
+	- A pretrained or fine tuned __base model__ can be good at text generation, but still can not be used t  
 - Instruct fine tuning
 - Retrieval-augmented generation (RAG):
 	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTQ4MDg1OSwtMTYyNzQyODcsMTg3OD
+eyJoaXN0b3J5IjpbLTc5NDg4NjM0NiwtMTYyNzQyODcsMTg3OD
 AxNTc1NiwtMjA4ODc0NjYxMl19
 -->
