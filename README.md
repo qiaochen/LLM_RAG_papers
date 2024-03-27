@@ -12,7 +12,7 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- A pretrained or fine tuned __base model__ can be good at text generation, but still can not be well used to conduct instruct following tasks, e.g., instruct it to summarize, answer questions or chat. To enable the instruct following ability, there is a need for _instruct fine tuning_.    
 - Instruct [fine] tuning:
 	- In a more general sense, for tuning LLM bases to conduct different tasks according to the task-specific meta information described in the instruction. Example projects include:
-		- [Super-n](https://arxiv.org/pdf/2204.07705.pdf)
+		- [Super-NaturalInstructions](https://arxiv.org/pdf/2204.07705.pdf)
 		- [Self-instruct GPT](https://arxiv.org/abs/2212.10560)
 		- [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html), 
 		
@@ -21,7 +21,7 @@ Adopting next token prediction (so coined causal language models) as a simple le
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ5MDIwMjksNzI3NDk4MDgzLC01Mz
-cwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2
-LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTU3NTUxNTIxOSw3Mjc0OTgwODMsLTUzNz
+A2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYs
+LTIwODg3NDY2MTJdfQ==
 -->
