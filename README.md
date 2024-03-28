@@ -108,16 +108,18 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Pan, S., Luo, L., Wang, Y., Chen, C., Wang, J., & Wu, X. (2024). [Unifying large language models and knowledge graphs: A roadmap](https://arxiv.org/pdf/2306.08302.pdf). _IEEE Transactions on Knowledge and Data Engineering_.
 > How to integrate Knowledge Graphs (KG) and LLMs, or enhance one with the other.
 
+#
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjM5Mzg4ODMsLTg0MTU1OTg0MywxNz
-UxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5
-NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2Mi
-wtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUzMDEwMCwtMTcz
-NjMwNTE4LDEyNTMxNDIwMzcsLTYxMTY0NDc2NywyMDI0MDk5Nz
-A1LC00NTY1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0x
-MDY1ODc0OTgzXX0=
+eyJoaXN0b3J5IjpbMTQ2MTEwOTQ3NiwtMTM2MzkzODg4MywtOD
+QxNTU5ODQzLDE3NTEyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3
+NjMyMywtODc4NDk2MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC
+0xOTQxMTk2MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4
+NTMwMTAwLC0xNzM2MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0Nz
+Y3LDIwMjQwOTk3MDUsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02
+NDgzNjIyMjVdfQ==
 -->
