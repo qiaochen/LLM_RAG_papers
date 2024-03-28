@@ -95,7 +95,8 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > For finetuning retriever (only query encoder), they try to match LLM's score and retriever's relevance score with a KL divergence: 
 > $L(D_r)=E_{(x,y)\in D_r} KL(p_r(c|x)||p_{LSR}(c|x,y))$
 > where $p_R(c|x) = \frac{exp s(x,c)}{\sum_{c' \in C'} exp s(x, c')}$ 
-> $p_{LSR}(c|x,y) = \frac{}{}$   
+> $p_{LSR}(c|x,y) = \frac{exp(p_{LM}(y|[c;x])/\tau)}{\sum_{c' \in C'} exp(p_{LM}(y|[c';x])/\tau)}$
+> $C'$ is the set of retrieved documents.
 - Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). [Effective large language model adaptation for improved grounding](https://arxiv.org/abs/2311.09533). _arXiv preprint arXiv:2311.09533_.
 
 #### c. Combining Knowledge Graph and LLM by RAG
@@ -124,11 +125,11 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDQxNDQ2NywtOTc2ODU5Mjc4LC05NT
-g1NjMxMzYsLTEwMzI5NDMyMzgsNzM0NzkzMjE4LC00ODk0ODgs
-LTEzNjM5Mzg4ODMsLTg0MTU1OTg0MywxNzUxMjEwMDYyLC0xMD
-QzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5NjMzOCw0OTgwOTg5
-NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2MiwtNjM1MjMwNDIzLD
-ExNTk5MTEwMTAsMTg5ODUzMDEwMCwtMTczNjMwNTE4LDEyNTMx
-NDIwMzddfQ==
+eyJoaXN0b3J5IjpbOTY3MTQzNjIzLC05NzY4NTkyNzgsLTk1OD
+U2MzEzNiwtMTAzMjk0MzIzOCw3MzQ3OTMyMTgsLTQ4OTQ4OCwt
+MTM2MzkzODg4MywtODQxNTU5ODQzLDE3NTEyMTAwNjIsLTEwND
+M5MTQ1MTgsMTg5NDE3NjMyMywtODc4NDk2MzM4LDQ5ODA5ODk2
+NSwtOTMzODc3MTE2LC0xOTQxMTk2MTYyLC02MzUyMzA0MjMsMT
+E1OTkxMTAxMCwxODk4NTMwMTAwLC0xNzM2MzA1MTgsMTI1MzE0
+MjAzN119
 -->
