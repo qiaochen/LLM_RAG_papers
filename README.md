@@ -79,7 +79,9 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > _This paper explores and evaluates the impact of RAG and FT (supervised) on customizing LLMs in handling low-frequency entities on question answering task._ Their base model is a T5 variation, FlanT5. Most solid conclusion from Table 2 is that RAG can greatly (10X on FlanT5-base)  boost the performance of LLM without any finetuning, while finetuning alone can only achieve <2 X performance gain on FlanT5-base. RAG + finetuning achieves slightly better performance on FlanT5-base than RAG alone, showing the major contributor is RAG. 
 
 - Gupta, A., Shirgaonkar, A., Balaguer, A. D. L., Silva, B., Holstein, D., Li, D., ... & Benara, V. (2024). [RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406). _arXiv preprint arXiv:2401.08406_.
-> Not sure how GPT-4 was fine-tuned, but from Tables 18, 19 & 20, by comparing the RAG+GPT4 and Finetune+GPT4 options, it is evident that the RAG is comparable to Finetuning in accuracy, and much better in succinctness and    
+> Not sure how GPT-4 was fine-tuned, but from Tables 18, 19 & 20, by comparing the RAG+GPT4 and Finetune+GPT4 options, it is evident that the RAG is comparable to Finetuning in accuracy, and much better in _succinctness_ and  _Percent of answers that were fully correct_.
+
+These literature indicate the promising role of RAG in domain adaptation. 
 
 #### b. Fintuning for RAG 
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). RAFT: Adapting Language Model to Domain Specific RAG. _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
@@ -97,7 +99,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTQwNjY2NywxNzUxMjEwMDYyLC0xMD
+eyJoaXN0b3J5IjpbLTg0MTU1OTg0MywxNzUxMjEwMDYyLC0xMD
 QzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5NjMzOCw0OTgwOTg5
 NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2MiwtNjM1MjMwNDIzLD
 ExNTk5MTEwMTAsMTg5ODUzMDEwMCwtMTczNjMwNTE4LDEyNTMx
