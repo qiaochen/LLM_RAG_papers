@@ -48,7 +48,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 				- Retrieval boils down to find the most similar document embeddings given a query embedding vector, [a pubmed fine-tuned retriever](https://github.com/ncbi/MedCPT)
 			- Sparse embedding-based:
 				- In contrast to dense embeddings, sparse embeddings normally work in the input token/sub-token level, where query and documents are represented in bags of tokens, with, optionally, the tokens weighted by, e.g., generative language models. Based on token overlapping, this way may be more conservative (higher precision & lower recall) than dense-vector based solution. 
-				- A classical case is bag-of-token representation + BM25 (similarity computation algorithm), which is the t
+				- A classical case is bag-of-token representation + BM25 (similarity computation algorithm), which is the backbone of traditional search engines.
 		- Reranker
 			- Different from retriever, modern rerankers usually take in both query and document as input to rerank the documents, thus more computationally expensive. Normally, they are applied to top-K candidate documents that are returned by a retriever, [example reranker](https://huggingface.co/BAAI/bge-reranker-base).   
 		- Indexed resources
@@ -58,8 +58,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 > Comments
 > With a competent LLM and good retrieval system accompanied by techniques like [Chain of Thoughts Prompting](https://arxiv.org/abs/2201.11903), RAG has the potential to perform comparably well or even better than fine-tuned LLMs in a new domain. It is also much more flexible to manipulate external knowledge for updating or filtering information. However, the potentially incurred new bottlenecks now are:
->      1) A "good" retriever and/or a reranker:
->      2) LLM's ability of 
+>      1) How to find a "good" retriever and/or a reranker for a new domain:
+>      2) After the retrieval systems finish its job,  LLM's ability of 
 >      Question:
 >      Would the ability of something best included in the "meta knowledge of behaviors such as instruct-following, prompt understanding etc" ?
 >      If so, then it might be helpful to explicitly fine-tune models to better capture such knowledge (There is increasing research interest in this direction). 
@@ -71,11 +71,11 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzA2Njk5OCwtMTczNjMwNTE4LDEyNT
-MxNDIwMzcsLTYxMTY0NDc2NywyMDI0MDk5NzA1LC00NTY1ODU1
-OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0OTgzLC
-01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLDU1NjAx
-NTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1NTc3LC
-00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1NiwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbOTk4MDI3NzU1LC0xNzM2MzA1MTgsMTI1Mz
+E0MjAzNywtNjExNjQ0NzY3LDIwMjQwOTk3MDUsLTQ1NjU4NTU5
+MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5ODMsLT
+U0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1
+NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLT
+QwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMDg4NzQ2
+NjEyXX0=
 -->
