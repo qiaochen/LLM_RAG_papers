@@ -19,7 +19,7 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- To train, generated tokens for answers or responses are compared with ground-truth for measuring losses and updating model parameters.   
 
 - Alignment:
-	- This step is normally conducted after fine-tunning, the goal is to align LLM's generations to human preferences. In practice, reinforcement learning is the most popular tool for training LLM (yes, another training procedure). Because the preference scores are not direct labels predicted from LLMs, but rather, they can be viewed as long-term rewards, hence naturally they fit into the scope of a reinforcement learning framework. 
+	- This step is normally conducted after fine-tunning, the goal is to align LLM's generations to human preferences. In practice, reinforcement learning is the most popular tool for inducing such preferences for LLMs (yes, here comes another learning procedure). Because the preference scores are not direct labels predicted from LLMs, but rather, they can be viewed as long-term rewards, hence naturally they fit into the scope of a reinforcement learning framework. 
 
 Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following related token generation patterns.
 
@@ -89,11 +89,11 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDcyODExNjMsLTkzMzg3NzExNiwtMT
-k0MTE5NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUz
-MDEwMCwtMTczNjMwNTE4LDEyNTMxNDIwMzcsLTYxMTY0NDc2Ny
-wyMDI0MDk5NzA1LC00NTY1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4
-MzYyMjI1LC0xMDY1ODc0OTgzLC01NDcwMzkwODEsLTYxODkyOT
-k0MSwyMDc3NzUyMDIxLDU1NjAxNTUzMywtNzUwNTE0OTQ1LDcy
-NzQ5ODA4M119
+eyJoaXN0b3J5IjpbLTgxMjM4NzczMCwtOTMzODc3MTE2LC0xOT
+QxMTk2MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMw
+MTAwLC0xNzM2MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LD
+IwMjQwOTk3MDUsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgz
+NjIyMjUsLTEwNjU4NzQ5ODMsLTU0NzAzOTA4MSwtNjE4OTI5OT
+QxLDIwNzc3NTIwMjEsNTU2MDE1NTMzLC03NTA1MTQ5NDUsNzI3
+NDk4MDgzXX0=
 -->
