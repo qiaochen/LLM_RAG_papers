@@ -68,7 +68,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > This work proposes to finetune LLMs for better RAG, an approach that could be applied to addressing bottleneck 2) commented above (i.e. LLMs ability of selecting pertinent and ignoring distracting references). The key idea is, during finetuning, the input additionally include context documents that are mixed with unrelated candidates. Thus, the LLM has to change its behaviors during training to make best use of the right document for answering. The finetuning strategy also has a mechanism that occasionally turns off feeding context references into the input, so as to make the parametric LLM also learn new domain knowledge in its parameters.
 > They claim using _Chain-of-Thought_ prompting strategy greatly boosted model performance.  
 
--
+- Lin, X. V., Chen, X., Chen, M., Shi, W., Lomeli, M., James, R., ... & Yih, S. (2024). Ra-dit: Retrieval-augmented dual instruction tuning. https://openreview.net/pdf?id=22OTbutug9, ICLR 2024.
+>
 
 
 
@@ -78,11 +79,11 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NTY1NTE5LDExNTk5MTEwMTAsMTg5OD
-UzMDEwMCwtMTczNjMwNTE4LDEyNTMxNDIwMzcsLTYxMTY0NDc2
-NywyMDI0MDk5NzA1LC00NTY1ODU1OTEsMTAyMjAwNzcyOCwtNj
-Q4MzYyMjI1LC0xMDY1ODc0OTgzLC01NDcwMzkwODEsLTYxODky
-OTk0MSwyMDc3NzUyMDIxLDU1NjAxNTUzMywtNzUwNTE0OTQ1LD
-cyNzQ5ODA4MywtNTM3MDY1NTc3LC00MDIxMDgxNywtMTYyNzQy
-ODddfQ==
+eyJoaXN0b3J5IjpbLTYzNTIzMDQyMywxMTU5OTExMDEwLDE4OT
+g1MzAxMDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC02MTE2NDQ3
+NjcsMjAyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3MjgsLT
+Y0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC02MTg5
+Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1MDUxNDk0NS
+w3Mjc0OTgwODMsLTUzNzA2NTU3NywtNDAyMTA4MTcsLTE2Mjc0
+Mjg3XX0=
 -->
