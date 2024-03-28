@@ -84,6 +84,9 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 These literature indicate the promising role of RAG in domain adaptation. 
 
 #### b. Fintuning for RAG 
+
+- Wang, B., Ping, W., Xu, P., McAfee, L., Liu, Z., Shoeybi, M., ... & Catanzaro, B. (2023). [Shall we pretrain autoregressive language models with retrieval? a comprehensive study](https://arxiv.org/abs/2304.06762). _arXiv preprint arXiv:2304.06762_.
+
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). RAFT: Adapting Language Model to Domain Specific RAG. _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
 > This work proposes to finetune LLMs for better RAG, an approach that could be applied to addressing bottleneck 2) commented above (i.e. LLMs ability of selecting pertinent and ignoring distracting references). The key idea is, during finetuning, the input additionally include context documents that are mixed with unrelated candidates. Thus, the LLM has to change its behaviors during training to make best use of the right document for answering. The finetuning strategy also has a mechanism that occasionally turns off feeding context references into the input, so as to make the parametric LLM also learn new domain knowledge in its parameters.
 > They claim using _Chain-of-Thought_ prompting strategy greatly boosted model performance.  
@@ -91,7 +94,7 @@ These literature indicate the promising role of RAG in domain adaptation.
 - Lin, X. V., Chen, X., Chen, M., Shi, W., Lomeli, M., James, R., ... & Yih, S. (2024). [Ra-dit: Retrieval-augmented dual instruction tuning](https://openreview.net/pdf?id=22OTbutug9). ICLR 2024.
 >
 
-- Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). Effective large language model adaptation for improved grounding. _arXiv preprint arXiv:2311.09533_.
+- Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). [Effective large language model adaptation for improved grounding](https://arxiv.org/abs/2311.09533). _arXiv preprint arXiv:2311.09533_.
 
 #### c. Combining Knowledge Graph and LLM by RAG
 - Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques. _arXiv preprint arXiv:2403.05881_.
@@ -110,7 +113,7 @@ These literature indicate the promising role of RAG in domain adaptation.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTI2OTM3MiwtODQxNTU5ODQzLDE3NT
+eyJoaXN0b3J5IjpbMTIxNzI2NjgzNSwtODQxNTU5ODQzLDE3NT
 EyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMyMywtODc4NDk2
 MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOTQxMTk2MTYyLC
 02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMwMTAwLC0xNzM2
