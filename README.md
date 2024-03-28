@@ -42,7 +42,9 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	-  Important components in RAG:
 		- LLM
 		- Retriever
-			- Dense embedding-based:
+			- Dense embedding-based (relying on encoders):
+				- Query encoder
+				- Document encoder
 			- Sparse embedding-based:
 				- BM25
 				- 
@@ -67,10 +69,10 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4MzU0NjYxLC02MTE2NDQ3NjcsMjAyND
-A5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3MjgsLTY0ODM2MjIy
-NSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC02MTg5Mjk5NDEsMj
-A3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1MDUxNDk0NSw3Mjc0OTgw
-ODMsLTUzNzA2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4Nz
-gwMTU3NTYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwMzA0MDEzMDcsLTYxMTY0NDc2NywyMD
+I0MDk5NzA1LC00NTY1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4MzYy
+MjI1LC0xMDY1ODc0OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MS
+wyMDc3NzUyMDIxLDU1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5
+ODA4MywtNTM3MDY1NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMT
+g3ODAxNTc1NiwtMjA4ODc0NjYxMl19
 -->
