@@ -42,7 +42,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	-  Important components in RAG:
 		- LLM
 		- Retriever
-			- Embedder
+			- Dense embedder
+			- 
 		- Reranker
 		- Indexed resources
 	- In a vanila RAG system, LLM is fixed, so the upper bound of the response quality is determined by the retrieval system and the external resources. 
@@ -64,10 +65,10 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTY0NDc2NywyMDI0MDk5NzA1LC00NT
-Y1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0
-OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLD
-U1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1
-NTc3LC00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1NiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTMxNDQ1ODk2MywtNjExNjQ0NzY3LDIwMj
+QwOTk3MDUsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgzNjIy
+MjUsLTEwNjU4NzQ5ODMsLTU0NzAzOTA4MSwtNjE4OTI5OTQxLD
+IwNzc3NTIwMjEsNTU2MDE1NTMzLC03NTA1MTQ5NDUsNzI3NDk4
+MDgzLC01MzcwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxOD
+c4MDE1NzU2LC0yMDg4NzQ2NjEyXX0=
 -->
