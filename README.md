@@ -91,9 +91,10 @@ These literature indicate the promising role of RAG in domain adaptation.
 - Lin, X. V., Chen, X., Chen, M., Shi, W., Lomeli, M., James, R., ... & Yih, S. (2024). Ra-dit: Retrieval-augmented dual instruction tuning. https://openreview.net/pdf?id=22OTbutug9, ICLR 2024.
 >
 
-#
+#### c. Knowledge Graph for RAG
 
-##### c. Survey, Position articles
+
+#### d. Survey, Position articles
 - 
 
 - Asai, A., Zhong, Z., Chen, D., Koh, P. W., Zettlemoyer, L., Hajishirzi, H., & Yih, W. T. (2024). [Reliable, Adaptable, and Attributable Language Models with Retrieval](https://arxiv.org/pdf/2403.03187.pdf). _arXiv preprint arXiv:2403.03187_.
@@ -106,7 +107,7 @@ These literature indicate the promising role of RAG in domain adaptation.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODk5MjI4MiwtODQxNTU5ODQzLDE3NT
+eyJoaXN0b3J5IjpbMTAzMDM2NTE3NywtODQxNTU5ODQzLDE3NT
 EyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMyMywtODc4NDk2
 MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOTQxMTk2MTYyLC
 02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMwMTAwLC0xNzM2
