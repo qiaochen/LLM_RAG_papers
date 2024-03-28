@@ -76,7 +76,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > "_LM-Evaluation-Harness is a robust benchmarking tool that currently serves as the industry standard for model evaluation and is the basis of the HuggingFace leaderboard3 . Leveraging this platform ensured a standardized evaluation framework and allowed consistent comparison across models, methods, and datasets. More importantly, by using the industry standard for evaluation, we could avoid any differences stemming from prompt engineering and formatting issues and replicate the reported baseline results for each model._" 
 
 - Soudani, H., Kanoulas, E., & Hasibi, F. (2024). [Fine Tuning vs. Retrieval Augmented Generation for Less Popular Knowledge](https://arxiv.org/pdf/2403.01432.pdf). _arXiv preprint arXiv:2403.01432_.
-> _This paper explores and evaluates the impact of RAG and FT on customizing LLMs in handling low-frequency entities on question answering task._ 
+> _This paper explores and evaluates the impact of RAG and FT on customizing LLMs in handling low-frequency entities on question answering task._ Some findings 
 
 - Gupta, A., Shirgaonkar, A., Balaguer, A. D. L., Silva, B., Holstein, D., Li, D., ... & Benara, V. (2024). [RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406). _arXiv preprint arXiv:2401.08406_.
 
@@ -96,7 +96,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDk4MDc5MywtODc4NDk2MzM4LDQ5OD
+eyJoaXN0b3J5IjpbMTg5NDE3NjMyMywtODc4NDk2MzM4LDQ5OD
 A5ODk2NSwtOTMzODc3MTE2LC0xOTQxMTk2MTYyLC02MzUyMzA0
 MjMsMTE1OTkxMTAxMCwxODk4NTMwMTAwLC0xNzM2MzA1MTgsMT
 I1MzE0MjAzNywtNjExNjQ0NzY3LDIwMjQwOTk3MDUsLTQ1NjU4
