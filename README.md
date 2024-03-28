@@ -75,7 +75,9 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > 
 > "_LM-Evaluation-Harness is a robust benchmarking tool that currently serves as the industry standard for model evaluation and is the basis of the HuggingFace leaderboard3 . Leveraging this platform ensured a standardized evaluation framework and allowed consistent comparison across models, methods, and datasets. More importantly, by using the industry standard for evaluation, we could avoid any differences stemming from prompt engineering and formatting issues and replicate the reported baseline results for each model._" 
 
-- Soudani, H., Kanoulas, E., & Hasibi, F. (2024). [Fine Tuning vs. Retrieval Augmented Generation for Less Popular Knowledge. _arXiv preprint arXiv:2403.01432_.
+- Soudani, H., Kanoulas, E., & Hasibi, F. (2024). [Fine Tuning vs. Retrieval Augmented Generation for Less Popular Knowledge](https://arxiv.org/pdf/2403.01432.pdf). _arXiv preprint arXiv:2403.01432_.
+
+- Gupta, A., Shirgaonkar, A., Balaguer, A. D. L., Silva, B., Holstein, D., Li, D., ... & Benara, V. (2024). [RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406). _arXiv preprint arXiv:2401.08406_.
 
 #### b. Fintuning for RAG 
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). RAFT: Adapting Language Model to Domain Specific RAG. _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
@@ -93,11 +95,11 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjY4Nzg2MTYsNDk4MDk4OTY1LC05Mz
-M4NzcxMTYsLTE5NDExOTYxNjIsLTYzNTIzMDQyMywxMTU5OTEx
-MDEwLDE4OTg1MzAxMDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC
-02MTE2NDQ3NjcsMjAyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIw
-MDc3MjgsLTY0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MD
-gxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1
-MDUxNDk0NV19
+eyJoaXN0b3J5IjpbLTg3ODQ5NjMzOCw0OTgwOTg5NjUsLTkzMz
+g3NzExNiwtMTk0MTE5NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEw
+MTAsMTg5ODUzMDEwMCwtMTczNjMwNTE4LDEyNTMxNDIwMzcsLT
+YxMTY0NDc2NywyMDI0MDk5NzA1LC00NTY1ODU1OTEsMTAyMjAw
+NzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0OTgzLC01NDcwMzkwOD
+EsLTYxODkyOTk0MSwyMDc3NzUyMDIxLDU1NjAxNTUzMywtNzUw
+NTE0OTQ1XX0=
 -->
