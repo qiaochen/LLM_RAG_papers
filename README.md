@@ -86,7 +86,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 #### b. Fintuning for RAG 
 
 - Wang, B., Ping, W., Xu, P., McAfee, L., Liu, Z., Shoeybi, M., ... & Catanzaro, B. (2023). [Shall we pretrain autoregressive language models with retrieval? a comprehensive study](https://arxiv.org/abs/2304.06762). _arXiv preprint arXiv:2304.06762_.
-> The title asked the question 
+> The title question is exactly asking for the 
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). [RAFT: Adapting Language Model to Domain Specific RAG](https://arxiv.org/pdf/2403.10131.pdf). _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
 > This work proposes to finetune LLMs for better RAG, an approach that could be applied to addressing bottleneck 2) commented above (i.e. LLMs ability of selecting pertinent and ignoring distracting references). The key idea is, during finetuning, the input additionally include context documents that are mixed with unrelated candidates. Thus, the LLM has to change its behaviors during training to make best use of the right document for answering. The finetuning strategy also has a mechanism that occasionally turns off feeding context references into the input, so as to make the parametric LLM also learn new domain knowledge in its parameters.
 > They claim using _Chain-of-Thought_ prompting strategy greatly boosted model performance.  
@@ -115,13 +115,13 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 
 - Chevalier, A., Geng, J., Wettig, A., Chen, H., Mizera, S., Annala, T., ... & Chen, D. (2024). [Language Models as Science Tutors](https://arxiv.org/pdf/2402.11111.pdf). _arXiv preprint arXiv:2402.11111_.
 
-- https://arxiv.org/abs/2305.15334
+- Patil, S. G., Zhang, T., Wang, X., & Gonzalez, J. E. (2023). [Gorilla: Large language model connected with massive apis](https://arxiv.org/abs/2305.15334). _arXiv preprint arXiv:2305.15334_. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjYwODgwOSwtNDg5NDg4LC0xMzYzOT
-M4ODgzLC04NDE1NTk4NDMsMTc1MTIxMDA2MiwtMTA0MzkxNDUx
-OCwxODk0MTc2MzIzLC04Nzg0OTYzMzgsNDk4MDk4OTY1LC05Mz
-M4NzcxMTYsLTE5NDExOTYxNjIsLTYzNTIzMDQyMywxMTU5OTEx
-MDEwLDE4OTg1MzAxMDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC
-02MTE2NDQ3NjcsMjAyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIw
-MDc3MjhdfQ==
+eyJoaXN0b3J5IjpbNzM0NzkzMjE4LC00ODk0ODgsLTEzNjM5Mz
+g4ODMsLTg0MTU1OTg0MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4
+LDE4OTQxNzYzMjMsLTg3ODQ5NjMzOCw0OTgwOTg5NjUsLTkzMz
+g3NzExNiwtMTk0MTE5NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEw
+MTAsMTg5ODUzMDEwMCwtMTczNjMwNTE4LDEyNTMxNDIwMzcsLT
+YxMTY0NDc2NywyMDI0MDk5NzA1LC00NTY1ODU1OTEsMTAyMjAw
+NzcyOF19
 -->
