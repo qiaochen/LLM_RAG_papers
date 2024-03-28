@@ -41,8 +41,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 		- External knowledge base (on the fly): Knowledge 2)
 	-  Important components in RAG:
 		- LLM
-		- Retriever
-			- Dense embedding-based (relying on BERT-based encoders):
+		- Retriever 
+			- Dense embedding-based ([Huggingface leaderboard](https://huggingface.co/spaces/mteb/leaderboard)):
 				- Query encoder
 				- Document encoder
 				- Retrieval boils down to find the most similar document embeddings given a query embedding vector
@@ -70,10 +70,11 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC02MT
-E2NDQ3NjcsMjAyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3
-MjgsLTY0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC
-02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1MDUx
-NDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtNDAyMTA4MTcsLT
-E2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNTAzODY0MzM5LC0xNzM2MzA1MTgsMTI1Mz
+E0MjAzNywtNjExNjQ0NzY3LDIwMjQwOTk3MDUsLTQ1NjU4NTU5
+MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5ODMsLT
+U0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1
+NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLT
+QwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMDg4NzQ2
+NjEyXX0=
 -->
