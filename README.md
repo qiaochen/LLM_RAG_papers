@@ -91,19 +91,21 @@ These literature indicate the promising role of RAG in domain adaptation.
 - Lin, X. V., Chen, X., Chen, M., Shi, W., Lomeli, M., James, R., ... & Yih, S. (2024). Ra-dit: Retrieval-augmented dual instruction tuning. https://openreview.net/pdf?id=22OTbutug9, ICLR 2024.
 >
 
-##### c. Surveys, Positional articles
+##### c. Survey, Position articles
+- 
 
+- Asai, A., Zhong, Z., Chen, D., Koh, P. W., Zettlemoyer, L., Hajishirzi, H., & Yih, W. T. (2024). Reliable, Adaptable, and Attributable Language Models with Retrieval. _arXiv preprint arXiv:2403.03187_.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTU1OTg0MywxNzUxMjEwMDYyLC0xMD
-QzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5NjMzOCw0OTgwOTg5
-NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2MiwtNjM1MjMwNDIzLD
-ExNTk5MTEwMTAsMTg5ODUzMDEwMCwtMTczNjMwNTE4LDEyNTMx
-NDIwMzcsLTYxMTY0NDc2NywyMDI0MDk5NzA1LC00NTY1ODU1OT
-EsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0OTgzLC01
-NDcwMzkwODFdfQ==
+eyJoaXN0b3J5IjpbLTIwOTcxMTUwNjAsLTg0MTU1OTg0MywxNz
+UxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5
+NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2Mi
+wtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUzMDEwMCwtMTcz
+NjMwNTE4LDEyNTMxNDIwMzcsLTYxMTY0NDc2NywyMDI0MDk5Nz
+A1LC00NTY1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0x
+MDY1ODc0OTgzXX0=
 -->
