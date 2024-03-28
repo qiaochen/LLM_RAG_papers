@@ -109,14 +109,17 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > How to integrate Knowledge Graphs (KG) and LLMs, or enhance one with the other.
 
 #### c. Others, Miscellaneous
+- Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
+- 
+- Jiang, Z., Sun, Z., Shi, W., Rodriguez, P., Zhou, C., Neubig, G., ... & Iyer, S. (2024). [Instruction-tuned Language Models are Better Knowledge Learners](https://arxiv.org/pdf/2402.12847.pdf). _arXiv preprint arXiv:2402.12847_.
 
 - Chevalier, A., Geng, J., Wettig, A., Chen, H., Mizera, S., Annala, T., ... & Chen, D. (2024). [Language Models as Science Tutors](https://arxiv.org/pdf/2402.11111.pdf). _arXiv preprint arXiv:2402.11111_.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTQ4OCwtMTM2MzkzODg4MywtODQxNT
-U5ODQzLDE3NTEyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMy
-MywtODc4NDk2MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOT
-QxMTk2MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMw
-MTAwLC0xNzM2MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LD
-IwMjQwOTk3MDUsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgz
-NjIyMjVdfQ==
+eyJoaXN0b3J5IjpbOTQ2MTQ4ODIyLC00ODk0ODgsLTEzNjM5Mz
+g4ODMsLTg0MTU1OTg0MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4
+LDE4OTQxNzYzMjMsLTg3ODQ5NjMzOCw0OTgwOTg5NjUsLTkzMz
+g3NzExNiwtMTk0MTE5NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEw
+MTAsMTg5ODUzMDEwMCwtMTczNjMwNTE4LDEyNTMxNDIwMzcsLT
+YxMTY0NDc2NywyMDI0MDk5NzA1LC00NTY1ODU1OTEsMTAyMjAw
+NzcyOF19
 -->
