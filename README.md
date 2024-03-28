@@ -64,7 +64,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 >      For 2), this ability can be categorised into some meta knowledge belonging to instruction following. Therefore, it might be helpful to compile a instruct-tuning task for LLMs to better capture such knowledge (There is increasing research interest in this direction). 
 
 #### II. Relevant recent research:
-##### a.
+##### a. RAG vs Finetuning
+
 
 ##### b. Fintuning for RAG 
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). RAFT: Adapting Language Model to Domain Specific RAG. _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
@@ -74,7 +75,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 - Lin, X. V., Chen, X., Chen, M., Shi, W., Lomeli, M., James, R., ... & Yih, S. (2024). Ra-dit: Retrieval-augmented dual instruction tuning. https://openreview.net/pdf?id=22OTbutug9, ICLR 2024.
 >
 
-
+##### c. Surveys, Positional articles
 
 
 
@@ -82,11 +83,11 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2NDMyLC02MzUyMzA0MjMsMTE1OTkxMT
-AxMCwxODk4NTMwMTAwLC0xNzM2MzA1MTgsMTI1MzE0MjAzNywt
-NjExNjQ0NzY3LDIwMjQwOTk3MDUsLTQ1NjU4NTU5MSwxMDIyMD
-A3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5ODMsLTU0NzAzOTA4
-MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1NTMzLC03NT
-A1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLTQwMjEwODE3
-XX0=
+eyJoaXN0b3J5IjpbLTEwODgwODgzOTYsLTYzNTIzMDQyMywxMT
+U5OTExMDEwLDE4OTg1MzAxMDAsLTE3MzYzMDUxOCwxMjUzMTQy
+MDM3LC02MTE2NDQ3NjcsMjAyNDA5OTcwNSwtNDU2NTg1NTkxLD
+EwMjIwMDc3MjgsLTY0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3
+MDM5MDgxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1Mz
+MsLTc1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3NywtNDAy
+MTA4MTddfQ==
 -->
