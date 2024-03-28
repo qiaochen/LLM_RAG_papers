@@ -66,7 +66,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 #### II. Relevant recent research:
 ##### a. RAG vs Finetuning
 - Ovadia, O., Brief, M., Mishaeli, M., & Elisha, O. (2023). Fine-tuning or retrieval? comparing knowledge injection in llms. _arXiv preprint arXiv:2312.05934_.
-> __
+> This paper compared RAG and unsupervised f __
 
 ##### b. Fintuning for RAG 
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). RAFT: Adapting Language Model to Domain Specific RAG. _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
@@ -84,7 +84,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4NTUxMjY2LC02MzUyMzA0MjMsMTE1OT
+eyJoaXN0b3J5IjpbLTM0NDY2MTgzLC02MzUyMzA0MjMsMTE1OT
 kxMTAxMCwxODk4NTMwMTAwLC0xNzM2MzA1MTgsMTI1MzE0MjAz
 NywtNjExNjQ0NzY3LDIwMjQwOTk3MDUsLTQ1NjU4NTU5MSwxMD
 IyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5ODMsLTU0NzAz
