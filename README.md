@@ -92,7 +92,8 @@ These literature indicate the promising role of RAG in domain adaptation.
 >
 
 #### c. Combining Knowledge Graph and LLM by RAG
-
+- Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques. _arXiv preprint arXiv:2403.05881_.
+> 
 
 #### d. Survey, Position articles
 - 
@@ -107,11 +108,11 @@ These literature indicate the promising role of RAG in domain adaptation.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTMwNDk1MTcsLTg0MTU1OTg0MywxNz
-UxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5
-NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2Mi
-wtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUzMDEwMCwtMTcz
-NjMwNTE4LDEyNTMxNDIwMzcsLTYxMTY0NDc2NywyMDI0MDk5Nz
-A1LC00NTY1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0x
-MDY1ODc0OTgzXX0=
+eyJoaXN0b3J5IjpbMTYwMjkxNDI4NCwtODQxNTU5ODQzLDE3NT
+EyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMyMywtODc4NDk2
+MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOTQxMTk2MTYyLC
+02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMwMTAwLC0xNzM2
+MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LDIwMjQwOTk3MD
+UsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEw
+NjU4NzQ5ODNdfQ==
 -->
