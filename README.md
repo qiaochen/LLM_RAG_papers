@@ -47,7 +47,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 				- Document encoder
 			- Sparse embedding-based:
 				- 
-				- Bag-ofBM25
+				- Bag-of-Token representation + BM25
 		- Reranker
 		- Indexed resources
 	- In a vanila RAG system, LLM is fixed, so the upper bound of the response quality is determined by the retrieval system and the external resources. 
@@ -69,10 +69,10 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5NjQyODI1LC02MTE2NDQ3NjcsMjAyND
-A5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3MjgsLTY0ODM2MjIy
-NSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC02MTg5Mjk5NDEsMj
-A3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1MDUxNDk0NSw3Mjc0OTgw
-ODMsLTUzNzA2NTU3NywtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4Nz
-gwMTU3NTYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTI1MzE0MjAzNywtNjExNjQ0NzY3LDIwMj
+QwOTk3MDUsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgzNjIy
+MjUsLTEwNjU4NzQ5ODMsLTU0NzAzOTA4MSwtNjE4OTI5OTQxLD
+IwNzc3NTIwMjEsNTU2MDE1NTMzLC03NTA1MTQ5NDUsNzI3NDk4
+MDgzLC01MzcwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxOD
+c4MDE1NzU2LC0yMDg4NzQ2NjEyXX0=
 -->
