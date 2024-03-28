@@ -85,8 +85,6 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 
 #### b. Fintuning for RAG 
 
-- Wang, B., Ping, W., Xu, P., McAfee, L., Liu, Z., Shoeybi, M., ... & Catanzaro, B. (2023). [Shall we pretrain autoregressive language models with retrieval? a comprehensive study](https://arxiv.org/abs/2304.06762). _arXiv preprint arXiv:2304.06762_.
-> Yes to the title question, and here comes a line of research in this section.  
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). [RAFT: Adapting Language Model to Domain Specific RAG](https://arxiv.org/pdf/2403.10131.pdf). _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
 > This work proposes to finetune LLMs for better RAG, an approach that could be applied to addressing bottleneck 2) commented above (i.e. LLMs ability of selecting pertinent and ignoring distracting references). The key idea is, during finetuning, the input additionally include context documents that are mixed with unrelated candidates. Thus, the LLM has to change its behaviors during training to make best use of the right document for answering. The finetuning strategy also has a mechanism that occasionally turns off feeding context references into the input, so as to make the parametric LLM also learn new domain knowledge in its parameters.
 > They claim using _Chain-of-Thought_ prompting strategy greatly boosted model performance.  
@@ -109,19 +107,22 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > How to integrate Knowledge Graphs (KG) and LLMs, or enhance one with the other.
 
 #### c. Others, Miscellaneous
-- Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
+- Wang, B., Ping, W., Xu, P., McAfee, L., Liu, Z., Shoeybi, M., ... & Catanzaro, B. (2023). [Shall we pretrain autoregressive language models with retrieval? a comprehensive study](https://arxiv.org/abs/2304.06762). _arXiv preprint arXiv:2304.06762_.
+> This work tries to augment LLM with retrieved context during continuedtraining time.
+
 
 - Jiang, Z., Sun, Z., Shi, W., Rodriguez, P., Zhou, C., Neubig, G., ... & Iyer, S. (2024). [Instruction-tuned Language Models are Better Knowledge Learners](https://arxiv.org/pdf/2402.12847.pdf). _arXiv preprint arXiv:2402.12847_.
 
 - Chevalier, A., Geng, J., Wettig, A., Chen, H., Mizera, S., Annala, T., ... & Chen, D. (2024). [Language Models as Science Tutors](https://arxiv.org/pdf/2402.11111.pdf). _arXiv preprint arXiv:2402.11111_.
 
 - Patil, S. G., Zhang, T., Wang, X., & Gonzalez, J. E. (2023). [Gorilla: Large language model connected with massive apis](https://arxiv.org/abs/2305.15334). _arXiv preprint arXiv:2305.15334_. 
+- Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI5NDMyMzgsNzM0NzkzMjE4LC00OD
-k0ODgsLTEzNjM5Mzg4ODMsLTg0MTU1OTg0MywxNzUxMjEwMDYy
-LC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5NjMzOCw0OT
-gwOTg5NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2MiwtNjM1MjMw
-NDIzLDExNTk5MTEwMTAsMTg5ODUzMDEwMCwtMTczNjMwNTE4LD
-EyNTMxNDIwMzcsLTYxMTY0NDc2NywyMDI0MDk5NzA1LC00NTY1
-ODU1OTFdfQ==
+eyJoaXN0b3J5IjpbMzMwMTI2OTUxLC0xMDMyOTQzMjM4LDczND
+c5MzIxOCwtNDg5NDg4LC0xMzYzOTM4ODgzLC04NDE1NTk4NDMs
+MTc1MTIxMDA2MiwtMTA0MzkxNDUxOCwxODk0MTc2MzIzLC04Nz
+g0OTYzMzgsNDk4MDk4OTY1LC05MzM4NzcxMTYsLTE5NDExOTYx
+NjIsLTYzNTIzMDQyMywxMTU5OTExMDEwLDE4OTg1MzAxMDAsLT
+E3MzYzMDUxOCwxMjUzMTQyMDM3LC02MTE2NDQ3NjcsMjAyNDA5
+OTcwNV19
 -->
