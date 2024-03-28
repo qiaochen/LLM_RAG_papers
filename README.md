@@ -65,7 +65,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 Relevant recent research trying to merry finetuning and retrieval:
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). RAFT: Adapting Language Model to Domain Specific RAG. _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
-> This work proposes to finetune LLMs for better RAG, an approach that could be applied to addressing bottleneck 2) commented above (i.e. LLMs ability of selecting pertinent and ignoring distracting references). The key idea is, during finetuning, the input additionally include context documents that are mixed with unrelated candidates. Thus, the LLM has to change its behaviors during training to make best use of the right document for answering. The finetuning strategy also has an occasionally 
+> This work proposes to finetune LLMs for better RAG, an approach that could be applied to addressing bottleneck 2) commented above (i.e. LLMs ability of selecting pertinent and ignoring distracting references). The key idea is, during finetuning, the input additionally include context documents that are mixed with unrelated candidates. Thus, the LLM has to change its behaviors during training to make best use of the right document for answering. The finetuning strategy also has a mechanism that occasionally turns off feeding context references into the input, so as to make the parametric LLM also learn new domain knowledge. 
 
 
 
@@ -73,7 +73,7 @@ Relevant recent research trying to merry finetuning and retrieval:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTY0MjEyNiwxMTU5OTExMDEwLDE4OT
+eyJoaXN0b3J5IjpbMTMwNTcwMTUzOSwxMTU5OTExMDEwLDE4OT
 g1MzAxMDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC02MTE2NDQ3
 NjcsMjAyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3MjgsLT
 Y0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC02MTg5
