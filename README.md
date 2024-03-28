@@ -19,7 +19,7 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- To train, generated tokens for answers or responses are compared with ground-truth for measuring losses and updating model parameters.   
 
 - Alignment:
-	- This step is normally conducted after fine-tunning, the goal is to align LLM's generations to human preferences. In practice, reinforcement learning is the most popular tool for training LLM (yes, another training procedure). Because the preference scores are not direct labels, but rather, like rewards or 
+	- This step is normally conducted after fine-tunning, the goal is to align LLM's generations to human preferences. In practice, reinforcement learning is the most popular tool for training LLM (yes, another training procedure). Because the preference scores are not direct labels predicted from LLM, but rather, they can be viewed as long-term rewards and hence naturally fit into the scope of the re 
 
 Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following related token generation patterns.
 
@@ -89,7 +89,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDAzOTU3MSwtOTMzODc3MTE2LC0xOT
+eyJoaXN0b3J5IjpbLTg4NjAyMDg5MywtOTMzODc3MTE2LC0xOT
 QxMTk2MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMw
 MTAwLC0xNzM2MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LD
 IwMjQwOTk3MDUsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgz
