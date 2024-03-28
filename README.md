@@ -45,11 +45,12 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 			- Dense embedding-based ([Huggingface leaderboard](https://huggingface.co/spaces/mteb/leaderboard)):
 				- Query encoder
 				- Document encoder
-				- Retrieval boils down to find the most similar document embeddings given a query embedding vector
+				- Retrieval boils down to find the most similar document embeddings given a query embedding vector, [a pubmed fine-tuned retriever](https://github.com/ncbi/MedCPT)
 			- Sparse embedding-based:
 				- 
-				- Bag-of-Token representation + BM25
+				- Bag-of-token representation + BM25
 		- Reranker
+			- Different from retriever, their 
 		- Indexed resources
 	- In a vanila RAG system, LLM is fixed, so the upper bound of the response quality is determined by the retrieval system and the external resources. 
 		- At a small resource scale (e.g., < 10k documents), dense vector approach with vector databases (e.g., [qdrant](https://qdrant.tech/articles/sparse-vectors/), [faiss](https://faiss.ai/index.html)) can be a good solution. However, the vectors and indexes (e.g., by [Hierarchical Navigable Small World (HNSW)](https://arxiv.org/abs/1603.09320)) are loaded to RAM, which may not be applicable to a larger scale.
@@ -70,7 +71,7 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzODY0MzM5LC0xNzM2MzA1MTgsMTI1Mz
+eyJoaXN0b3J5IjpbNTkyNTExMzE5LC0xNzM2MzA1MTgsMTI1Mz
 E0MjAzNywtNjExNjQ0NzY3LDIwMjQwOTk3MDUsLTQ1NjU4NTU5
 MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5ODMsLT
 U0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1
