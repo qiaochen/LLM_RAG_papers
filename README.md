@@ -63,11 +63,12 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 >      For 1), in case of dense vector approach, expanding dictionary & finetunning top-performing encoders in a new domain would be a standard way: while in the case of sparse vector approach, more domain specific data engineering is the approach, e.g., better token-based index and Bag-Of-Token representations.
 >      For 2), this ability can be categorised into some meta knowledge belonging to instruction following. Therefore, it might be helpful to compile a instruct-tuning task for LLMs to better capture such knowledge (There is increasing research interest in this direction). 
 
-Relevant recent research trying to merry finetuning and retrieval:
+#### Relevant recent research trying to merry finetuning and retrieval:
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). RAFT: Adapting Language Model to Domain Specific RAG. _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
 > This work proposes to finetune LLMs for better RAG, an approach that could be applied to addressing bottleneck 2) commented above (i.e. LLMs ability of selecting pertinent and ignoring distracting references). The key idea is, during finetuning, the input additionally include context documents that are mixed with unrelated candidates. Thus, the LLM has to change its behaviors during training to make best use of the right document for answering. The finetuning strategy also has a mechanism that occasionally turns off feeding context references into the input, so as to make the parametric LLM also learn new domain knowledge in its parameters.
 > They claim using _Chain-of-Thought_ prompting strategy greatly boosted model performance.  
-> 
+
+
 
 
 
@@ -75,7 +76,7 @@ Relevant recent research trying to merry finetuning and retrieval:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzAzODA3MywxMTU5OTExMDEwLDE4OT
+eyJoaXN0b3J5IjpbMTg3NjU1MzEzOSwxMTU5OTExMDEwLDE4OT
 g1MzAxMDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC02MTE2NDQ3
 NjcsMjAyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3MjgsLT
 Y0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC02MTg5
