@@ -19,8 +19,9 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- To train, generated tokens for answers or responses are compared with ground-truth for measuring losses and updating model parameters.   
 
 - Alignment:
-	- This step is normally conducted after fine-tunning, the goal is to align LLM's generations to human preferences. In practice, reinforcement learning from human feedback (RLHF), is the most popular general framework for inducing such preferences for LLMs (yes, here comes another learning procedure). The human preference scores for discourse are not direct labels predicted from LLMs, but rather, they can be viewed as long-term rewards, they can hence be naturally fit into the scope of a reinforcement learning framework. 
+	- This step is normally conducted after fine-tunning, the goal is to align LLM's generations to human preferences. In practice, reinforcement learning from human feedback (RLHF), is the most popular general framework for inducing such preferences for LLMs (yes, here comes another learning procedure). The human preference scores for discourse are not direct labels predicted from LLMs, but rather, they can be viewed as long-term rewards, and hence naturally fit into the scope of a reinforcement learning framework. 
 	- Practically, gradient-based [Proximal Policy Optimization, PPO](https://arxiv.org/pdf/1707.06347.pdf) or more recent [Direct Preference Optimization, DPO](https://arxiv.org/abs/2305.18290) are popular approaches.
+	- Normally, this requires a trained reward model that can score LLM's outputs based on hu
 
 Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following related token generation patterns.
 
@@ -90,7 +91,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDk5OTI0NTMsLTkzMzg3NzExNiwtMT
+eyJoaXN0b3J5IjpbLTEzMzQ2NDk4NjMsLTkzMzg3NzExNiwtMT
 k0MTE5NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUz
 MDEwMCwtMTczNjMwNTE4LDEyNTMxNDIwMzcsLTYxMTY0NDc2Ny
 wyMDI0MDk5NzA1LC00NTY1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4
