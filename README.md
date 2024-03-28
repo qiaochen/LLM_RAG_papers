@@ -114,8 +114,10 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jiang, Z., Sun, Z., Shi, W., Rodriguez, P., Zhou, C., Neubig, G., ... & Iyer, S. (2024). [Instruction-tuned Language Models are Better Knowledge Learners](https://arxiv.org/pdf/2402.12847.pdf). _arXiv preprint arXiv:2402.12847_.
 
 - Chevalier, A., Geng, J., Wettig, A., Chen, H., Mizera, S., Annala, T., ... & Chen, D. (2024). [Language Models as Science Tutors](https://arxiv.org/pdf/2402.11111.pdf). _arXiv preprint arXiv:2402.11111_.
+
+- https://arxiv.org/abs/2305.15334
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODQ3NzAxNywtNDg5NDg4LC0xMzYzOT
+eyJoaXN0b3J5IjpbMjA1NjYwODgwOSwtNDg5NDg4LC0xMzYzOT
 M4ODgzLC04NDE1NTk4NDMsMTc1MTIxMDA2MiwtMTA0MzkxNDUx
 OCwxODk0MTc2MzIzLC04Nzg0OTYzMzgsNDk4MDk4OTY1LC05Mz
 M4NzcxMTYsLTE5NDExOTYxNjIsLTYzNTIzMDQyMywxMTU5OTEx
