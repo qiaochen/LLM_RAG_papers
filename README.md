@@ -101,7 +101,6 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > 
 
 #### d. Survey, Position articles
-- 
 
 - Asai, A., Zhong, Z., Chen, D., Koh, P. W., Zettlemoyer, L., Hajishirzi, H., & Yih, W. T. (2024). [Reliable, Adaptable, and Attributable Language Models with Retrieval](https://arxiv.org/pdf/2403.03187.pdf). _arXiv preprint arXiv:2403.03187_.
 > Some directions for improving RAG-based LLM generation
@@ -110,16 +109,16 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 
 #### c. Others, Miscellaneous
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
-- 
+
 - Jiang, Z., Sun, Z., Shi, W., Rodriguez, P., Zhou, C., Neubig, G., ... & Iyer, S. (2024). [Instruction-tuned Language Models are Better Knowledge Learners](https://arxiv.org/pdf/2402.12847.pdf). _arXiv preprint arXiv:2402.12847_.
 
 - Chevalier, A., Geng, J., Wettig, A., Chen, H., Mizera, S., Annala, T., ... & Chen, D. (2024). [Language Models as Science Tutors](https://arxiv.org/pdf/2402.11111.pdf). _arXiv preprint arXiv:2402.11111_.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2MTQ4ODIyLC00ODk0ODgsLTEzNjM5Mz
-g4ODMsLTg0MTU1OTg0MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4
-LDE4OTQxNzYzMjMsLTg3ODQ5NjMzOCw0OTgwOTg5NjUsLTkzMz
-g3NzExNiwtMTk0MTE5NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEw
-MTAsMTg5ODUzMDEwMCwtMTczNjMwNTE4LDEyNTMxNDIwMzcsLT
-YxMTY0NDc2NywyMDI0MDk5NzA1LC00NTY1ODU1OTEsMTAyMjAw
-NzcyOF19
+eyJoaXN0b3J5IjpbLTEzOTE1ODU0NDIsLTQ4OTQ4OCwtMTM2Mz
+kzODg4MywtODQxNTU5ODQzLDE3NTEyMTAwNjIsLTEwNDM5MTQ1
+MTgsMTg5NDE3NjMyMywtODc4NDk2MzM4LDQ5ODA5ODk2NSwtOT
+MzODc3MTE2LC0xOTQxMTk2MTYyLC02MzUyMzA0MjMsMTE1OTkx
+MTAxMCwxODk4NTMwMTAwLC0xNzM2MzA1MTgsMTI1MzE0MjAzNy
+wtNjExNjQ0NzY3LDIwMjQwOTk3MDUsLTQ1NjU4NTU5MSwxMDIy
+MDA3NzI4XX0=
 -->
