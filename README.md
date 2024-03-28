@@ -66,7 +66,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 #### II. Relevant recent research:
 ##### a. RAG vs Finetuning
 - Ovadia, O., Brief, M., Mishaeli, M., & Elisha, O. (2023). Fine-tuning or retrieval? comparing knowledge injection in llms. _arXiv preprint arXiv:2312.05934_.
-> This paper compared RAG and unsupervised fine-tuning in new domain adaptation, both using the same new domain corpus. For evaluation, they use _LM-Evaluation-Harness_ (Which I used for evaluating Bloom, Llama2 and Mixture LLMs, too), the benefits quoted : 
+> This paper compared RAG and unsupervised fine-tuning in new domain adaptation, both using the same new domain corpus. For evaluation, they use _LM-Evaluation-Harness_ (Which I used for evaluating Bloom, Llama2 and Mixture LLMs, too), the benefits are quoted below. The major results shown in Table 1  
+> 
 > "_LM-Evaluation-Harness is a robust benchmarking tool that currently serves as the industry standard for model evaluation and is the basis of the HuggingFace leaderboard3 . Leveraging this platform ensured a standardized evaluation framework and allowed consistent comparison across models, methods, and datasets. More importantly, by using the industry standard for evaluation, we could avoid any differences stemming from prompt engineering and formatting issues and replicate the reported baseline results for each model._" 
 
 ##### b. Fintuning for RAG 
@@ -85,11 +86,11 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTI4MDA2MCwtOTMzODc3MTE2LC0xOT
-QxMTk2MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMw
-MTAwLC0xNzM2MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LD
-IwMjQwOTk3MDUsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgz
-NjIyMjUsLTEwNjU4NzQ5ODMsLTU0NzAzOTA4MSwtNjE4OTI5OT
-QxLDIwNzc3NTIwMjEsNTU2MDE1NTMzLC03NTA1MTQ5NDUsNzI3
-NDk4MDgzXX0=
+eyJoaXN0b3J5IjpbNjUzMzg4MjQyLC05MzM4NzcxMTYsLTE5ND
+ExOTYxNjIsLTYzNTIzMDQyMywxMTU5OTExMDEwLDE4OTg1MzAx
+MDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC02MTE2NDQ3NjcsMj
+AyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3MjgsLTY0ODM2
+MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC02MTg5Mjk5ND
+EsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1MDUxNDk0NSw3Mjc0
+OTgwODNdfQ==
 -->
