@@ -110,13 +110,13 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 
 #### c. Others, Miscellaneous
 
-- Chevalier, A., Geng, J., Wettig, A., Chen, H., Mizera, S., Annala, T., ... & Chen, D. (2024). [Language Models as Science Tutors]((https://arxiv.org/pdf/2402.11111.pdf)). _arXiv preprint arXiv:2402.11111_.
+- Chevalier, A., Geng, J., Wettig, A., Chen, H., Mizera, S., Annala, T., ... & Chen, D. (2024). [Language Models as Science Tutors](https://arxiv.org/pdf/2402.11111.pdf). _arXiv preprint arXiv:2402.11111_.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE2OTE0NjMsLTEzNjM5Mzg4ODMsLT
-g0MTU1OTg0MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQx
-NzYzMjMsLTg3ODQ5NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNi
-wtMTk0MTE5NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5
-ODUzMDEwMCwtMTczNjMwNTE4LDEyNTMxNDIwMzcsLTYxMTY0ND
-c2NywyMDI0MDk5NzA1LC00NTY1ODU1OTEsMTAyMjAwNzcyOCwt
-NjQ4MzYyMjI1XX0=
+eyJoaXN0b3J5IjpbLTQ4OTQ4OCwtMTM2MzkzODg4MywtODQxNT
+U5ODQzLDE3NTEyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMy
+MywtODc4NDk2MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOT
+QxMTk2MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMw
+MTAwLC0xNzM2MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LD
+IwMjQwOTk3MDUsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgz
+NjIyMjVdfQ==
 -->
