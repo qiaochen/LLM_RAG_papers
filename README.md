@@ -7,8 +7,8 @@
 	- [Mamba](https://arxiv.org/abs/2312.00752)
 	
 Adopting next token prediction (so coined causal language models) as a simple learning task, base models of Decoder-only LLMs are usually pretrained on huge amount of  training data, where linguistic patterns and word/subword co-occurrence patterns can be learned. With the property of Transformer architecture, the patterns can be complex and dynamically contextualised, through which world knowledge is encoded. The training process can last for months or even more, depending on the data volume, consuming hundreds and thousands of GPUs or XPUs, which is not really practical for small groups.  Continual training, or fine tuning based on pretrained LLMs hence play a role in adapting LLMs for specific needs. 
-- Fine tuning:
-	- In the narrowest sense, it refers to continual training LLMs on specific corpora of interest, so that those previously less exposed co-occurrence patterns of tokens (word/subword) can be captured by adapting the model parameters. The same next token prediction can be the basic fine-tuning task. If so, the training result is, like the original pretrained model, also a base model. 
+- Fine tuning (unsupervised continual training):
+	- In the narrowest sense, it refers to continual training LLMs on specific corpora of interest, so that those previously less exposed co-occurrence patterns of tokens (word/subword) can be captured by adapting the model parameters. The same unsupervised next token prediction can be the basic fine-tuning task. If so, the training result is, like the original pretrained model, also a base model. 
 	- A pretrained or fine tuned __base model__ can be good at text generation, but still it can not well conduct instruct following tasks, e.g., instruct it to summarize, answer questions or chat. To enable LLMs in instruct following, there is a need for _instruct fine tuning_.    
 - Instruct [fine] tuning:
 	- In a more general sense, is to continue training LLM bases to obtain the ability of conducting different tasks described in task-specific meta information in forms of instructions. There is also motivation to generalise such ability to unseen instructions (i.e., tasks) after tuning. Example projects include:
@@ -84,11 +84,11 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzIzMTg0MiwtNjM1MjMwNDIzLDExNT
-k5MTEwMTAsMTg5ODUzMDEwMCwtMTczNjMwNTE4LDEyNTMxNDIw
-MzcsLTYxMTY0NDc2NywyMDI0MDk5NzA1LC00NTY1ODU1OTEsMT
-AyMjAwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0OTgzLC01NDcw
-MzkwODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLDU1NjAxNTUzMy
-wtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1NTc3LC00MDIx
-MDgxN119
+eyJoaXN0b3J5IjpbNTI4NTUxMjY2LC02MzUyMzA0MjMsMTE1OT
+kxMTAxMCwxODk4NTMwMTAwLC0xNzM2MzA1MTgsMTI1MzE0MjAz
+NywtNjExNjQ0NzY3LDIwMjQwOTk3MDUsLTQ1NjU4NTU5MSwxMD
+IyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5ODMsLTU0NzAz
+OTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1NTMzLC
+03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLTQwMjEw
+ODE3XX0=
 -->
