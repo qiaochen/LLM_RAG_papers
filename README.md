@@ -86,7 +86,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 #### b. Fintuning for RAG 
 
 - Wang, B., Ping, W., Xu, P., McAfee, L., Liu, Z., Shoeybi, M., ... & Catanzaro, B. (2023). [Shall we pretrain autoregressive language models with retrieval? a comprehensive study](https://arxiv.org/abs/2304.06762). _arXiv preprint arXiv:2304.06762_.
-> The title question 
+> Yes to the title question, and here comes a line of research in this section.  
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). [RAFT: Adapting Language Model to Domain Specific RAG](https://arxiv.org/pdf/2403.10131.pdf). _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
 > This work proposes to finetune LLMs for better RAG, an approach that could be applied to addressing bottleneck 2) commented above (i.e. LLMs ability of selecting pertinent and ignoring distracting references). The key idea is, during finetuning, the input additionally include context documents that are mixed with unrelated candidates. Thus, the LLM has to change its behaviors during training to make best use of the right document for answering. The finetuning strategy also has a mechanism that occasionally turns off feeding context references into the input, so as to make the parametric LLM also learn new domain knowledge in its parameters.
 > They claim using _Chain-of-Thought_ prompting strategy greatly boosted model performance.  
@@ -117,7 +117,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 
 - Patil, S. G., Zhang, T., Wang, X., & Gonzalez, J. E. (2023). [Gorilla: Large language model connected with massive apis](https://arxiv.org/abs/2305.15334). _arXiv preprint arXiv:2305.15334_. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE5MjE3MDcsNzM0NzkzMjE4LC00OD
+eyJoaXN0b3J5IjpbLTEwMzI5NDMyMzgsNzM0NzkzMjE4LC00OD
 k0ODgsLTEzNjM5Mzg4ODMsLTg0MTU1OTg0MywxNzUxMjEwMDYy
 LC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5NjMzOCw0OT
 gwOTg5NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2MiwtNjM1MjMw
