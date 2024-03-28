@@ -50,7 +50,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 				- 
 				- Bag-of-token representation + BM25
 		- Reranker
-			- Different from retriever, their 
+			- Different from retriever, modern rerankers usually take in both query and document to rerank the documents
 		- Indexed resources
 	- In a vanila RAG system, LLM is fixed, so the upper bound of the response quality is determined by the retrieval system and the external resources. 
 		- At a small resource scale (e.g., < 10k documents), dense vector approach with vector databases (e.g., [qdrant](https://qdrant.tech/articles/sparse-vectors/), [faiss](https://faiss.ai/index.html)) can be a good solution. However, the vectors and indexes (e.g., by [Hierarchical Navigable Small World (HNSW)](https://arxiv.org/abs/1603.09320)) are loaded to RAM, which may not be applicable to a larger scale.
@@ -71,11 +71,11 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyNTExMzE5LC0xNzM2MzA1MTgsMTI1Mz
-E0MjAzNywtNjExNjQ0NzY3LDIwMjQwOTk3MDUsLTQ1NjU4NTU5
-MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5ODMsLT
-U0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1
-NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLT
-QwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbMjA3MTQ4MTk4NiwtMTczNjMwNTE4LDEyNT
+MxNDIwMzcsLTYxMTY0NDc2NywyMDI0MDk5NzA1LC00NTY1ODU1
+OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0OTgzLC
+01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLDU1NjAx
+NTUzMywtNzUwNTE0OTQ1LDcyNzQ5ODA4MywtNTM3MDY1NTc3LC
+00MDIxMDgxNywtMTYyNzQyODcsMTg3ODAxNTc1NiwtMjA4ODc0
+NjYxMl19
 -->
