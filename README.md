@@ -75,6 +75,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > 
 > "_LM-Evaluation-Harness is a robust benchmarking tool that currently serves as the industry standard for model evaluation and is the basis of the HuggingFace leaderboard3 . Leveraging this platform ensured a standardized evaluation framework and allowed consistent comparison across models, methods, and datasets. More importantly, by using the industry standard for evaluation, we could avoid any differences stemming from prompt engineering and formatting issues and replicate the reported baseline results for each model._" 
 
+- Soudani, H., Kanoulas, E., & Hasibi, F. (2024). [Fine Tuning vs. Retrieval Augmented Generation for Less Popular Knowledge. _arXiv preprint arXiv:2403.01432_.
+
 #### b. Fintuning for RAG 
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). RAFT: Adapting Language Model to Domain Specific RAG. _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
 > This work proposes to finetune LLMs for better RAG, an approach that could be applied to addressing bottleneck 2) commented above (i.e. LLMs ability of selecting pertinent and ignoring distracting references). The key idea is, during finetuning, the input additionally include context documents that are mixed with unrelated candidates. Thus, the LLM has to change its behaviors during training to make best use of the right document for answering. The finetuning strategy also has a mechanism that occasionally turns off feeding context references into the input, so as to make the parametric LLM also learn new domain knowledge in its parameters.
@@ -91,11 +93,11 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MDk4OTY1LC05MzM4NzcxMTYsLTE5ND
-ExOTYxNjIsLTYzNTIzMDQyMywxMTU5OTExMDEwLDE4OTg1MzAx
-MDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC02MTE2NDQ3NjcsMj
-AyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3MjgsLTY0ODM2
-MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC02MTg5Mjk5ND
-EsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1MDUxNDk0NSw3Mjc0
-OTgwODNdfQ==
+eyJoaXN0b3J5IjpbLTIxMjY4Nzg2MTYsNDk4MDk4OTY1LC05Mz
+M4NzcxMTYsLTE5NDExOTYxNjIsLTYzNTIzMDQyMywxMTU5OTEx
+MDEwLDE4OTg1MzAxMDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC
+02MTE2NDQ3NjcsMjAyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIw
+MDc3MjgsLTY0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MD
+gxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1
+MDUxNDk0NV19
 -->
