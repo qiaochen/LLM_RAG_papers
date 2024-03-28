@@ -115,15 +115,16 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Chevalier, A., Geng, J., Wettig, A., Chen, H., Mizera, S., Annala, T., ... & Chen, D. (2024). [Language Models as Science Tutors](https://arxiv.org/pdf/2402.11111.pdf). _arXiv preprint arXiv:2402.11111_.
 
 - Patil, S. G., Zhang, T., Wang, X., & Gonzalez, J. E. (2023). [Gorilla: Large language model connected with massive apis](https://arxiv.org/abs/2305.15334). _arXiv preprint arXiv:2305.15334_. 
+> 
 
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
-> An Agent-like application that routes input queries to pubmed url tools, 
+> An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTE1ODUzNSwtMTAzMjk0MzIzOCw3Mz
-Q3OTMyMTgsLTQ4OTQ4OCwtMTM2MzkzODg4MywtODQxNTU5ODQz
-LDE3NTEyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMyMywtOD
-c4NDk2MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOTQxMTk2
-MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMwMTAwLC
-0xNzM2MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LDIwMjQw
-OTk3MDVdfQ==
+eyJoaXN0b3J5IjpbLTExNzI4NTk4MTAsLTEwMzI5NDMyMzgsNz
+M0NzkzMjE4LC00ODk0ODgsLTEzNjM5Mzg4ODMsLTg0MTU1OTg0
+MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLT
+g3ODQ5NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMTk0MTE5
+NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUzMDEwMC
+wtMTczNjMwNTE4LDEyNTMxNDIwMzcsLTYxMTY0NDc2NywyMDI0
+MDk5NzA1XX0=
 -->
