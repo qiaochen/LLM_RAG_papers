@@ -60,9 +60,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > With a competent LLM and good retrieval system accompanied by techniques like [Chain of Thoughts Prompting](https://arxiv.org/abs/2201.11903), RAG has the potential to perform comparably well or even better than fine-tuned LLMs in a new domain. It is also much more flexible to manipulate external knowledge for updating or filtering information. However, the potentially incurred new bottlenecks now are:
 >      1) The "goodness" of a retriever and/or a reranker for a new domain:
 >      2) After the retrieval systems finish its job, the "goodness" of a LLM's ability of selecting pertinent documents, ignoring distracting documents, and making sound responses.
->      For 1), in case of dense vector approach, expanding dictionary & finetunning top-performing encoders in a new domain would be a standard way: while in the case of sparse vector approach, adapting token-based index and Bag-Of-Token representations towards the new domain is the   
->      Would the ability of something best included in the "meta knowledge of behaviors such as instruct-following, prompt understanding etc" ?
->      If so, then it might be helpful to explicitly fine-tune models to better capture such knowledge (There is increasing research interest in this direction). 
+>      For 1), in case of dense vector approach, expanding dictionary & finetunning top-performing encoders in a new domain would be a standard way: while in the case of sparse vector approach, more domain specific data engineering is the approach, e.g., better token-based index and Bag-Of-Token representations.
+>      For 2),       If so, then it might be helpful to explicitly fine-tune models to better capture such knowledge (There is increasing research interest in this direction). 
 >      
 
 A technique gaining increasing attention:
@@ -71,11 +70,11 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjA1NzQ5NjQsLTE3MzYzMDUxOCwxMj
-UzMTQyMDM3LC02MTE2NDQ3NjcsMjAyNDA5OTcwNSwtNDU2NTg1
-NTkxLDEwMjIwMDc3MjgsLTY0ODM2MjIyNSwtMTA2NTg3NDk4My
-wtNTQ3MDM5MDgxLC02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYw
-MTU1MzMsLTc1MDUxNDk0NSw3Mjc0OTgwODMsLTUzNzA2NTU3Ny
-wtNDAyMTA4MTcsLTE2Mjc0Mjg3LDE4NzgwMTU3NTYsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNDAzOTAyNzkzLC0xNzM2MzA1MTgsMTI1Mz
+E0MjAzNywtNjExNjQ0NzY3LDIwMjQwOTk3MDUsLTQ1NjU4NTU5
+MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5ODMsLT
+U0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3NTIwMjEsNTU2MDE1
+NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC01MzcwNjU1NzcsLT
+QwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1NzU2LC0yMDg4NzQ2
+NjEyXX0=
 -->
