@@ -47,7 +47,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 				- Document encoder
 				- Retrieval boils down to find the most similar document embeddings given a query embedding vector, [a pubmed fine-tuned retriever](https://github.com/ncbi/MedCPT)
 			- Sparse embedding-based:
-				- 
+				- In contrast to dense embedding, sparse embeddings normally work in the input token level, 
 				- Bag-of-token representation + BM25, based on token overlap, is more conservative than dense-vector based solution.
 		- Reranker
 			- Different from retriever, modern rerankers usually take in both query and document as input to rerank the documents, thus more computationally expensive. Normally, they are applied to top-K candidate documents that are returned by a retriever, [example reranker](https://huggingface.co/BAAI/bge-reranker-base).   
@@ -71,7 +71,7 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDIyMzEzOSwtMTczNjMwNTE4LDEyNT
+eyJoaXN0b3J5IjpbMTc2NzI5NzY2NywtMTczNjMwNTE4LDEyNT
 MxNDIwMzcsLTYxMTY0NDc2NywyMDI0MDk5NzA1LC00NTY1ODU1
 OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0OTgzLC
 01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLDU1NjAx
