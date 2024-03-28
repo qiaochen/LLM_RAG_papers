@@ -45,7 +45,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 			- Dense embedding-based (relying on BERT-based encoders):
 				- Query encoder
 				- Document encoder
-				- Retrieval boils down to find 
+				- Retrieval boils down to find the most similar document embeddings given a query embedding vector
 			- Sparse embedding-based:
 				- 
 				- Bag-of-Token representation + BM25
@@ -70,7 +70,7 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDMxODgzOCwxMjUzMTQyMDM3LC02MT
+eyJoaXN0b3J5IjpbLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC02MT
 E2NDQ3NjcsMjAyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3
 MjgsLTY0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC
 02MTg5Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1MDUx
