@@ -76,7 +76,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > "_LM-Evaluation-Harness is a robust benchmarking tool that currently serves as the industry standard for model evaluation and is the basis of the HuggingFace leaderboard3 . Leveraging this platform ensured a standardized evaluation framework and allowed consistent comparison across models, methods, and datasets. More importantly, by using the industry standard for evaluation, we could avoid any differences stemming from prompt engineering and formatting issues and replicate the reported baseline results for each model._" 
 
 - Soudani, H., Kanoulas, E., & Hasibi, F. (2024). [Fine Tuning vs. Retrieval Augmented Generation for Less Popular Knowledge](https://arxiv.org/pdf/2403.01432.pdf). _arXiv preprint arXiv:2403.01432_.
-> _This paper explores and evaluates the impact of RAG and FT on customizing LLMs in handling low-frequency entities on question answering task._ Their base model is a T5 variation, FlanT5. Most Table 2  
+> _This paper explores and evaluates the impact of RAG and FT on customizing LLMs in handling low-frequency entities on question answering task._ Their base model is a T5 variation, FlanT5. Most solid conclusion from Table 2 is that RAG  
 
 - Gupta, A., Shirgaonkar, A., Balaguer, A. D. L., Silva, B., Holstein, D., Li, D., ... & Benara, V. (2024). [RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406). _arXiv preprint arXiv:2401.08406_.
 
@@ -96,11 +96,11 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4NDA0MTI3LDE4OTQxNzYzMjMsLTg3OD
-Q5NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2
-MiwtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUzMDEwMCwtMT
-czNjMwNTE4LDEyNTMxNDIwMzcsLTYxMTY0NDc2NywyMDI0MDk5
-NzA1LC00NTY1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC
-0xMDY1ODc0OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3
-NzUyMDIxXX0=
+eyJoaXN0b3J5IjpbLTEwNDM5MTQ1MTgsMTg5NDE3NjMyMywtOD
+c4NDk2MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOTQxMTk2
+MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMwMTAwLC
+0xNzM2MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LDIwMjQw
+OTk3MDUsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgzNjIyMj
+UsLTEwNjU4NzQ5ODMsLTU0NzAzOTA4MSwtNjE4OTI5OTQxLDIw
+Nzc3NTIwMjFdfQ==
 -->
