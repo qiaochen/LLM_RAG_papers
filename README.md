@@ -97,7 +97,9 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > where $p_R(c|x) = \frac{exp s(x,c)}{\sum_{c' \in C'} exp s(x, c')}$ 
 > $p_{LSR}(c|x,y) = \frac{exp(p_{LM}(y|[c;x])/\tau)}{\sum_{c' \in C'} exp(p_{LM}(y|[c';x])/\tau)}$
 > $C'$ is the set of retrieved documents.
+> Performance shown in Table 2 indicates a 
 - Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). [Effective large language model adaptation for improved grounding](https://arxiv.org/abs/2311.09533). _arXiv preprint arXiv:2311.09533_.
+
 
 #### c. Combining Knowledge Graph and LLM by RAG
 - Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques. _arXiv preprint arXiv:2403.05881_.
@@ -125,7 +127,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3MTQzNjIzLC05NzY4NTkyNzgsLTk1OD
+eyJoaXN0b3J5IjpbOTkxOTQxNTEyLC05NzY4NTkyNzgsLTk1OD
 U2MzEzNiwtMTAzMjk0MzIzOCw3MzQ3OTMyMTgsLTQ4OTQ4OCwt
 MTM2MzkzODg4MywtODQxNTU5ODQzLDE3NTEyMTAwNjIsLTEwND
 M5MTQ1MTgsMTg5NDE3NjMyMywtODc4NDk2MzM4LDQ5ODA5ODk2
