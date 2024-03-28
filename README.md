@@ -90,7 +90,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > They claim using _Chain-of-Thought_ prompting strategy greatly boosted model performance.  
 
 - Lin, X. V., Chen, X., Chen, M., Shi, W., Lomeli, M., James, R., ... & Yih, S. (2024). [Ra-dit: Retrieval-augmented dual instruction tuning](https://openreview.net/pdf?id=22OTbutug9). ICLR 2024.
->
+> Both dense retriever and LLM are fine-tuned to improve RAG performance. In a sense it is addressing the two bottlenecks mentioned above.  
 
 - Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). [Effective large language model adaptation for improved grounding](https://arxiv.org/abs/2311.09533). _arXiv preprint arXiv:2311.09533_.
 
@@ -120,11 +120,11 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODU2MzEzNiwtMTAzMjk0MzIzOCw3Mz
-Q3OTMyMTgsLTQ4OTQ4OCwtMTM2MzkzODg4MywtODQxNTU5ODQz
-LDE3NTEyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMyMywtOD
-c4NDk2MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOTQxMTk2
-MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMwMTAwLC
-0xNzM2MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LDIwMjQw
-OTk3MDVdfQ==
+eyJoaXN0b3J5IjpbMjAwMTY1MTk5MiwtOTU4NTYzMTM2LC0xMD
+MyOTQzMjM4LDczNDc5MzIxOCwtNDg5NDg4LC0xMzYzOTM4ODgz
+LC04NDE1NTk4NDMsMTc1MTIxMDA2MiwtMTA0MzkxNDUxOCwxOD
+k0MTc2MzIzLC04Nzg0OTYzMzgsNDk4MDk4OTY1LC05MzM4Nzcx
+MTYsLTE5NDExOTYxNjIsLTYzNTIzMDQyMywxMTU5OTExMDEwLD
+E4OTg1MzAxMDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC02MTE2
+NDQ3NjddfQ==
 -->
