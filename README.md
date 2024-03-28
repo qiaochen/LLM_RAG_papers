@@ -94,20 +94,21 @@ These literature indicate the promising role of RAG in domain adaptation.
 ##### c. Survey, Position articles
 - 
 
-- Asai, A., Zhong, Z., Chen, D., Koh, P. W., Zettlemoyer, L., Hajishirzi, H., & Yih, W. T. (2024). Reliable, Adaptable, and Attributable Language Models with Retrieval. _arXiv preprint arXiv:2403.03187_.
-- Pan, S., Luo, L., Wang, Y., Chen, C., Wang, J., & Wu, X. (2024). Unifying large language models and knowledge graphs: A roadmap. _IEEE Transactions on Knowledge and Data Engineering_.
-> How to integrate Knowledge Graphs (KG) and LLMs, or enhance KG
+- Asai, A., Zhong, Z., Chen, D., Koh, P. W., Zettlemoyer, L., Hajishirzi, H., & Yih, W. T. (2024). [Reliable, Adaptable, and Attributable Language Models with Retrieval](https://arxiv.org/pdf/2403.03187.pdf). _arXiv preprint arXiv:2403.03187_.
+> Some directions for improving 
+- Pan, S., Luo, L., Wang, Y., Chen, C., Wang, J., & Wu, X. (2024). [Unifying large language models and knowledge graphs: A roadmap](https://arxiv.org/pdf/2306.08302.pdf). _IEEE Transactions on Knowledge and Data Engineering_.
+> How to integrate Knowledge Graphs (KG) and LLMs, or enhance one with the other.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzODYxODUxLC04NDE1NTk4NDMsMTc1MT
-IxMDA2MiwtMTA0MzkxNDUxOCwxODk0MTc2MzIzLC04Nzg0OTYz
-MzgsNDk4MDk4OTY1LC05MzM4NzcxMTYsLTE5NDExOTYxNjIsLT
-YzNTIzMDQyMywxMTU5OTExMDEwLDE4OTg1MzAxMDAsLTE3MzYz
-MDUxOCwxMjUzMTQyMDM3LC02MTE2NDQ3NjcsMjAyNDA5OTcwNS
-wtNDU2NTg1NTkxLDEwMjIwMDc3MjgsLTY0ODM2MjIyNSwtMTA2
-NTg3NDk4M119
+eyJoaXN0b3J5IjpbMTI1MjMxNTkyMiwtODQxNTU5ODQzLDE3NT
+EyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMyMywtODc4NDk2
+MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOTQxMTk2MTYyLC
+02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMwMTAwLC0xNzM2
+MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LDIwMjQwOTk3MD
+UsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEw
+NjU4NzQ5ODNdfQ==
 -->
