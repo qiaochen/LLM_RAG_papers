@@ -19,7 +19,7 @@ Adopting next token prediction (so coined causal language models) as a simple le
 	- To train, generated tokens for answers or responses are compared with ground-truth for measuring losses and updating model parameters.   
 
 - Alignment:
-	- This step is usually after fine-tunning, the goal is to align LLM ge 
+	- This step is normally conducted after fine-tunning, the goal is to align LLM responses to human behaviors. Because 
 
 Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following related token generation patterns.
 
@@ -89,7 +89,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MjAwMjk1LC05MzM4NzcxMTYsLTE5ND
+eyJoaXN0b3J5IjpbODc1NDc4OTM2LC05MzM4NzcxMTYsLTE5ND
 ExOTYxNjIsLTYzNTIzMDQyMywxMTU5OTExMDEwLDE4OTg1MzAx
 MDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC02MTE2NDQ3NjcsMj
 AyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3MjgsLTY0ODM2
