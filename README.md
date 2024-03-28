@@ -59,8 +59,8 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > Comments
 > With a competent LLM and good retrieval system accompanied by techniques like [Chain of Thoughts Prompting](https://arxiv.org/abs/2201.11903), RAG has the potential to perform comparably well or even better than fine-tuned LLMs in a new domain. It is also much more flexible to manipulate external knowledge for updating or filtering information. However, the potentially incurred new bottlenecks now are:
 >      1) The "goodness" of a retriever and/or a reranker for a new domain:
->      2) After the retrieval systems finish its job, the "goodness" of a LLM's ability of selecting documents, ignoring distracting documents, and making sound responses.
->      Question:
+>      2) After the retrieval systems finish its job, the "goodness" of a LLM's ability of selecting pertinent documents, ignoring distracting documents, and making sound responses.
+>      For 1), :
 >      Would the ability of something best included in the "meta knowledge of behaviors such as instruct-following, prompt understanding etc" ?
 >      If so, then it might be helpful to explicitly fine-tune models to better capture such knowledge (There is increasing research interest in this direction). 
 >      
@@ -71,7 +71,7 @@ A technique gaining increasing attention:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzA0NjI4NSwtMTczNjMwNTE4LDEyNT
+eyJoaXN0b3J5IjpbLTU5NjUyMjgxNSwtMTczNjMwNTE4LDEyNT
 MxNDIwMzcsLTYxMTY0NDc2NywyMDI0MDk5NzA1LC00NTY1ODU1
 OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0xMDY1ODc0OTgzLC
 01NDcwMzkwODEsLTYxODkyOTk0MSwyMDc3NzUyMDIxLDU1NjAx
