@@ -63,8 +63,9 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 >      For 1), in case of dense vector approach, expanding dictionary & finetunning top-performing encoders in a new domain would be a standard way: while in the case of sparse vector approach, more domain specific data engineering is the approach, e.g., better token-based index and Bag-Of-Token representations.
 >      For 2), this ability can be categorised into some meta knowledge belonging to instruction following. Therefore, it might be helpful to compile a instruct-tuning task for LLMs to better capture such knowledge (There is increasing research interest in this direction). 
 
-Recent research trying to merry finetuning and retrieval:
-
+Relevant recent research trying to merry finetuning and retrieval:
+1 RAFT: Adapting Language Model to Domain Specific RAG
+[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
 
 
 
@@ -72,11 +73,11 @@ Recent research trying to merry finetuning and retrieval:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTkxMTAxMCwxODk4NTMwMTAwLC0xNz
-M2MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LDIwMjQwOTk3
-MDUsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLT
-EwNjU4NzQ5ODMsLTU0NzAzOTA4MSwtNjE4OTI5OTQxLDIwNzc3
-NTIwMjEsNTU2MDE1NTMzLC03NTA1MTQ5NDUsNzI3NDk4MDgzLC
-01MzcwNjU1NzcsLTQwMjEwODE3LC0xNjI3NDI4NywxODc4MDE1
-NzU2XX0=
+eyJoaXN0b3J5IjpbLTU3ODMwNzA1MSwxMTU5OTExMDEwLDE4OT
+g1MzAxMDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC02MTE2NDQ3
+NjcsMjAyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3MjgsLT
+Y0ODM2MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC02MTg5
+Mjk5NDEsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1MDUxNDk0NS
+w3Mjc0OTgwODMsLTUzNzA2NTU3NywtNDAyMTA4MTcsLTE2Mjc0
+Mjg3XX0=
 -->
