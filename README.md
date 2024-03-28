@@ -21,7 +21,7 @@ Adopting next token prediction (so coined causal language models) as a simple le
 - Alignment:
 	- This step is normally conducted after fine-tunning, the goal is to align LLM's generations to human preferences. In practice, reinforcement learning from human feedback (RLHF) is the most popular general framework for inducing such preferences for LLMs (yes, here comes another learning procedure). The human preference scores for discourse are not direct labels predicted from LLMs, but rather, they can be viewed as long-term rewards, and hence naturally fit into the scope of a reinforcement learning framework. 
 	- Practically, gradient-based [Proximal Policy Optimization, PPO](https://arxiv.org/pdf/1707.06347.pdf) or more recent [Direct Preference Optimization, DPO](https://arxiv.org/abs/2305.18290) are popular approaches.
-	- Normally, this step requires a trained reward model that can score LLM's outputs based on human preferences, during  
+	- Normally, this step requires a fixed trained reward model that can score LLM's outputs based on human preferences, LLM's parameters can then be adjusted with a chosen to better match human preferences during the training procedure.  
 
 Note, both plain fine tuning and instruct tuning may result in a LLM forgetting its previous captured token co-occurrence patterns (world knowledge). Plain fine-tuning may capture new patterns at the cost of losing old patterns, while instruct tuning may sacrifice world knowledge for obtaining instruct-following related token generation patterns.
 
@@ -91,11 +91,11 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzNzQyMTA4LC05MzM4NzcxMTYsLTE5ND
-ExOTYxNjIsLTYzNTIzMDQyMywxMTU5OTExMDEwLDE4OTg1MzAx
-MDAsLTE3MzYzMDUxOCwxMjUzMTQyMDM3LC02MTE2NDQ3NjcsMj
-AyNDA5OTcwNSwtNDU2NTg1NTkxLDEwMjIwMDc3MjgsLTY0ODM2
-MjIyNSwtMTA2NTg3NDk4MywtNTQ3MDM5MDgxLC02MTg5Mjk5ND
-EsMjA3Nzc1MjAyMSw1NTYwMTU1MzMsLTc1MDUxNDk0NSw3Mjc0
-OTgwODNdfQ==
+eyJoaXN0b3J5IjpbMjg5MTQ3NjEsLTkzMzg3NzExNiwtMTk0MT
+E5NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUzMDEw
+MCwtMTczNjMwNTE4LDEyNTMxNDIwMzcsLTYxMTY0NDc2NywyMD
+I0MDk5NzA1LC00NTY1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4MzYy
+MjI1LC0xMDY1ODc0OTgzLC01NDcwMzkwODEsLTYxODkyOTk0MS
+wyMDc3NzUyMDIxLDU1NjAxNTUzMywtNzUwNTE0OTQ1LDcyNzQ5
+ODA4M119
 -->
