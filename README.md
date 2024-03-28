@@ -79,7 +79,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 > _This paper explores and evaluates the impact of RAG and FT (supervised) on customizing LLMs in handling low-frequency entities on question answering task._ Their base model is a T5 variation, FlanT5. Most solid conclusion from Table 2 is that RAG can greatly (10X on FlanT5-base)  boost the performance of LLM without any finetuning, while finetuning alone can only achieve <2 X performance gain on FlanT5-base. RAG + finetuning achieves slightly better performance on FlanT5-base than RAG alone, showing the major contributor is RAG. 
 
 - Gupta, A., Shirgaonkar, A., Balaguer, A. D. L., Silva, B., Holstein, D., Li, D., ... & Benara, V. (2024). [RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406). _arXiv preprint arXiv:2401.08406_.
-> Not sure how GPT-4 was fine-tuned, but from Tables 
+> Not sure how GPT-4 was fine-tuned, but from Tables 18, 19 & 20, by comparing the RAG+GPT4 and Finetune+GPT4 options, 
 
 #### b. Fintuning for RAG 
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). RAFT: Adapting Language Model to Domain Specific RAG. _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
@@ -97,11 +97,11 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2MjEwMzU0LDE3NTEyMTAwNjIsLTEwND
-M5MTQ1MTgsMTg5NDE3NjMyMywtODc4NDk2MzM4LDQ5ODA5ODk2
-NSwtOTMzODc3MTE2LC0xOTQxMTk2MTYyLC02MzUyMzA0MjMsMT
-E1OTkxMTAxMCwxODk4NTMwMTAwLC0xNzM2MzA1MTgsMTI1MzE0
-MjAzNywtNjExNjQ0NzY3LDIwMjQwOTk3MDUsLTQ1NjU4NTU5MS
-wxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEwNjU4NzQ5ODMsLTU0
-NzAzOTA4MV19
+eyJoaXN0b3J5IjpbLTE2MjQ3ODQ0MTgsMTc1MTIxMDA2MiwtMT
+A0MzkxNDUxOCwxODk0MTc2MzIzLC04Nzg0OTYzMzgsNDk4MDk4
+OTY1LC05MzM4NzcxMTYsLTE5NDExOTYxNjIsLTYzNTIzMDQyMy
+wxMTU5OTExMDEwLDE4OTg1MzAxMDAsLTE3MzYzMDUxOCwxMjUz
+MTQyMDM3LC02MTE2NDQ3NjcsMjAyNDA5OTcwNSwtNDU2NTg1NT
+kxLDEwMjIwMDc3MjgsLTY0ODM2MjIyNSwtMTA2NTg3NDk4Mywt
+NTQ3MDM5MDgxXX0=
 -->
