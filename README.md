@@ -70,7 +70,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 ### II. Relevant recent research:
 #### a. RAG vs Finetuning
-- Ovadia, O., Brief, M., Mishaeli, M., & Elisha, O. (2023). Fine-tuning or retrieval? comparing knowledge injection in llms. _arXiv preprint arXiv:2312.05934_.
+- Ovadia, O., Brief, M., Mishaeli, M., & Elisha, O. (2023). [Fine-tuning or retrieval? comparing knowledge injection in llms](https://arxiv.org/abs/2312.05934). _arXiv preprint arXiv:2312.05934_.
 > This paper compared RAG and unsupervised fine-tuning in new domain adaptation, both using the same new domain corpus. For evaluation, they use _LM-Evaluation-Harness_ (Which I used for evaluating Bloom, Llama2 and Mixture LLMs, too), the benefits are quoted below. The major results shown in Table 1 demonstrate _"while unsupervised fine-tuning offers some improvement, RAG consistently outperforms it, both for existing knowledge encountered during training and entirely new knowledge."_ Base+RAG without finetuning is comparable to Base+Finetune+RAG in the benchmark. 
 > 
 > "_LM-Evaluation-Harness is a robust benchmarking tool that currently serves as the industry standard for model evaluation and is the basis of the HuggingFace leaderboard3 . Leveraging this platform ensured a standardized evaluation framework and allowed consistent comparison across models, methods, and datasets. More importantly, by using the industry standard for evaluation, we could avoid any differences stemming from prompt engineering and formatting issues and replicate the reported baseline results for each model._" 
@@ -81,13 +81,13 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 - Gupta, A., Shirgaonkar, A., Balaguer, A. D. L., Silva, B., Holstein, D., Li, D., ... & Benara, V. (2024). [RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406). _arXiv preprint arXiv:2401.08406_.
 > Not sure how GPT-4 was fine-tuned, but from Tables 18, 19 & 20, by comparing the RAG+GPT4 and Finetune+GPT4 options, it is evident that the RAG is comparable to Finetuning in accuracy, and much better in _succinctness_ and  _Percent of answers that were fully correct_.
 
-These literature indicate the promising role of RAG in domain adaptation. 
+The above literature demonstrate the promising role of RAG in domain adaptation. 
 
 #### b. Fintuning for RAG 
 
 - Wang, B., Ping, W., Xu, P., McAfee, L., Liu, Z., Shoeybi, M., ... & Catanzaro, B. (2023). [Shall we pretrain autoregressive language models with retrieval? a comprehensive study](https://arxiv.org/abs/2304.06762). _arXiv preprint arXiv:2304.06762_.
 
-- Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). RAFT: Adapting Language Model to Domain Specific RAG. _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
+- Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). [RAFT: Adapting Language Model to Domain Specific RAG](https://arxiv.org/pdf/2403.10131.pdf). _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
 > This work proposes to finetune LLMs for better RAG, an approach that could be applied to addressing bottleneck 2) commented above (i.e. LLMs ability of selecting pertinent and ignoring distracting references). The key idea is, during finetuning, the input additionally include context documents that are mixed with unrelated candidates. Thus, the LLM has to change its behaviors during training to make best use of the right document for answering. The finetuning strategy also has a mechanism that occasionally turns off feeding context references into the input, so as to make the parametric LLM also learn new domain knowledge in its parameters.
 > They claim using _Chain-of-Thought_ prompting strategy greatly boosted model performance.  
 
@@ -113,11 +113,11 @@ These literature indicate the promising role of RAG in domain adaptation.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzI2NjgzNSwtODQxNTU5ODQzLDE3NT
-EyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMyMywtODc4NDk2
-MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOTQxMTk2MTYyLC
-02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMwMTAwLC0xNzM2
-MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LDIwMjQwOTk3MD
-UsLTQ1NjU4NTU5MSwxMDIyMDA3NzI4LC02NDgzNjIyMjUsLTEw
-NjU4NzQ5ODNdfQ==
+eyJoaXN0b3J5IjpbLTEzNjM5Mzg4ODMsLTg0MTU1OTg0MywxNz
+UxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5
+NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2Mi
+wtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUzMDEwMCwtMTcz
+NjMwNTE4LDEyNTMxNDIwMzcsLTYxMTY0NDc2NywyMDI0MDk5Nz
+A1LC00NTY1ODU1OTEsMTAyMjAwNzcyOCwtNjQ4MzYyMjI1LC0x
+MDY1ODc0OTgzXX0=
 -->
