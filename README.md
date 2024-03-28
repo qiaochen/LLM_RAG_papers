@@ -108,21 +108,22 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 
 #### c. Others, Miscellaneous
 - Wang, B., Ping, W., Xu, P., McAfee, L., Liu, Z., Shoeybi, M., ... & Catanzaro, B. (2023). [Shall we pretrain autoregressive language models with retrieval? a comprehensive study](https://arxiv.org/abs/2304.06762). _arXiv preprint arXiv:2304.06762_.
-> This work tries to augment LLM with retrieved context during continuedtraining time.
-
+> This work attempts to augment LLM with retrieved context during [continued] training time.
 
 - Jiang, Z., Sun, Z., Shi, W., Rodriguez, P., Zhou, C., Neubig, G., ... & Iyer, S. (2024). [Instruction-tuned Language Models are Better Knowledge Learners](https://arxiv.org/pdf/2402.12847.pdf). _arXiv preprint arXiv:2402.12847_.
 
 - Chevalier, A., Geng, J., Wettig, A., Chen, H., Mizera, S., Annala, T., ... & Chen, D. (2024). [Language Models as Science Tutors](https://arxiv.org/pdf/2402.11111.pdf). _arXiv preprint arXiv:2402.11111_.
 
 - Patil, S. G., Zhang, T., Wang, X., & Gonzalez, J. E. (2023). [Gorilla: Large language model connected with massive apis](https://arxiv.org/abs/2305.15334). _arXiv preprint arXiv:2305.15334_. 
+
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
+> An Agent-like application that routes input queries to pubmed url tools, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMTI2OTUxLC0xMDMyOTQzMjM4LDczND
-c5MzIxOCwtNDg5NDg4LC0xMzYzOTM4ODgzLC04NDE1NTk4NDMs
-MTc1MTIxMDA2MiwtMTA0MzkxNDUxOCwxODk0MTc2MzIzLC04Nz
-g0OTYzMzgsNDk4MDk4OTY1LC05MzM4NzcxMTYsLTE5NDExOTYx
-NjIsLTYzNTIzMDQyMywxMTU5OTExMDEwLDE4OTg1MzAxMDAsLT
-E3MzYzMDUxOCwxMjUzMTQyMDM3LC02MTE2NDQ3NjcsMjAyNDA5
-OTcwNV19
+eyJoaXN0b3J5IjpbMjA5NTE1ODUzNSwtMTAzMjk0MzIzOCw3Mz
+Q3OTMyMTgsLTQ4OTQ4OCwtMTM2MzkzODg4MywtODQxNTU5ODQz
+LDE3NTEyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMyMywtOD
+c4NDk2MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOTQxMTk2
+MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMwMTAwLC
+0xNzM2MzA1MTgsMTI1MzE0MjAzNywtNjExNjQ0NzY3LDIwMjQw
+OTk3MDVdfQ==
 -->
