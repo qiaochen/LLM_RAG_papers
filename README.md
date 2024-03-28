@@ -92,7 +92,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Lin, X. V., Chen, X., Chen, M., Shi, W., Lomeli, M., James, R., ... & Yih, S. (2024). [Ra-dit: Retrieval-augmented dual instruction tuning](https://openreview.net/pdf?id=22OTbutug9). ICLR 2024.
 > Both dense retriever and LLM are fine-tuned to improve RAG performance. In a sense it is addressing the two bottlenecks mentioned above, i.e., 1) improve “goodness” of a retriever in new domain, and 2) improve a LLM’s ability of selecting pertinent documents, ignoring distracting documents.
 > For finetuning LLM, given a (prompt, response) pair, after retrieving C documents, each of them is prepended to prompt, creating C new datapoints of $\{[c_{i,j};x], y  \}$. These constitute the augmented training samples and losses are accumulated from all the datapoints: $L(D_L) = -\sum_{i}\sum_{j}logp_{LM}(y_i|[c_{ij};x])$. This adapts LLM to better utilize background knowledge in generating responses with or without relevant references.
-> For finetuning retriever (only query encoder), they   
+> For finetuning retriever (only query encoder), they try to mat   
 
 - Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). [Effective large language model adaptation for improved grounding](https://arxiv.org/abs/2311.09533). _arXiv preprint arXiv:2311.09533_.
 
@@ -122,11 +122,11 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQyNTMwOTcsLTk3Njg1OTI3OCwtOT
-U4NTYzMTM2LC0xMDMyOTQzMjM4LDczNDc5MzIxOCwtNDg5NDg4
-LC0xMzYzOTM4ODgzLC04NDE1NTk4NDMsMTc1MTIxMDA2MiwtMT
-A0MzkxNDUxOCwxODk0MTc2MzIzLC04Nzg0OTYzMzgsNDk4MDk4
-OTY1LC05MzM4NzcxMTYsLTE5NDExOTYxNjIsLTYzNTIzMDQyMy
-wxMTU5OTExMDEwLDE4OTg1MzAxMDAsLTE3MzYzMDUxOCwxMjUz
-MTQyMDM3XX0=
+eyJoaXN0b3J5IjpbMTk0MzcxMTUxNywtOTc2ODU5Mjc4LC05NT
+g1NjMxMzYsLTEwMzI5NDMyMzgsNzM0NzkzMjE4LC00ODk0ODgs
+LTEzNjM5Mzg4ODMsLTg0MTU1OTg0MywxNzUxMjEwMDYyLC0xMD
+QzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5NjMzOCw0OTgwOTg5
+NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2MiwtNjM1MjMwNDIzLD
+ExNTk5MTEwMTAsMTg5ODUzMDEwMCwtMTczNjMwNTE4LDEyNTMx
+NDIwMzddfQ==
 -->
