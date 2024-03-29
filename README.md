@@ -100,7 +100,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > Performance shown in Table 2 indicates a great improvement of RA-DIT over  non-finetuned raw model. The advantages over non-finetuned state-of-the-art RAG model are also demonstrated, although not that great.
 - Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). [Effective large language model adaptation for improved grounding](https://arxiv.org/abs/2311.09533). _arXiv preprint arXiv:2311.09533_.
 > This work fine-tunes LLMs to improve the quality of citation. A fine-tuning training prompt consists of query, response (multi-sentence) and citations (per-sentence, if any). First, they prompt LLM-base with query and reference as input, to synthesise responses. These triple elements serve as ground-truth to fine tune LLM based on the prompt above, in a sense the instruction following for citation is learned as a supervised task.
-> After fine-tuning, the inference has multiple rounds of fetc
+> After fine-tuning, the inference has multiple rounds of retrieval and citation, with the aim to cite for previously
 
 #### c. Evaluation
 - Gao, T., Yen, H., Yu, J., & Chen, D. (2023). Enabling large language models to generate text with citations.  _arXiv preprint arXiv:2305.14627_.
@@ -133,11 +133,11 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTQ4ODg2MTIsMTE1NTA5NTM5NSw1Mj
-UyNjkwNjcsLTE4ODY3NjEzNzYsOTU0MDUwNzQxLDk5MTk0MTUx
-MiwtOTc2ODU5Mjc4LC05NTg1NjMxMzYsLTEwMzI5NDMyMzgsNz
-M0NzkzMjE4LC00ODk0ODgsLTEzNjM5Mzg4ODMsLTg0MTU1OTg0
-MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLT
-g3ODQ5NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMTk0MTE5
-NjE2Ml19
+eyJoaXN0b3J5IjpbNjA4ODE0MjEsMTE1NTA5NTM5NSw1MjUyNj
+kwNjcsLTE4ODY3NjEzNzYsOTU0MDUwNzQxLDk5MTk0MTUxMiwt
+OTc2ODU5Mjc4LC05NTg1NjMxMzYsLTEwMzI5NDMyMzgsNzM0Nz
+kzMjE4LC00ODk0ODgsLTEzNjM5Mzg4ODMsLTg0MTU1OTg0Mywx
+NzUxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLTg3OD
+Q5NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2
+Ml19
 -->
