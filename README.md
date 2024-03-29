@@ -99,14 +99,17 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > $C'$ is the set of retrieved documents.
 > Performance shown in Table 2 indicates a great improvement of RA-DIT over  non-finetuned raw model. The advantages over non-finetuned state-of-the-art RAG model are also demonstrated, although not that great.
 - Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). [Effective large language model adaptation for improved grounding](https://arxiv.org/abs/2311.09533). _arXiv preprint arXiv:2311.09533_.
-> This work fine-tunes LLMs to improve the quality of citation. In the fine-tuning training data, 
+> This work fine-tunes LLMs to improve the quality of citation. The fine-tuning training data, 
 
+#### c. Evaluation
+- Gao, T., Yen, H., Yu, J., & Chen, D. (2023). Enabling large language models to generate text with citations.  _arXiv preprint arXiv:2305.14627_.
+> Almost 
 
-#### c. Combining Knowledge Graph and LLM by RAG
+#### d. Combining Knowledge Graph and LLM by RAG
 - Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques. _arXiv preprint arXiv:2403.05881_.
 > 
 
-#### d. Survey, Position articles
+#### e. Survey, Position articles
 - Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., ... & Wang, H. (2023). [Retrieval-augmented generation for large language models: A survey](https://arxiv.org/abs/2312.10997). _arXiv preprint arXiv:2312.10997_. 
 > Simply a pertinent albeit somewhat boring survey.
 - Asai, A., Zhong, Z., Chen, D., Koh, P. W., Zettlemoyer, L., Hajishirzi, H., & Yih, W. T. (2024). [Reliable, Adaptable, and Attributable Language Models with Retrieval](https://arxiv.org/pdf/2403.03187.pdf). _arXiv preprint arXiv:2403.03187_.
@@ -128,11 +131,11 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTEyMjU1MDUsOTU0MDUwNzQxLDk5MT
-k0MTUxMiwtOTc2ODU5Mjc4LC05NTg1NjMxMzYsLTEwMzI5NDMy
-MzgsNzM0NzkzMjE4LC00ODk0ODgsLTEzNjM5Mzg4ODMsLTg0MT
-U1OTg0MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYz
-MjMsLTg3ODQ5NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMT
-k0MTE5NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUz
-MDEwMF19
+eyJoaXN0b3J5IjpbMTk1OTIwMTAwNyw5NTQwNTA3NDEsOTkxOT
+QxNTEyLC05NzY4NTkyNzgsLTk1ODU2MzEzNiwtMTAzMjk0MzIz
+OCw3MzQ3OTMyMTgsLTQ4OTQ4OCwtMTM2MzkzODg4MywtODQxNT
+U5ODQzLDE3NTEyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMy
+MywtODc4NDk2MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOT
+QxMTk2MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMw
+MTAwXX0=
 -->
