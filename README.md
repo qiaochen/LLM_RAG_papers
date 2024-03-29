@@ -103,7 +103,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 
 #### c. Evaluation
 - Gao, T., Yen, H., Yu, J., & Chen, D. (2023). Enabling large language models to generate text with citations.  _arXiv preprint arXiv:2305.14627_.
-> Almost 
+> Becoming a standard RAG evaluation task. See github for  
 
 #### d. Combining Knowledge Graph and LLM by RAG
 - Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques. _arXiv preprint arXiv:2403.05881_.
@@ -131,11 +131,11 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTIwMTAwNyw5NTQwNTA3NDEsOTkxOT
-QxNTEyLC05NzY4NTkyNzgsLTk1ODU2MzEzNiwtMTAzMjk0MzIz
-OCw3MzQ3OTMyMTgsLTQ4OTQ4OCwtMTM2MzkzODg4MywtODQxNT
-U5ODQzLDE3NTEyMTAwNjIsLTEwNDM5MTQ1MTgsMTg5NDE3NjMy
-MywtODc4NDk2MzM4LDQ5ODA5ODk2NSwtOTMzODc3MTE2LC0xOT
-QxMTk2MTYyLC02MzUyMzA0MjMsMTE1OTkxMTAxMCwxODk4NTMw
-MTAwXX0=
+eyJoaXN0b3J5IjpbLTEwMDM4OTU1ODMsOTU0MDUwNzQxLDk5MT
+k0MTUxMiwtOTc2ODU5Mjc4LC05NTg1NjMxMzYsLTEwMzI5NDMy
+MzgsNzM0NzkzMjE4LC00ODk0ODgsLTEzNjM5Mzg4ODMsLTg0MT
+U1OTg0MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYz
+MjMsLTg3ODQ5NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMT
+k0MTE5NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUz
+MDEwMF19
 -->
