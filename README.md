@@ -99,6 +99,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > $C'$ is the set of retrieved documents.
 > Performance shown in Table 2 indicates a great improvement of RA-DIT over  non-finetuned raw model. The advantages over non-finetuned state-of-the-art RAG model are also demonstrated, although not that great.
 - Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). [Effective large language model adaptation for improved grounding](https://arxiv.org/abs/2311.09533). _arXiv preprint arXiv:2311.09533_.
+> This work fine-tunes LLMs to improve the quality of citation. In the fine-tuning training data, 
 
 
 #### c. Combining Knowledge Graph and LLM by RAG
@@ -127,11 +128,11 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0MDUwNzQxLDk5MTk0MTUxMiwtOTc2OD
-U5Mjc4LC05NTg1NjMxMzYsLTEwMzI5NDMyMzgsNzM0NzkzMjE4
-LC00ODk0ODgsLTEzNjM5Mzg4ODMsLTg0MTU1OTg0MywxNzUxMj
-EwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5NjMz
-OCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMTk0MTE5NjE2MiwtNj
-M1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUzMDEwMCwtMTczNjMw
-NTE4XX0=
+eyJoaXN0b3J5IjpbLTE1OTEyMjU1MDUsOTU0MDUwNzQxLDk5MT
+k0MTUxMiwtOTc2ODU5Mjc4LC05NTg1NjMxMzYsLTEwMzI5NDMy
+MzgsNzM0NzkzMjE4LC00ODk0ODgsLTEzNjM5Mzg4ODMsLTg0MT
+U1OTg0MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYz
+MjMsLTg3ODQ5NjMzOCw0OTgwOTg5NjUsLTkzMzg3NzExNiwtMT
+k0MTE5NjE2MiwtNjM1MjMwNDIzLDExNTk5MTEwMTAsMTg5ODUz
+MDEwMF19
 -->
