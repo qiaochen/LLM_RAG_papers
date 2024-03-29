@@ -99,11 +99,11 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > $C'$ is the set of retrieved documents.
 > Performance shown in Table 2 indicates a great improvement of RA-DIT over  non-finetuned raw model. The advantages over non-finetuned state-of-the-art RAG model are also demonstrated, although not that great.
 - Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). [Effective large language model adaptation for improved grounding](https://arxiv.org/abs/2311.09533). _arXiv preprint arXiv:2311.09533_.
-> This work fine-tunes LLMs to improve the quality of citation. The fine-tuning training data, 
+> This work fine-tunes LLMs to improve the quality of citation. The fine-tuning training prompt consists of query, response and citation, 
 
 #### c. Evaluation
 - Gao, T., Yen, H., Yu, J., & Chen, D. (2023). Enabling large language models to generate text with citations.  _arXiv preprint arXiv:2305.14627_.
-> Becoming a standard RAG evaluation task. See github for  
+> Becoming a standard RAG evaluation task. See github for how evaluation is conducted. 
 
 #### d. Combining Knowledge Graph and LLM by RAG
 - Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques. _arXiv preprint arXiv:2403.05881_.
@@ -131,7 +131,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM4OTU1ODMsOTU0MDUwNzQxLDk5MT
+eyJoaXN0b3J5IjpbLTE4ODY3NjEzNzYsOTU0MDUwNzQxLDk5MT
 k0MTUxMiwtOTc2ODU5Mjc4LC05NTg1NjMxMzYsLTEwMzI5NDMy
 MzgsNzM0NzkzMjE4LC00ODk0ODgsLTEzNjM5Mzg4ODMsLTg0MT
 U1OTg0MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYz
