@@ -134,13 +134,14 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 
-##### Tab
+##### Tuning for Tables
+[](https://arxiv.org/pdf/2310.09263.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3OTY3NzgyLDkyMTg0MjYxNCwtMTg3Mj
-k5MjI5NCwxMTU1MDk1Mzk1LDUyNTI2OTA2NywtMTg4Njc2MTM3
-Niw5NTQwNTA3NDEsOTkxOTQxNTEyLC05NzY4NTkyNzgsLTk1OD
-U2MzEzNiwtMTAzMjk0MzIzOCw3MzQ3OTMyMTgsLTQ4OTQ4OCwt
-MTM2MzkzODg4MywtODQxNTU5ODQzLDE3NTEyMTAwNjIsLTEwND
-M5MTQ1MTgsMTg5NDE3NjMyMywtODc4NDk2MzM4LDQ5ODA5ODk2
-NV19
+eyJoaXN0b3J5IjpbLTE2NjM2MTY4ODQsOTIxODQyNjE0LC0xOD
+cyOTkyMjk0LDExNTUwOTUzOTUsNTI1MjY5MDY3LC0xODg2NzYx
+Mzc2LDk1NDA1MDc0MSw5OTE5NDE1MTIsLTk3Njg1OTI3OCwtOT
+U4NTYzMTM2LC0xMDMyOTQzMjM4LDczNDc5MzIxOCwtNDg5NDg4
+LC0xMzYzOTM4ODgzLC04NDE1NTk4NDMsMTc1MTIxMDA2MiwtMT
+A0MzkxNDUxOCwxODk0MTc2MzIzLC04Nzg0OTYzMzgsNDk4MDk4
+OTY1XX0=
 -->
