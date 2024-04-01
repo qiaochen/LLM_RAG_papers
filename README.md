@@ -108,7 +108,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > Becoming a standard RAG evaluation task. See github for how evaluation is conducted. 
 
 #### d. Combining Knowledge Graph and LLM by RAG
-- Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques. _arXiv preprint arXiv:2403.05881_.
+- Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). [KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques.](https://arxiv.org/abs/2403.05881) _arXiv preprint arXiv:2403.05881_.
 
 - Soman, K., Rose, P. W., Morris, J. H., Akbas, R. E., Smith, B., Peetoom, B., ... & Baranzini, S. E. (2023). [Biomedical knowledge graph-enhanced prompt generation for large language models.](https://arxiv.org/abs/2311.17330)  _arXiv preprint arXiv:2311.17330_. [KG-RAG](https://github.com/BaranziniLab/KG_RAG)
 
@@ -145,11 +145,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDg4NjEzNCwtMTMxMDk4Njc3NywtMT
-Y2MzYxNjg4NCw5MjE4NDI2MTQsLTE4NzI5OTIyOTQsMTE1NTA5
-NTM5NSw1MjUyNjkwNjcsLTE4ODY3NjEzNzYsOTU0MDUwNzQxLD
-k5MTk0MTUxMiwtOTc2ODU5Mjc4LC05NTg1NjMxMzYsLTEwMzI5
-NDMyMzgsNzM0NzkzMjE4LC00ODk0ODgsLTEzNjM5Mzg4ODMsLT
-g0MTU1OTg0MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQx
-NzYzMjNdfQ==
+eyJoaXN0b3J5IjpbMjAwODk3NzMxOSwyMDEwODg2MTM0LC0xMz
+EwOTg2Nzc3LC0xNjYzNjE2ODg0LDkyMTg0MjYxNCwtMTg3Mjk5
+MjI5NCwxMTU1MDk1Mzk1LDUyNTI2OTA2NywtMTg4Njc2MTM3Ni
+w5NTQwNTA3NDEsOTkxOTQxNTEyLC05NzY4NTkyNzgsLTk1ODU2
+MzEzNiwtMTAzMjk0MzIzOCw3MzQ3OTMyMTgsLTQ4OTQ4OCwtMT
+M2MzkzODg4MywtODQxNTU5ODQzLDE3NTEyMTAwNjIsLTEwNDM5
+MTQ1MThdfQ==
 -->
