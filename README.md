@@ -134,14 +134,19 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jin, Q., Yang, Y., Chen, Q., & Lu, Z. (2024). [Genegpt: Augmenting large language models with domain tools for improved access to biomedical information](https://arxiv.org/pdf/2304.09667.pdf). _Bioinformatics_, _40_(2), btae075.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 
-##### Tuning for Tables
-Li, P., He, Y., Yashar, D., Cui, W., Ge, S., Zhang, H., ... & Chaudhuri, S. (2023). Table-gpt: Table-tuned gpt for diverse table tasks. _arXiv preprint arXiv:2310.09263_.[](https://arxiv.org/pdf/2310.09263.pdf)
+##### Tuning LLM for Tables
+Li, P., He, Y., Yashar, D., Cui, W., Ge, S., Zhang, H., ... & Chaudhuri, S. (2023). [Table-gpt: Table-tuned gpt for diverse table tasks](https://arxiv.org/pdf/2310.09263.pdf). _arXiv preprint arXiv:2310.09263_.
+
+Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table Processing: A Survey](https://arxiv.org/pdf/2402.05121.pdf). _arXiv preprint arXiv:2402.05121_.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDQwNzgxMywtMTY2MzYxNjg4NCw5Mj
-E4NDI2MTQsLTE4NzI5OTIyOTQsMTE1NTA5NTM5NSw1MjUyNjkw
-NjcsLTE4ODY3NjEzNzYsOTU0MDUwNzQxLDk5MTk0MTUxMiwtOT
-c2ODU5Mjc4LC05NTg1NjMxMzYsLTEwMzI5NDMyMzgsNzM0Nzkz
-MjE4LC00ODk0ODgsLTEzNjM5Mzg4ODMsLTg0MTU1OTg0MywxNz
-UxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5
-NjMzOF19
+eyJoaXN0b3J5IjpbLTEzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOT
+IxODQyNjE0LC0xODcyOTkyMjk0LDExNTUwOTUzOTUsNTI1MjY5
+MDY3LC0xODg2NzYxMzc2LDk1NDA1MDc0MSw5OTE5NDE1MTIsLT
+k3Njg1OTI3OCwtOTU4NTYzMTM2LC0xMDMyOTQzMjM4LDczNDc5
+MzIxOCwtNDg5NDg4LC0xMzYzOTM4ODgzLC04NDE1NTk4NDMsMT
+c1MTIxMDA2MiwtMTA0MzkxNDUxOCwxODk0MTc2MzIzLC04Nzg0
+OTYzMzhdfQ==
 -->
