@@ -104,7 +104,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > From Table 2,  answer qualities across benchmarks are comparable between fine-tuned and base LLMs, while the recall and precision of retrieved citations are better.  The inference strategy further boosts citation quality on some benchmarks.
 
 #### c. RAG strategy
-Jeong, S., Baek, J., Cho, S., Hwang, S. J., & Park, J. C. (2024). [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity. _arXiv preprint arXiv:2403.14403_.
+Jeong, S., Baek, J., Cho, S., Hwang, S. J., & Park, J. C. (2024). [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/pdf/2403.14403.pdf). _arXiv preprint arXiv:2403.14403_.
 
 #### d. Evaluation
 - Gao, T., Yen, H., Yu, J., & Chen, D. (2023). Enabling large language models to generate text with citations.  _arXiv preprint arXiv:2305.14627_.
@@ -148,11 +148,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc2NjgzMjUsMjAwODk3NzMxOSwyMD
-EwODg2MTM0LC0xMzEwOTg2Nzc3LC0xNjYzNjE2ODg0LDkyMTg0
-MjYxNCwtMTg3Mjk5MjI5NCwxMTU1MDk1Mzk1LDUyNTI2OTA2Ny
-wtMTg4Njc2MTM3Niw5NTQwNTA3NDEsOTkxOTQxNTEyLC05NzY4
-NTkyNzgsLTk1ODU2MzEzNiwtMTAzMjk0MzIzOCw3MzQ3OTMyMT
-gsLTQ4OTQ4OCwtMTM2MzkzODg4MywtODQxNTU5ODQzLDE3NTEy
-MTAwNjJdfQ==
+eyJoaXN0b3J5IjpbMTQ3MDY1OTg4MSwyMDA4OTc3MzE5LDIwMT
+A4ODYxMzQsLTEzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOTIxODQy
+NjE0LC0xODcyOTkyMjk0LDExNTUwOTUzOTUsNTI1MjY5MDY3LC
+0xODg2NzYxMzc2LDk1NDA1MDc0MSw5OTE5NDE1MTIsLTk3Njg1
+OTI3OCwtOTU4NTYzMTM2LC0xMDMyOTQzMjM4LDczNDc5MzIxOC
+wtNDg5NDg4LC0xMzYzOTM4ODgzLC04NDE1NTk4NDMsMTc1MTIx
+MDA2Ml19
 -->
