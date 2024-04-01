@@ -135,6 +135,11 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 
 ##### Tuning LLM for Tables
+Zhang, T., Yue, X., Li, Y., & Sun, H. (2023). Tablellama: Towards open large generalist models for tables.  _arXiv preprint arXiv:2311.09206_.
+
+Chica
+
+
 Li, P., He, Y., Yashar, D., Cui, W., Ge, S., Zhang, H., ... & Chaudhuri, S. (2023). [Table-gpt: Table-tuned gpt for diverse table tasks](https://arxiv.org/pdf/2310.09263.pdf). _arXiv preprint arXiv:2310.09263_.
 
 Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table Processing: A Survey](https://arxiv.org/pdf/2402.05121.pdf). _arXiv preprint arXiv:2402.05121_.
@@ -142,11 +147,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOT
-IxODQyNjE0LC0xODcyOTkyMjk0LDExNTUwOTUzOTUsNTI1MjY5
-MDY3LC0xODg2NzYxMzc2LDk1NDA1MDc0MSw5OTE5NDE1MTIsLT
-k3Njg1OTI3OCwtOTU4NTYzMTM2LC0xMDMyOTQzMjM4LDczNDc5
-MzIxOCwtNDg5NDg4LC0xMzYzOTM4ODgzLC04NDE1NTk4NDMsMT
-c1MTIxMDA2MiwtMTA0MzkxNDUxOCwxODk0MTc2MzIzLC04Nzg0
-OTYzMzhdfQ==
+eyJoaXN0b3J5IjpbMTYyOTgyNTQ2MiwtMTMxMDk4Njc3NywtMT
+Y2MzYxNjg4NCw5MjE4NDI2MTQsLTE4NzI5OTIyOTQsMTE1NTA5
+NTM5NSw1MjUyNjkwNjcsLTE4ODY3NjEzNzYsOTU0MDUwNzQxLD
+k5MTk0MTUxMiwtOTc2ODU5Mjc4LC05NTg1NjMxMzYsLTEwMzI5
+NDMyMzgsNzM0NzkzMjE4LC00ODk0ODgsLTEzNjM5Mzg4ODMsLT
+g0MTU1OTg0MywxNzUxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQx
+NzYzMjNdfQ==
 -->
