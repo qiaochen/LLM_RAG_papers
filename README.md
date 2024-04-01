@@ -135,13 +135,13 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > An Agent-like application that routes input queries to pubmed url tools, which allows search position of variant in the genome, meta information about snps, genes, etc.
 
 ##### Tuning for Tables
-[](https://arxiv.org/pdf/2310.09263.pdf)
+Li, P., He, Y., Yashar, D., Cui, W., Ge, S., Zhang, H., ... & Chaudhuri, S. (2023). Table-gpt: Table-tuned gpt for diverse table tasks. _arXiv preprint arXiv:2310.09263_.[](https://arxiv.org/pdf/2310.09263.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM2MTY4ODQsOTIxODQyNjE0LC0xOD
-cyOTkyMjk0LDExNTUwOTUzOTUsNTI1MjY5MDY3LC0xODg2NzYx
-Mzc2LDk1NDA1MDc0MSw5OTE5NDE1MTIsLTk3Njg1OTI3OCwtOT
-U4NTYzMTM2LC0xMDMyOTQzMjM4LDczNDc5MzIxOCwtNDg5NDg4
-LC0xMzYzOTM4ODgzLC04NDE1NTk4NDMsMTc1MTIxMDA2MiwtMT
-A0MzkxNDUxOCwxODk0MTc2MzIzLC04Nzg0OTYzMzgsNDk4MDk4
-OTY1XX0=
+eyJoaXN0b3J5IjpbMTU2MDQwNzgxMywtMTY2MzYxNjg4NCw5Mj
+E4NDI2MTQsLTE4NzI5OTIyOTQsMTE1NTA5NTM5NSw1MjUyNjkw
+NjcsLTE4ODY3NjEzNzYsOTU0MDUwNzQxLDk5MTk0MTUxMiwtOT
+c2ODU5Mjc4LC05NTg1NjMxMzYsLTEwMzI5NDMyMzgsNzM0Nzkz
+MjE4LC00ODk0ODgsLTEzNjM5Mzg4ODMsLTg0MTU1OTg0MywxNz
+UxMjEwMDYyLC0xMDQzOTE0NTE4LDE4OTQxNzYzMjMsLTg3ODQ5
+NjMzOF19
 -->
