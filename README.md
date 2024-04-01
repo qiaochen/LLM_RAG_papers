@@ -103,16 +103,19 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > After fine-tuning, the inference has multiple rounds of retrieval and citation, with the aim to cite for previously unsupported answer sentences, until the iteration budget is exhausted.
 > From Table 2,  answer qualities across benchmarks are comparable between fine-tuned and base LLMs, while the recall and precision of retrieved citations are better.  The inference strategy further boosts citation quality on some benchmarks.
 
-#### c. Evaluation
+#### c. RAG strategy
+Jeong, S., Baek, J., Cho, S., Hwang, S. J., & Park, J. C. (2024). [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity. _arXiv preprint arXiv:2403.14403_.
+
+#### d. Evaluation
 - Gao, T., Yen, H., Yu, J., & Chen, D. (2023). Enabling large language models to generate text with citations.  _arXiv preprint arXiv:2305.14627_.
 > Becoming a standard RAG evaluation task. See github for how evaluation is conducted. 
 
-#### d. Combining Knowledge Graph and LLM by RAG
+#### e. Combining Knowledge Graph and LLM by RAG
 - Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). [KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques.](https://arxiv.org/abs/2403.05881) _arXiv preprint arXiv:2403.05881_.
 
 - Soman, K., Rose, P. W., Morris, J. H., Akbas, R. E., Smith, B., Peetoom, B., ... & Baranzini, S. E. (2023). [Biomedical knowledge graph-enhanced prompt generation for large language models.](https://arxiv.org/abs/2311.17330)  _arXiv preprint arXiv:2311.17330_. [KG-RAG](https://github.com/BaranziniLab/KG_RAG)
 
-#### e. Survey, Position articles
+#### f. Survey, Position articles
 - Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., ... & Wang, H. (2023). [Retrieval-augmented generation for large language models: A survey](https://arxiv.org/abs/2312.10997). _arXiv preprint arXiv:2312.10997_. 
 > Simply a pertinent albeit somewhat boring survey.
 - Asai, A., Zhong, Z., Chen, D., Koh, P. W., Zettlemoyer, L., Hajishirzi, H., & Yih, W. T. (2024). [Reliable, Adaptable, and Attributable Language Models with Retrieval](https://arxiv.org/pdf/2403.03187.pdf). _arXiv preprint arXiv:2403.03187_.
@@ -120,7 +123,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Pan, S., Luo, L., Wang, Y., Chen, C., Wang, J., & Wu, X. (2024). [Unifying large language models and knowledge graphs: A roadmap](https://arxiv.org/pdf/2306.08302.pdf). _IEEE Transactions on Knowledge and Data Engineering_.
 > How to integrate Knowledge Graphs (KG) and LLMs, or enhance one with the other.
 
-#### c. Others, Miscellaneous
+#### g. Others, Miscellaneous
 - Wang, B., Ping, W., Xu, P., McAfee, L., Liu, Z., Shoeybi, M., ... & Catanzaro, B. (2023). [Shall we pretrain autoregressive language models with retrieval? a comprehensive study](https://arxiv.org/abs/2304.06762). _arXiv preprint arXiv:2304.06762_.
 > This work attempts to augment LLM with retrieved context during [continued] training time.
 
@@ -145,11 +148,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODk3NzMxOSwyMDEwODg2MTM0LC0xMz
-EwOTg2Nzc3LC0xNjYzNjE2ODg0LDkyMTg0MjYxNCwtMTg3Mjk5
-MjI5NCwxMTU1MDk1Mzk1LDUyNTI2OTA2NywtMTg4Njc2MTM3Ni
-w5NTQwNTA3NDEsOTkxOTQxNTEyLC05NzY4NTkyNzgsLTk1ODU2
-MzEzNiwtMTAzMjk0MzIzOCw3MzQ3OTMyMTgsLTQ4OTQ4OCwtMT
-M2MzkzODg4MywtODQxNTU5ODQzLDE3NTEyMTAwNjIsLTEwNDM5
-MTQ1MThdfQ==
+eyJoaXN0b3J5IjpbLTIwNDc2NjgzMjUsMjAwODk3NzMxOSwyMD
+EwODg2MTM0LC0xMzEwOTg2Nzc3LC0xNjYzNjE2ODg0LDkyMTg0
+MjYxNCwtMTg3Mjk5MjI5NCwxMTU1MDk1Mzk1LDUyNTI2OTA2Ny
+wtMTg4Njc2MTM3Niw5NTQwNTA3NDEsOTkxOTQxNTEyLC05NzY4
+NTkyNzgsLTk1ODU2MzEzNiwtMTAzMjk0MzIzOCw3MzQ3OTMyMT
+gsLTQ4OTQ4OCwtMTM2MzkzODg4MywtODQxNTU5ODQzLDE3NTEy
+MTAwNjJdfQ==
 -->
