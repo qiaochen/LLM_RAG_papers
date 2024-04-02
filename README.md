@@ -128,6 +128,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > KG used: Scalable Precision Medicine Open Knowledge Engine, (KG SPOKE)
 > Steps: 1) entity recognition from user prompt, 2) biomedical concept extraction from KG (one/two hops), vector similarity based on embedding model (MiniLM & PubMedBert*). 3) prompt-aware context generation, conversion to language, prompt assembly, and 4) answer retrieval.
 > Entity grounding (step 2) is implemented via vector similarity between extracted input entities and pre-embedded disease names (nodes in SPOKE) stored in 'Chroma' vector database. edges and nodes from one/two hops of neighbours are then retrieved. A further filtering step is applied to the triples to retain 25% of the KG pieces that > 0.5 cosine similarity.
+> Performance boost is huge with the KG-RAG approach.
   
 #### f. Survey, Position articles
 - Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., ... & Wang, H. (2023). [Retrieval-augmented generation for large language models: A survey](https://arxiv.org/abs/2312.10997). _arXiv preprint arXiv:2312.10997_. 
@@ -164,7 +165,7 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODAwOTY2LC0xODA0NDAxMjQ1LDEyMz
+eyJoaXN0b3J5IjpbODAzMTQ5MTA0LC0xODA0NDAxMjQ1LDEyMz
 YyODE2NzIsLTk5Nzg4NjAzNSwxNjY2MDQ3MzkzLDE4NTc2MDA5
 MTgsNzE4NjQyNjgxLDExMTI3MzA4ODgsMjE0MzM5MjcwMSwxMj
 Y1NDE4MTEwLDgzMzg5MjEyNSwtOTA0MTUyNTE5LC0xNDY4NTAz
