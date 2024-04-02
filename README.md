@@ -119,13 +119,15 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 
 #### e. Combining Knowledge Graph and LLM by RAG
 - Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). [KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques.](https://arxiv.org/abs/2403.05881) _arXiv preprint arXiv:2403.05881_.
+> Pure RAG, no training.
 > _KG-Rank, a framework that integrates a structured medical knowledge graph, into existing pre-trained LLMs to achieve more accurate medical question-answering (QA)_
 > Implementation details: UMLS as medical KG. Medical NER Prompt to identify medical entities; 1-hop relation extraction from KG between entities; Embed query and knowledge triple into embeddings using UmlsBERT (Must be a BERT trained/fine-tuned on UMLS); ranking based on 1) embedding vector similarity; 2) similarity between LLM-answer-expanded query embedding and knowledge triple; 3) Maximal  Marginal Relevance (MMR) similarity; reranking using a medical cross-encoder model (MedCPT*, Cohere).
 > They compared 7b models LLaMa2 and [Baize-healthcare](https://huggingface.co/project-baize/baize-healthcare-lora-7B)*
 - Soman, K., Rose, P. W., Morris, J. H., Akbas, R. E., Smith, B., Peetoom, B., ... & Baranzini, S. E. (2023). [Biomedical knowledge graph-enhanced prompt generation for large language models.](https://arxiv.org/abs/2311.17330)  _arXiv preprint arXiv:2311.17330_. [KG-RAG](https://github.com/BaranziniLab/KG_RAG)
+> Pure RAG, no training.
 > KG used: Scalable Precision Medicine Open Knowledge Engine, (KG SPOKE)
 > Steps: 1) entity recognition from user prompt, 2) biomedical concept extraction from KG (one/two hops), vector similarity based on embedding model (MiniLM & PubMedBert*). 3) prompt-aware context generation, conversion to language, prompt assembly, and 4) answer retrieval.
-> Entity grounding (step 2) is implemented via vector similarity between extracted input entities and pre-embedded disease names (nodes in SPOKE) stored in 'Chroma' vector database. edges and nodes from one/two hops of neighbours are then retrieved. A further filtering step is applied to the triples to retain 25% of the KG pieces.
+> Entity grounding (step 2) is implemented via vector similarity between extracted input entities and pre-embedded disease names (nodes in SPOKE) stored in 'Chroma' vector database. edges and nodes from one/two hops of neighbours are then retrieved. A further filtering step is applied to the triples to retain 25% of the KG pieces that > 0.5 cosine similarity.
   
 #### f. Survey, Position articles
 - Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., ... & Wang, H. (2023). [Retrieval-augmented generation for large language models: A survey](https://arxiv.org/abs/2312.10997). _arXiv preprint arXiv:2312.10997_. 
@@ -162,11 +164,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTcxMzk0MzQsLTE4MDQ0MDEyNDUsMT
-IzNjI4MTY3MiwtOTk3ODg2MDM1LDE2NjYwNDczOTMsMTg1NzYw
-MDkxOCw3MTg2NDI2ODEsMTExMjczMDg4OCwyMTQzMzkyNzAxLD
-EyNjU0MTgxMTAsODMzODkyMTI1LC05MDQxNTI1MTksLTE0Njg1
-MDMyOTYsMTQ3MDY1OTg4MSwyMDA4OTc3MzE5LDIwMTA4ODYxMz
-QsLTEzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOTIxODQyNjE0LC0x
-ODcyOTkyMjk0XX0=
+eyJoaXN0b3J5IjpbLTgxODAwOTY2LC0xODA0NDAxMjQ1LDEyMz
+YyODE2NzIsLTk5Nzg4NjAzNSwxNjY2MDQ3MzkzLDE4NTc2MDA5
+MTgsNzE4NjQyNjgxLDExMTI3MzA4ODgsMjE0MzM5MjcwMSwxMj
+Y1NDE4MTEwLDgzMzg5MjEyNSwtOTA0MTUyNTE5LC0xNDY4NTAz
+Mjk2LDE0NzA2NTk4ODEsMjAwODk3NzMxOSwyMDEwODg2MTM0LC
+0xMzEwOTg2Nzc3LC0xNjYzNjE2ODg0LDkyMTg0MjYxNCwtMTg3
+Mjk5MjI5NF19
 -->
