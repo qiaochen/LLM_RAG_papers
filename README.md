@@ -107,7 +107,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Jeong, S., Baek, J., Cho, S., Hwang, S. J., & Park, J. C. (2024). [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/pdf/2403.14403.pdf). _arXiv preprint arXiv:2403.14403_.
 >Tailoring RAG strategies for queries at different complexity levels is this work's focus. The authors drew our attention to the complexity of user queries. They are motivated to categorise queries into different complexity levels, because simple questions (e.g., single hop ) can be addressed using one-step retrieval,  while more complex (e.g., multi-hop) queries may need iteratively retrieving references in multiple steps to reach the answers. Many queries, however, lies between simple and high complexity, which motivates this work to design an adaptive strategy to conduct RAG, _ranging from iterative, to single, to even no retrieval approaches_ .
 > The first step towards adaptivity is to automatically determine the complexity of a given query. The authors hence trained a classifier, based on synthesised query-label pairs using three types of strategy: no RAG, simple-step RAG, multi-step RAG.
-> Table 
+> Main results in Table 2. indicate Adaptive-RAG greatly boosted perfromance in both single-step and multi-step benchmarks. 
 > Comment: _In a sense it is like preparing a fine-grained router that can redirect the query to different handlers. It might be some lower level sub-router in a more sophisticated dialogue management architecture_ 
 
 #### d. Evaluation
@@ -154,11 +154,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU0NjQyMSwyMTQzMzkyNzAxLDEyNj
-U0MTgxMTAsODMzODkyMTI1LC05MDQxNTI1MTksLTE0Njg1MDMy
-OTYsMTQ3MDY1OTg4MSwyMDA4OTc3MzE5LDIwMTA4ODYxMzQsLT
-EzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOTIxODQyNjE0LC0xODcy
-OTkyMjk0LDExNTUwOTUzOTUsNTI1MjY5MDY3LC0xODg2NzYxMz
-c2LDk1NDA1MDc0MSw5OTE5NDE1MTIsLTk3Njg1OTI3OCwtOTU4
-NTYzMTM2XX0=
+eyJoaXN0b3J5IjpbLTE3NTIzOTExNjksMjE0MzM5MjcwMSwxMj
+Y1NDE4MTEwLDgzMzg5MjEyNSwtOTA0MTUyNTE5LC0xNDY4NTAz
+Mjk2LDE0NzA2NTk4ODEsMjAwODk3NzMxOSwyMDEwODg2MTM0LC
+0xMzEwOTg2Nzc3LC0xNjYzNjE2ODg0LDkyMTg0MjYxNCwtMTg3
+Mjk5MjI5NCwxMTU1MDk1Mzk1LDUyNTI2OTA2NywtMTg4Njc2MT
+M3Niw5NTQwNTA3NDEsOTkxOTQxNTEyLC05NzY4NTkyNzgsLTk1
+ODU2MzEzNl19
 -->
