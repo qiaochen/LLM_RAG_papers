@@ -66,7 +66,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 >      1) The "goodness" of a retriever and/or a reranker for a new domain:
 >      2) After the retrieval systems finish its job, the "goodness" of a LLM's ability of selecting pertinent documents, ignoring distracting documents, and making sound responses.
 >      For 1), in case of dense vector approach, expanding dictionary & finetunning top-performing encoders in a new domain would be a standard way: while in the case of sparse vector approach, more domain specific data engineering is the approach, e.g., better token-based index and Bag-Of-Token representations.
->      For 2), this ability can be categorised into some meta knowledge belonging to instruction following. Therefore, it might be helpful to compile a instruct-tuning task for LLMs to better capture such knowledge (There is increasing research interest in this direction). 
+>      For 2), this ability can be categorised into some meta knowledge belonging to instruction following. Therefore, it might be helpful to compile an instruct-tuning task for LLMs to better capture such knowledge (There is increasing research interest in this direction). 
 
 ### II. Relevant recent research:
 #### a. RAG vs Finetuning
@@ -150,7 +150,7 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTc3NDQxMSwtMTQ2ODUwMzI5NiwxND
+eyJoaXN0b3J5IjpbLTkwNDE1MjUxOSwtMTQ2ODUwMzI5NiwxND
 cwNjU5ODgxLDIwMDg5NzczMTksMjAxMDg4NjEzNCwtMTMxMDk4
 Njc3NywtMTY2MzYxNjg4NCw5MjE4NDI2MTQsLTE4NzI5OTIyOT
 QsMTE1NTA5NTM5NSw1MjUyNjkwNjcsLTE4ODY3NjEzNzYsOTU0
