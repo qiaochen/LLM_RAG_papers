@@ -103,7 +103,8 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > After fine-tuning, the inference __has multiple rounds of retrieval and citation__ (_a trick in many RAG papers, see Adaptive-RAG paper_), with the aim to cite for previously unsupported answer sentences, until the iteration budget is exhausted.
 > From Table 2,  answer qualities across benchmarks are comparable between fine-tuned and base LLMs, while the recall and precision of retrieved citations are better.  The inference strategy further boosts citation quality on some benchmarks.
 
-- Gecko: Versatile Text Embeddings Distilled from Large Language Models
+- Lee, J., et al. (2024), [Gecko: Versatile Text Embeddings Distilled from Large Language Models](https://arxiv.org/abs/2403.20327). 
+> This work tries to improve the 
 
 #### c. RAG strategy
 - Jeong, S., Baek, J., Cho, S., Hwang, S. J., & Park, J. C. (2024). [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/pdf/2403.14403.pdf). _arXiv preprint arXiv:2403.14403_.
@@ -156,11 +157,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI1NzQ3NjMsMTExMjczMDg4OCwyMT
-QzMzkyNzAxLDEyNjU0MTgxMTAsODMzODkyMTI1LC05MDQxNTI1
-MTksLTE0Njg1MDMyOTYsMTQ3MDY1OTg4MSwyMDA4OTc3MzE5LD
-IwMTA4ODYxMzQsLTEzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOTIx
-ODQyNjE0LC0xODcyOTkyMjk0LDExNTUwOTUzOTUsNTI1MjY5MD
-Y3LC0xODg2NzYxMzc2LDk1NDA1MDc0MSw5OTE5NDE1MTIsLTk3
-Njg1OTI3OF19
+eyJoaXN0b3J5IjpbMTM0NTQ2NzYyNywxMTEyNzMwODg4LDIxND
+MzOTI3MDEsMTI2NTQxODExMCw4MzM4OTIxMjUsLTkwNDE1MjUx
+OSwtMTQ2ODUwMzI5NiwxNDcwNjU5ODgxLDIwMDg5NzczMTksMj
+AxMDg4NjEzNCwtMTMxMDk4Njc3NywtMTY2MzYxNjg4NCw5MjE4
+NDI2MTQsLTE4NzI5OTIyOTQsMTE1NTA5NTM5NSw1MjUyNjkwNj
+csLTE4ODY3NjEzNzYsOTU0MDUwNzQxLDk5MTk0MTUxMiwtOTc2
+ODU5Mjc4XX0=
 -->
