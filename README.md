@@ -100,7 +100,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > Performance shown in Table 2 indicates a great improvement of RA-DIT over  non-finetuned raw model. The advantages over non-finetuned state-of-the-art RAG model are also demonstrated, although not that great.
 - Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). [Effective large language model adaptation for improved grounding](https://arxiv.org/abs/2311.09533). _arXiv preprint arXiv:2311.09533_.
 > This work fine-tunes LLMs to improve the quality of citation. A fine-tuning training prompt consists of query, response (multi-sentence) and citations (multiple per-sentence, if any). First, they prompt LLM-base with query and reference as input, to synthesise responses. These triple elements serve as ground-truth to fine tune LLM based on the prompt above, in a sense the instruction following for citation is learned as a supervised task.
-> After fine-tuning, the inference __has multiple rounds of retrieval and citation__ (_a trick in many RAG papers_), with the aim to cite for previously unsupported answer sentences, until the iteration budget is exhausted.
+> After fine-tuning, the inference __has multiple rounds of retrieval and citation__ (_a trick in many RAG papers, see Adaptive-RAG paper_), with the aim to cite for previously unsupported answer sentences, until the iteration budget is exhausted.
 > From Table 2,  answer qualities across benchmarks are comparable between fine-tuned and base LLMs, while the recall and precision of retrieved citations are better.  The inference strategy further boosts citation quality on some benchmarks.
 
 #### c. RAG strategy
@@ -150,11 +150,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjYwNTAxMywtOTA0MTUyNTE5LC0xND
-Y4NTAzMjk2LDE0NzA2NTk4ODEsMjAwODk3NzMxOSwyMDEwODg2
-MTM0LC0xMzEwOTg2Nzc3LC0xNjYzNjE2ODg0LDkyMTg0MjYxNC
-wtMTg3Mjk5MjI5NCwxMTU1MDk1Mzk1LDUyNTI2OTA2NywtMTg4
-Njc2MTM3Niw5NTQwNTA3NDEsOTkxOTQxNTEyLC05NzY4NTkyNz
-gsLTk1ODU2MzEzNiwtMTAzMjk0MzIzOCw3MzQ3OTMyMTgsLTQ4
-OTQ4OF19
+eyJoaXN0b3J5IjpbODMzODkyMTI1LC05MDQxNTI1MTksLTE0Nj
+g1MDMyOTYsMTQ3MDY1OTg4MSwyMDA4OTc3MzE5LDIwMTA4ODYx
+MzQsLTEzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOTIxODQyNjE0LC
+0xODcyOTkyMjk0LDExNTUwOTUzOTUsNTI1MjY5MDY3LC0xODg2
+NzYxMzc2LDk1NDA1MDc0MSw5OTE5NDE1MTIsLTk3Njg1OTI3OC
+wtOTU4NTYzMTM2LC0xMDMyOTQzMjM4LDczNDc5MzIxOCwtNDg5
+NDg4XX0=
 -->
