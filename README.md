@@ -44,7 +44,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	- a solution to decoupling knowledge from model parameters, in the case of domain specific QA, knowledge under a RAG framework can be divided into two parts:
 		- Fixed Model parameters: Knowledge 1), 3), 4)
 		- External knowledge base (on the fly): Knowledge 2)
-	-  Important components in RAG:
+	-  Important components in a RAG framework:
 		- LLM
 		- Retriever 
 			- Dense embedding-based ([Huggingface leaderboard](https://huggingface.co/spaces/mteb/leaderboard)):
@@ -150,11 +150,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2NzE5NTEwLC0xNDY4NTAzMjk2LDE0Nz
-A2NTk4ODEsMjAwODk3NzMxOSwyMDEwODg2MTM0LC0xMzEwOTg2
-Nzc3LC0xNjYzNjE2ODg0LDkyMTg0MjYxNCwtMTg3Mjk5MjI5NC
-wxMTU1MDk1Mzk1LDUyNTI2OTA2NywtMTg4Njc2MTM3Niw5NTQw
-NTA3NDEsOTkxOTQxNTEyLC05NzY4NTkyNzgsLTk1ODU2MzEzNi
-wtMTAzMjk0MzIzOCw3MzQ3OTMyMTgsLTQ4OTQ4OCwtMTM2Mzkz
-ODg4M119
+eyJoaXN0b3J5IjpbLTcwNTc3NDQxMSwtMTQ2ODUwMzI5NiwxND
+cwNjU5ODgxLDIwMDg5NzczMTksMjAxMDg4NjEzNCwtMTMxMDk4
+Njc3NywtMTY2MzYxNjg4NCw5MjE4NDI2MTQsLTE4NzI5OTIyOT
+QsMTE1NTA5NTM5NSw1MjUyNjkwNjcsLTE4ODY3NjEzNzYsOTU0
+MDUwNzQxLDk5MTk0MTUxMiwtOTc2ODU5Mjc4LC05NTg1NjMxMz
+YsLTEwMzI5NDMyMzgsNzM0NzkzMjE4LC00ODk0ODgsLTEzNjM5
+Mzg4ODNdfQ==
 -->
