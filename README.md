@@ -120,7 +120,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 #### e. Combining Knowledge Graph and LLM by RAG
 - Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). [KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques.](https://arxiv.org/abs/2403.05881) _arXiv preprint arXiv:2403.05881_.
 > _KG-Rank, a framework that integrates a structured medical knowledge graph, into existing pre-trained LLMs to achieve more accurate medical question-answering (QA)_
-> Implementation details: UMLS as medical KG. Medical NER Prompt to identify medical entities; 1-hop relation extraction from KG between entities; Emb 
+> Implementation details: UMLS as medical KG. Medical NER Prompt to identify medical entities; 1-hop relation extraction from KG between entities; Embed query and knowledge triple into embeddings using UmlsBERT (Must be a BERT trained/fine-tuned on UMLS); ranking based on 1) embedding vector similarity; 2)  
 - Soman, K., Rose, P. W., Morris, J. H., Akbas, R. E., Smith, B., Peetoom, B., ... & Baranzini, S. E. (2023). [Biomedical knowledge graph-enhanced prompt generation for large language models.](https://arxiv.org/abs/2311.17330)  _arXiv preprint arXiv:2311.17330_. [KG-RAG](https://github.com/BaranziniLab/KG_RAG)
 
 #### f. Survey, Position articles
@@ -158,11 +158,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxNTMxMjEyLDE4NTc2MDA5MTgsNzE4Nj
-QyNjgxLDExMTI3MzA4ODgsMjE0MzM5MjcwMSwxMjY1NDE4MTEw
-LDgzMzg5MjEyNSwtOTA0MTUyNTE5LC0xNDY4NTAzMjk2LDE0Nz
-A2NTk4ODEsMjAwODk3NzMxOSwyMDEwODg2MTM0LC0xMzEwOTg2
-Nzc3LC0xNjYzNjE2ODg0LDkyMTg0MjYxNCwtMTg3Mjk5MjI5NC
-wxMTU1MDk1Mzk1LDUyNTI2OTA2NywtMTg4Njc2MTM3Niw5NTQw
-NTA3NDFdfQ==
+eyJoaXN0b3J5IjpbLTkwNzA1MTUyOCwxODU3NjAwOTE4LDcxOD
+Y0MjY4MSwxMTEyNzMwODg4LDIxNDMzOTI3MDEsMTI2NTQxODEx
+MCw4MzM4OTIxMjUsLTkwNDE1MjUxOSwtMTQ2ODUwMzI5NiwxND
+cwNjU5ODgxLDIwMDg5NzczMTksMjAxMDg4NjEzNCwtMTMxMDk4
+Njc3NywtMTY2MzYxNjg4NCw5MjE4NDI2MTQsLTE4NzI5OTIyOT
+QsMTE1NTA5NTM5NSw1MjUyNjkwNjcsLTE4ODY3NjEzNzYsOTU0
+MDUwNzQxXX0=
 -->
