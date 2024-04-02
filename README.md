@@ -124,7 +124,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > They compared 7b models LLaMa2 and [Baize-healthcare](https://huggingface.co/project-baize/baize-healthcare-lora-7B)*
 - Soman, K., Rose, P. W., Morris, J. H., Akbas, R. E., Smith, B., Peetoom, B., ... & Baranzini, S. E. (2023). [Biomedical knowledge graph-enhanced prompt generation for large language models.](https://arxiv.org/abs/2311.17330)  _arXiv preprint arXiv:2311.17330_. [KG-RAG](https://github.com/BaranziniLab/KG_RAG)
 > KG used: Scalable Precision Medicine Open Knowledge Engine, (KG SPOKE)
-> Steps: 1) entity recognition from user prompt, 1) biomedical concept extraction from KG, 3) prompt-aware context generation, 4) conversion to language, 5) prompt assembly, and 6) answer retrieval.
+> Steps: 1) entity recognition from user prompt, 1) biomedical concept extraction from KG (one/two hops), 3) prompt-aware context generation, 4) conversion to language, 5) prompt assembly, and 6) answer retrieval.
   
 #### f. Survey, Position articles
 - Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., ... & Wang, H. (2023). [Retrieval-augmented generation for large language models: A survey](https://arxiv.org/abs/2312.10997). _arXiv preprint arXiv:2312.10997_. 
@@ -161,11 +161,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Njk1MTE3MiwxMjM2MjgxNjcyLC05OT
-c4ODYwMzUsMTY2NjA0NzM5MywxODU3NjAwOTE4LDcxODY0MjY4
-MSwxMTEyNzMwODg4LDIxNDMzOTI3MDEsMTI2NTQxODExMCw4Mz
-M4OTIxMjUsLTkwNDE1MjUxOSwtMTQ2ODUwMzI5NiwxNDcwNjU5
-ODgxLDIwMDg5NzczMTksMjAxMDg4NjEzNCwtMTMxMDk4Njc3Ny
-wtMTY2MzYxNjg4NCw5MjE4NDI2MTQsLTE4NzI5OTIyOTQsMTE1
-NTA5NTM5NV19
+eyJoaXN0b3J5IjpbNTg3OTI4NzcwLDEyMzYyODE2NzIsLTk5Nz
+g4NjAzNSwxNjY2MDQ3MzkzLDE4NTc2MDA5MTgsNzE4NjQyNjgx
+LDExMTI3MzA4ODgsMjE0MzM5MjcwMSwxMjY1NDE4MTEwLDgzMz
+g5MjEyNSwtOTA0MTUyNTE5LC0xNDY4NTAzMjk2LDE0NzA2NTk4
+ODEsMjAwODk3NzMxOSwyMDEwODg2MTM0LC0xMzEwOTg2Nzc3LC
+0xNjYzNjE2ODg0LDkyMTg0MjYxNCwtMTg3Mjk5MjI5NCwxMTU1
+MDk1Mzk1XX0=
 -->
