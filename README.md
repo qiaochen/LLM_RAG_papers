@@ -103,6 +103,8 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > After fine-tuning, the inference __has multiple rounds of retrieval and citation__ (_a trick in many RAG papers, see Adaptive-RAG paper_), with the aim to cite for previously unsupported answer sentences, until the iteration budget is exhausted.
 > From Table 2,  answer qualities across benchmarks are comparable between fine-tuned and base LLMs, while the recall and precision of retrieved citations are better.  The inference strategy further boosts citation quality on some benchmarks.
 
+- Gecko: Versatile Text Embeddings Distilled from Large Language Models
+
 #### c. RAG strategy
 - Jeong, S., Baek, J., Cho, S., Hwang, S. J., & Park, J. C. (2024). [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/pdf/2403.14403.pdf). _arXiv preprint arXiv:2403.14403_.
 >Tailoring RAG strategies for queries at different complexity levels is this work's focus. The authors drew our attention to the complexity of user queries. They are motivated to categorise queries into different complexity levels, because simple questions (e.g., single hop ) can be addressed using one-step retrieval,  while more complex (e.g., multi-hop) queries may need iteratively retrieving references in multiple steps to reach the answers. Many queries, however, lies between simple and high complexity, which motivates this work to design an adaptive strategy to conduct RAG, _ranging from iterative, to single, to even no retrieval approaches_ .
@@ -154,11 +156,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjczMDg4OCwyMTQzMzkyNzAxLDEyNj
-U0MTgxMTAsODMzODkyMTI1LC05MDQxNTI1MTksLTE0Njg1MDMy
-OTYsMTQ3MDY1OTg4MSwyMDA4OTc3MzE5LDIwMTA4ODYxMzQsLT
-EzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOTIxODQyNjE0LC0xODcy
-OTkyMjk0LDExNTUwOTUzOTUsNTI1MjY5MDY3LC0xODg2NzYxMz
-c2LDk1NDA1MDc0MSw5OTE5NDE1MTIsLTk3Njg1OTI3OCwtOTU4
-NTYzMTM2XX0=
+eyJoaXN0b3J5IjpbLTE3MTI1NzQ3NjMsMTExMjczMDg4OCwyMT
+QzMzkyNzAxLDEyNjU0MTgxMTAsODMzODkyMTI1LC05MDQxNTI1
+MTksLTE0Njg1MDMyOTYsMTQ3MDY1OTg4MSwyMDA4OTc3MzE5LD
+IwMTA4ODYxMzQsLTEzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOTIx
+ODQyNjE0LC0xODcyOTkyMjk0LDExNTUwOTUzOTUsNTI1MjY5MD
+Y3LC0xODg2NzYxMzc2LDk1NDA1MDc0MSw5OTE5NDE1MTIsLTk3
+Njg1OTI3OF19
 -->
