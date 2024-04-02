@@ -32,7 +32,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	>    2) those in different domains; 
 	>    3) meta knowledge of linguistics or conventional usage patterns for generating human-understandable discourses; 
 	>    4) meta knowledge of behaviors such as instruct-following, prompt understanding etc.
->- It can be noted that pretraining LLM bases is mainly for gaining knowledge in 1) & 3); domain-specific finetuning is mainly for 2); while instruct tuning is aimed at 4); Reinforcement learning from human feedback (RLHF) is for improving 3);
+>- It can be noted that pretraining LLM bases is mainly for gaining knowledge in 1) & 3); domain-specific finetuning is mainly for 2); while instruct tuning is aiming at 4); Reinforcement learning from human feedback (RLHF) is for improving 3). In practice, different combinitions of th 2),3) and 4) may happen together.
 >- __Questions__:
 	>     - Is it necessary to encode all the knowledge in parametric form?
 	>     - If not, can we decouple some knowledge component from the parameters? 
@@ -150,7 +150,7 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzcwNDI5MiwtMTQ2ODUwMzI5NiwxND
+eyJoaXN0b3J5IjpbLTgyNjg1OTQ2NCwtMTQ2ODUwMzI5NiwxND
 cwNjU5ODgxLDIwMDg5NzczMTksMjAxMDg4NjEzNCwtMTMxMDk4
 Njc3NywtMTY2MzYxNjg4NCw5MjE4NDI2MTQsLTE4NzI5OTIyOT
 QsMTE1NTA5NTM5NSw1MjUyNjkwNjcsLTE4ODY3NjEzNzYsOTU0
