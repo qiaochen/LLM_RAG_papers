@@ -105,7 +105,8 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 
 #### c. RAG strategy
 - Jeong, S., Baek, J., Cho, S., Hwang, S. J., & Park, J. C. (2024). [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/pdf/2403.14403.pdf). _arXiv preprint arXiv:2403.14403_.
->Tailoring RAG strategies for queries at different complexity levels is this work's focus. The authors drew our attention to the complexity of user queries. They are motivated to categorise queries into different complexity levels, because simple questions (e.g., single hop ) can be addressed using one time retrieval,  while more complex (e.g., multi-hop) queries may need iteratively retrieving references to reach the answers. Many queries, however, lies between simple and high complexity, which motivate this work to desi
+>Tailoring RAG strategies for queries at different complexity levels is this work's focus. The authors drew our attention to the complexity of user queries. They are motivated to categorise queries into different complexity levels, because simple questions (e.g., single hop ) can be addressed using one-step retrieval,  while more complex (e.g., multi-hop) queries may need iteratively retrieving references in multiple steps to reach the answers. Many queries, however, lies between simple and high complexity, which motivates this work to design an adaptive strategy to conduct RAG.
+>They 
 
 #### d. Evaluation
 - Gao, T., Yen, H., Yu, J., & Chen, D. (2023). Enabling large language models to generate text with citations.  _arXiv preprint arXiv:2305.14627_.
@@ -151,11 +152,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTM3MzE2ODgsODMzODkyMTI1LC05MD
-QxNTI1MTksLTE0Njg1MDMyOTYsMTQ3MDY1OTg4MSwyMDA4OTc3
-MzE5LDIwMTA4ODYxMzQsLTEzMTA5ODY3NzcsLTE2NjM2MTY4OD
-QsOTIxODQyNjE0LC0xODcyOTkyMjk0LDExNTUwOTUzOTUsNTI1
-MjY5MDY3LC0xODg2NzYxMzc2LDk1NDA1MDc0MSw5OTE5NDE1MT
-IsLTk3Njg1OTI3OCwtOTU4NTYzMTM2LC0xMDMyOTQzMjM4LDcz
-NDc5MzIxOF19
+eyJoaXN0b3J5IjpbOTM5NTY0ODc5LDgzMzg5MjEyNSwtOTA0MT
+UyNTE5LC0xNDY4NTAzMjk2LDE0NzA2NTk4ODEsMjAwODk3NzMx
+OSwyMDEwODg2MTM0LC0xMzEwOTg2Nzc3LC0xNjYzNjE2ODg0LD
+kyMTg0MjYxNCwtMTg3Mjk5MjI5NCwxMTU1MDk1Mzk1LDUyNTI2
+OTA2NywtMTg4Njc2MTM3Niw5NTQwNTA3NDEsOTkxOTQxNTEyLC
+05NzY4NTkyNzgsLTk1ODU2MzEzNiwtMTAzMjk0MzIzOCw3MzQ3
+OTMyMThdfQ==
 -->
