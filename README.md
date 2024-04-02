@@ -104,7 +104,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > From Table 2,  answer qualities across benchmarks are comparable between fine-tuned and base LLMs, while the recall and precision of retrieved citations are better.  The inference strategy further boosts citation quality on some benchmarks.
 
 - Lee, J., et al. (2024), [Gecko: Versatile Text Embeddings Distilled from Large Language Models](https://arxiv.org/abs/2403.20327). 
-> This work tries to improve the dense encoders for RAG by distilling knowledge from LLM. _On the Massive Text Embedding Benchmark (MTEB), Gecko with 256 embedding dimensions outperforms all existing entries with 768 embedding size. Gecko with 768 embedding dimensions achieves an average score of 66.31, competing with 7x larger models and 5x higher dimensional embeddings._
+> This work tries to improve the embeddings models by distilling knowledge from LLM. Although it is not directly targeting RAG, it is definitely relevant and worth studying. _On the Massive Text Embedding Benchmark (MTEB), Gecko with 256 embedding dimensions outperforms all existing entries with 768 embedding size. Gecko with 768 embedding dimensions achieves an average score of 66.31, competing with 7x larger models and 5x higher dimensional embeddings._
 
 #### c. RAG strategy
 - Jeong, S., Baek, J., Cho, S., Hwang, S. J., & Park, J. C. (2024). [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/pdf/2403.14403.pdf). _arXiv preprint arXiv:2403.14403_.
@@ -157,11 +157,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE4NjQyNjgxLDExMTI3MzA4ODgsMjE0Mz
-M5MjcwMSwxMjY1NDE4MTEwLDgzMzg5MjEyNSwtOTA0MTUyNTE5
-LC0xNDY4NTAzMjk2LDE0NzA2NTk4ODEsMjAwODk3NzMxOSwyMD
-EwODg2MTM0LC0xMzEwOTg2Nzc3LC0xNjYzNjE2ODg0LDkyMTg0
-MjYxNCwtMTg3Mjk5MjI5NCwxMTU1MDk1Mzk1LDUyNTI2OTA2Ny
-wtMTg4Njc2MTM3Niw5NTQwNTA3NDEsOTkxOTQxNTEyLC05NzY4
-NTkyNzhdfQ==
+eyJoaXN0b3J5IjpbMTg1NzYwMDkxOCw3MTg2NDI2ODEsMTExMj
+czMDg4OCwyMTQzMzkyNzAxLDEyNjU0MTgxMTAsODMzODkyMTI1
+LC05MDQxNTI1MTksLTE0Njg1MDMyOTYsMTQ3MDY1OTg4MSwyMD
+A4OTc3MzE5LDIwMTA4ODYxMzQsLTEzMTA5ODY3NzcsLTE2NjM2
+MTY4ODQsOTIxODQyNjE0LC0xODcyOTkyMjk0LDExNTUwOTUzOT
+UsNTI1MjY5MDY3LC0xODg2NzYxMzc2LDk1NDA1MDc0MSw5OTE5
+NDE1MTJdfQ==
 -->
