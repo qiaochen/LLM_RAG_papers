@@ -32,11 +32,11 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	>    2) those in different domains; 
 	>    3) meta knowledge of linguistics or conventional usage patterns for generating human-understandable discourses; 
 	>    4) meta knowledge of behaviors such as instruct-following, prompt understanding etc.
->- It can be noted that pretraining LLM bases is mainly for gaining knowledge in 1) & 3); domain-specific finetuning is mainly for 2); while instruct tuning is aiming at 4); Reinforcement learning from human feedback (RLHF) is for improving 3). In practice, different combinitions of th 2),3) and 4) may happen together.
+>- It can be noted that pretraining LLM bases is mainly for gaining knowledge in 1) & 3); domain-specific finetuning is mainly for 2); while instruct tuning is aiming at 4); Reinforcement learning from human feedback (RLHF) is for improving 3). In finetuning practice, different combinations of   2), 3) and 4) mayh happen.
 >- __Questions__:
 	>     - Is it necessary to encode all the knowledge in parametric form?
 	>     - If not, can we decouple some knowledge component from the parameters? 
-	>The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which are also more frequently triggered, and hence better contained in the model parameters. Finally, in corporation with 3) and 4), a certain degree of common sense knowledge should be learned to support acceptable  behaviors of LLMs, thus knowledge in 1) is better contained in the model parameters .
+	>The most suitable candidate might be 2), especially those analogous to the knowledge we humans can query on the fly in dictionaries/encyclopedia.  As for 3) & 4), they are more like meta knowledge analogous to the language and cognitive skills that are more innate to a human, which are also more frequently triggered, and hence better contained in the model parameters. Finally, in corporation with 3) and 4), a certain degree of common sense knowledge should be learned to support acceptable  behaviors of LLMs, thus knowledge in 1) is better contained in the model parameters (fortunately, those pretra) .
 
 - [Retrieval-augmented generation (RAG)](https://arxiv.org/abs/2005.11401):
 	![](https://media.licdn.com/dms/image/D4D12AQHY76w85U8W5g/article-cover_image-shrink_720_1280/0/1695787886133?e=1717027200&v=beta&t=IyS5v27mnHUC1C9DWDq7ddJ-hFzndAxOAGcyNiuxHG8)
@@ -150,11 +150,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjg1OTQ2NCwtMTQ2ODUwMzI5NiwxND
-cwNjU5ODgxLDIwMDg5NzczMTksMjAxMDg4NjEzNCwtMTMxMDk4
-Njc3NywtMTY2MzYxNjg4NCw5MjE4NDI2MTQsLTE4NzI5OTIyOT
-QsMTE1NTA5NTM5NSw1MjUyNjkwNjcsLTE4ODY3NjEzNzYsOTU0
-MDUwNzQxLDk5MTk0MTUxMiwtOTc2ODU5Mjc4LC05NTg1NjMxMz
-YsLTEwMzI5NDMyMzgsNzM0NzkzMjE4LC00ODk0ODgsLTEzNjM5
-Mzg4ODNdfQ==
+eyJoaXN0b3J5IjpbODAyOTMxNTEyLC0xNDY4NTAzMjk2LDE0Nz
+A2NTk4ODEsMjAwODk3NzMxOSwyMDEwODg2MTM0LC0xMzEwOTg2
+Nzc3LC0xNjYzNjE2ODg0LDkyMTg0MjYxNCwtMTg3Mjk5MjI5NC
+wxMTU1MDk1Mzk1LDUyNTI2OTA2NywtMTg4Njc2MTM3Niw5NTQw
+NTA3NDEsOTkxOTQxNTEyLC05NzY4NTkyNzgsLTk1ODU2MzEzNi
+wtMTAzMjk0MzIzOCw3MzQ3OTMyMTgsLTQ4OTQ4OCwtMTM2Mzkz
+ODg4M119
 -->
