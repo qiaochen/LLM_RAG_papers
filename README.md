@@ -105,7 +105,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 
 #### c. RAG strategy
 - Jeong, S., Baek, J., Cho, S., Hwang, S. J., & Park, J. C. (2024). [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/pdf/2403.14403.pdf). _arXiv preprint arXiv:2403.14403_.
->More detailed analyses on the queries are this work's focus. The authors drew our attention to the complexity of user queries. They are motivated to categorise queries into different complexity levels, because simple questions (e.g., single hop ) can be addressed using      
+>Tailoring RAG strategies for queries at different complexity levels is this work's focus. The authors drew our attention to the complexity of user queries. They are motivated to categorise queries into different complexity levels, because simple questions (e.g., single hop ) can be addressed using      
 
 #### d. Evaluation
 - Gao, T., Yen, H., Yu, J., & Chen, D. (2023). Enabling large language models to generate text with citations.  _arXiv preprint arXiv:2305.14627_.
@@ -151,11 +151,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ1MDI3ODQsODMzODkyMTI1LC05MD
-QxNTI1MTksLTE0Njg1MDMyOTYsMTQ3MDY1OTg4MSwyMDA4OTc3
-MzE5LDIwMTA4ODYxMzQsLTEzMTA5ODY3NzcsLTE2NjM2MTY4OD
-QsOTIxODQyNjE0LC0xODcyOTkyMjk0LDExNTUwOTUzOTUsNTI1
-MjY5MDY3LC0xODg2NzYxMzc2LDk1NDA1MDc0MSw5OTE5NDE1MT
-IsLTk3Njg1OTI3OCwtOTU4NTYzMTM2LC0xMDMyOTQzMjM4LDcz
-NDc5MzIxOF19
+eyJoaXN0b3J5IjpbMTU3Njc2Mjg3OSw4MzM4OTIxMjUsLTkwND
+E1MjUxOSwtMTQ2ODUwMzI5NiwxNDcwNjU5ODgxLDIwMDg5Nzcz
+MTksMjAxMDg4NjEzNCwtMTMxMDk4Njc3NywtMTY2MzYxNjg4NC
+w5MjE4NDI2MTQsLTE4NzI5OTIyOTQsMTE1NTA5NTM5NSw1MjUy
+NjkwNjcsLTE4ODY3NjEzNzYsOTU0MDUwNzQxLDk5MTk0MTUxMi
+wtOTc2ODU5Mjc4LC05NTg1NjMxMzYsLTEwMzI5NDMyMzgsNzM0
+NzkzMjE4XX0=
 -->
