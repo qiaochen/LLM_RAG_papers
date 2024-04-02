@@ -83,7 +83,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 
 The above literature demonstrate the promising role of RAG in domain adaptation. 
 
-#### b. Fintuning for RAG 
+#### b. Finetuning for RAG 
 
 - Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). [RAFT: Adapting Language Model to Domain Specific RAG](https://arxiv.org/pdf/2403.10131.pdf). _arXiv preprint arXiv:2403.10131_.[code](https://github.com/ShishirPatil/gorilla/tree/main/raft)
 > This work proposes to finetune LLMs for better RAG, an approach that could be applied to addressing bottleneck 2) commented above (i.e. LLMs ability of selecting pertinent and ignoring distracting references). The key idea is, during finetuning, the input additionally include context documents that are mixed with unrelated candidates. Thus, the LLM has to change its behaviors during training to make best use of the right document for answering. The finetuning strategy also has a mechanism that occasionally turns off feeding context references into the input, so as to make the parametric LLM also learn new domain knowledge in its parameters.
@@ -165,11 +165,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzMTQ5MTA0LC0xODA0NDAxMjQ1LDEyMz
-YyODE2NzIsLTk5Nzg4NjAzNSwxNjY2MDQ3MzkzLDE4NTc2MDA5
-MTgsNzE4NjQyNjgxLDExMTI3MzA4ODgsMjE0MzM5MjcwMSwxMj
-Y1NDE4MTEwLDgzMzg5MjEyNSwtOTA0MTUyNTE5LC0xNDY4NTAz
-Mjk2LDE0NzA2NTk4ODEsMjAwODk3NzMxOSwyMDEwODg2MTM0LC
-0xMzEwOTg2Nzc3LC0xNjYzNjE2ODg0LDkyMTg0MjYxNCwtMTg3
-Mjk5MjI5NF19
+eyJoaXN0b3J5IjpbLTQxMjI2MzQxOSw4MDMxNDkxMDQsLTE4MD
+Q0MDEyNDUsMTIzNjI4MTY3MiwtOTk3ODg2MDM1LDE2NjYwNDcz
+OTMsMTg1NzYwMDkxOCw3MTg2NDI2ODEsMTExMjczMDg4OCwyMT
+QzMzkyNzAxLDEyNjU0MTgxMTAsODMzODkyMTI1LC05MDQxNTI1
+MTksLTE0Njg1MDMyOTYsMTQ3MDY1OTg4MSwyMDA4OTc3MzE5LD
+IwMTA4ODYxMzQsLTEzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOTIx
+ODQyNjE0XX0=
 -->
