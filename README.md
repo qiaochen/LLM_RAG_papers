@@ -120,7 +120,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 #### e. Combining Knowledge Graph and LLM by RAG
 - Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). [KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques.](https://arxiv.org/abs/2403.05881) _arXiv preprint arXiv:2403.05881_.
 > _KG-Rank, a framework that integrates a structured medical knowledge graph, into existing pre-trained LLMs to achieve more accurate medical question-answering (QA)_
-> 
+> Implementation details: UMLS as medical KG. Medical NER Prompt to id 
 - Soman, K., Rose, P. W., Morris, J. H., Akbas, R. E., Smith, B., Peetoom, B., ... & Baranzini, S. E. (2023). [Biomedical knowledge graph-enhanced prompt generation for large language models.](https://arxiv.org/abs/2311.17330)  _arXiv preprint arXiv:2311.17330_. [KG-RAG](https://github.com/BaranziniLab/KG_RAG)
 
 #### f. Survey, Position articles
@@ -158,11 +158,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjEyMzAwMiwxODU3NjAwOTE4LDcxOD
-Y0MjY4MSwxMTEyNzMwODg4LDIxNDMzOTI3MDEsMTI2NTQxODEx
-MCw4MzM4OTIxMjUsLTkwNDE1MjUxOSwtMTQ2ODUwMzI5NiwxND
-cwNjU5ODgxLDIwMDg5NzczMTksMjAxMDg4NjEzNCwtMTMxMDk4
-Njc3NywtMTY2MzYxNjg4NCw5MjE4NDI2MTQsLTE4NzI5OTIyOT
-QsMTE1NTA5NTM5NSw1MjUyNjkwNjcsLTE4ODY3NjEzNzYsOTU0
-MDUwNzQxXX0=
+eyJoaXN0b3J5IjpbLTE4MDc0MTEyMjIsMTg1NzYwMDkxOCw3MT
+g2NDI2ODEsMTExMjczMDg4OCwyMTQzMzkyNzAxLDEyNjU0MTgx
+MTAsODMzODkyMTI1LC05MDQxNTI1MTksLTE0Njg1MDMyOTYsMT
+Q3MDY1OTg4MSwyMDA4OTc3MzE5LDIwMTA4ODYxMzQsLTEzMTA5
+ODY3NzcsLTE2NjM2MTY4ODQsOTIxODQyNjE0LC0xODcyOTkyMj
+k0LDExNTUwOTUzOTUsNTI1MjY5MDY3LC0xODg2NzYxMzc2LDk1
+NDA1MDc0MV19
 -->
