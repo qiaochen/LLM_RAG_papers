@@ -124,9 +124,8 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > They compared 7b models LLaMa2 and [Baize-healthcare](https://huggingface.co/project-baize/baize-healthcare-lora-7B)*
 - Soman, K., Rose, P. W., Morris, J. H., Akbas, R. E., Smith, B., Peetoom, B., ... & Baranzini, S. E. (2023). [Biomedical knowledge graph-enhanced prompt generation for large language models.](https://arxiv.org/abs/2311.17330)  _arXiv preprint arXiv:2311.17330_. [KG-RAG](https://github.com/BaranziniLab/KG_RAG)
 > KG used: Scalable Precision Medicine Open Knowledge Engine, (KG SPOKE)
-> Steps: 1) entity recognition from user prompt, 1) biomedical concept extraction from KG (one/two hops), 3) prompt-aware context generation, conversion to language, prompt assembly, and 4) answer retrieval.
-> Embedding model (MiniLM & PubMedBert*)
-> 
+> Steps: 1) entity recognition from user prompt, 1) biomedical concept extraction from KG (one/two hops), vector similarity based on embedding model (MiniLM & PubMedBert*). 3) prompt-aware context generation, conversion to language, prompt assembly, and 4) answer retrieval.
+
   
 #### f. Survey, Position articles
 - Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., ... & Wang, H. (2023). [Retrieval-augmented generation for large language models: A survey](https://arxiv.org/abs/2312.10997). _arXiv preprint arXiv:2312.10997_. 
@@ -163,7 +162,7 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTE4Njc3MiwtMTgwNDQwMTI0NSwxMj
+eyJoaXN0b3J5IjpbMjEwMTg3OTEyMiwtMTgwNDQwMTI0NSwxMj
 M2MjgxNjcyLC05OTc4ODYwMzUsMTY2NjA0NzM5MywxODU3NjAw
 OTE4LDcxODY0MjY4MSwxMTEyNzMwODg4LDIxNDMzOTI3MDEsMT
 I2NTQxODExMCw4MzM4OTIxMjUsLTkwNDE1MjUxOSwtMTQ2ODUw
