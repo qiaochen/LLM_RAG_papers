@@ -94,12 +94,12 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > For finetuning LLM, given a (prompt, response) pair, after retrieving C documents, each of them is prepended to prompt, creating C new datapoints of $\{[c_{i,j};x], y  \}$. These constitute the augmented training samples and losses are accumulated from all the datapoints: $L(D_L) = -\sum_{i}\sum_{j}logp_{LM}(y_i|[c_{ij};x])$. This adapts LLM to better utilize background knowledge in generating responses with or without relevant references.
 > For finetuning retriever (only query encoder), they try to match LLM's score and retriever's relevance score with a KL divergence: 
 > $L(D_r)=E_{(x,y)\in D_r} KL(p_r(c|x)||p_{LSR}(c|x,y))$
-> where $p_R(c|x) = \frac{exp s(x,c)}{\sum_{c' \in C'} exp s(x, c')}$ 
+> where $p_R(c|x) = \frac{exp(s(x,c))}{\sum_{c' \in C'} exp(s(x, c'))}$ 
 > $p_{LSR}(c|x,y) = \frac{exp(p_{LM}(y|[c;x])/\tau)}{\sum_{c' \in C'} exp(p_{LM}(y|[c';x])/\tau)}$
 > $C'$ is the set of retrieved documents.
 > Performance shown in Table 2 indicates a great improvement of RA-DIT over  non-finetuned raw model. The advantages over non-finetuned state-of-the-art RAG model are also demonstrated, although not that great.
 - Ye, X., Sun, R., Arik, S. Ö., & Pfister, T. (2023). [Effective large language model adaptation for improved grounding](https://arxiv.org/abs/2311.09533). _arXiv preprint arXiv:2311.09533_.
-> This work fine-tunes LLMs to improve the quality of citation. A fine-tuning training prompt consists of query, response (multi-sentence) and citations (per-sentence, if any). First, they prompt LLM-base with query and reference as input, to synthesise responses. These triple elements serve as ground-truth to fine tune LLM based on the prompt above, in a sense the instruction following for citation is learned as a supervised task.
+> This work fine-tunes LLMs to improve the quality of citation. A fine-tuning training prompt consists of query, response (multi-sentence) and citations (multiple per-sentence, if any). First, they prompt LLM-base with query and reference as input, to synthesise responses. These triple elements serve as ground-truth to fine tune LLM based on the prompt above, in a sense the instruction following for citation is learned as a supervised task.
 > After fine-tuning, the inference has multiple rounds of retrieval and citation, with the aim to cite for previously unsupported answer sentences, until the iteration budget is exhausted.
 > From Table 2,  answer qualities across benchmarks are comparable between fine-tuned and base LLMs, while the recall and precision of retrieved citations are better.  The inference strategy further boosts citation quality on some benchmarks.
 
@@ -150,11 +150,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDE1MjUxOSwtMTQ2ODUwMzI5NiwxND
-cwNjU5ODgxLDIwMDg5NzczMTksMjAxMDg4NjEzNCwtMTMxMDk4
-Njc3NywtMTY2MzYxNjg4NCw5MjE4NDI2MTQsLTE4NzI5OTIyOT
-QsMTE1NTA5NTM5NSw1MjUyNjkwNjcsLTE4ODY3NjEzNzYsOTU0
-MDUwNzQxLDk5MTk0MTUxMiwtOTc2ODU5Mjc4LC05NTg1NjMxMz
-YsLTEwMzI5NDMyMzgsNzM0NzkzMjE4LC00ODk0ODgsLTEzNjM5
-Mzg4ODNdfQ==
+eyJoaXN0b3J5IjpbMTMxMzU4MjUyNywtOTA0MTUyNTE5LC0xND
+Y4NTAzMjk2LDE0NzA2NTk4ODEsMjAwODk3NzMxOSwyMDEwODg2
+MTM0LC0xMzEwOTg2Nzc3LC0xNjYzNjE2ODg0LDkyMTg0MjYxNC
+wtMTg3Mjk5MjI5NCwxMTU1MDk1Mzk1LDUyNTI2OTA2NywtMTg4
+Njc2MTM3Niw5NTQwNTA3NDEsOTkxOTQxNTEyLC05NzY4NTkyNz
+gsLTk1ODU2MzEzNiwtMTAzMjk0MzIzOCw3MzQ3OTMyMTgsLTQ4
+OTQ4OF19
 -->
