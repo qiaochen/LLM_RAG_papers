@@ -125,7 +125,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Soman, K., Rose, P. W., Morris, J. H., Akbas, R. E., Smith, B., Peetoom, B., ... & Baranzini, S. E. (2023). [Biomedical knowledge graph-enhanced prompt generation for large language models.](https://arxiv.org/abs/2311.17330)  _arXiv preprint arXiv:2311.17330_. [KG-RAG](https://github.com/BaranziniLab/KG_RAG)
 > KG used: Scalable Precision Medicine Open Knowledge Engine, (KG SPOKE)
 > Steps: 1) entity recognition from user prompt, 2) biomedical concept extraction from KG (one/two hops), vector similarity based on embedding model (MiniLM & PubMedBert*). 3) prompt-aware context generation, conversion to language, prompt assembly, and 4) answer retrieval.
-> Entity grounding (step 2) is implemented via vector similarity between extract input entities and pre-embedded disease names (nodes in SPOKE) 'Chroma' vector database.
+> Entity grounding (step 2) is implemented via vector similarity between extracted input entities and pre-embedded disease names (nodes in SPOKE) stored in 'Chroma' vector database. edges and nodes from one/two hops of neighbors are then retrieved.
   
 #### f. Survey, Position articles
 - Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., ... & Wang, H. (2023). [Retrieval-augmented generation for large language models: A survey](https://arxiv.org/abs/2312.10997). _arXiv preprint arXiv:2312.10997_. 
@@ -162,11 +162,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDc0NjgxNTYsLTE4MDQ0MDEyNDUsMT
-IzNjI4MTY3MiwtOTk3ODg2MDM1LDE2NjYwNDczOTMsMTg1NzYw
-MDkxOCw3MTg2NDI2ODEsMTExMjczMDg4OCwyMTQzMzkyNzAxLD
-EyNjU0MTgxMTAsODMzODkyMTI1LC05MDQxNTI1MTksLTE0Njg1
-MDMyOTYsMTQ3MDY1OTg4MSwyMDA4OTc3MzE5LDIwMTA4ODYxMz
-QsLTEzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOTIxODQyNjE0LC0x
-ODcyOTkyMjk0XX0=
+eyJoaXN0b3J5IjpbMTM4NzY0MTA5NSwtMTgwNDQwMTI0NSwxMj
+M2MjgxNjcyLC05OTc4ODYwMzUsMTY2NjA0NzM5MywxODU3NjAw
+OTE4LDcxODY0MjY4MSwxMTEyNzMwODg4LDIxNDMzOTI3MDEsMT
+I2NTQxODExMCw4MzM4OTIxMjUsLTkwNDE1MjUxOSwtMTQ2ODUw
+MzI5NiwxNDcwNjU5ODgxLDIwMDg5NzczMTksMjAxMDg4NjEzNC
+wtMTMxMDk4Njc3NywtMTY2MzYxNjg4NCw5MjE4NDI2MTQsLTE4
+NzI5OTIyOTRdfQ==
 -->
