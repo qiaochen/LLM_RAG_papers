@@ -117,6 +117,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Gao, T., Yen, H., Yu, J., & Chen, D. (2023). Enabling large language models to generate text with citations.  _arXiv preprint arXiv:2305.14627_.
 > Becoming a standard RAG evaluation task. See github for how evaluation is conducted. 
 
+
 #### e. Combining Knowledge Graph and LLM by RAG
 - Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). [KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques.](https://arxiv.org/abs/2403.05881) _arXiv preprint arXiv:2403.05881_.
 > Pure RAG, no training.
@@ -165,11 +166,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjI2MzQxOSw4MDMxNDkxMDQsLTE4MD
-Q0MDEyNDUsMTIzNjI4MTY3MiwtOTk3ODg2MDM1LDE2NjYwNDcz
-OTMsMTg1NzYwMDkxOCw3MTg2NDI2ODEsMTExMjczMDg4OCwyMT
-QzMzkyNzAxLDEyNjU0MTgxMTAsODMzODkyMTI1LC05MDQxNTI1
-MTksLTE0Njg1MDMyOTYsMTQ3MDY1OTg4MSwyMDA4OTc3MzE5LD
-IwMTA4ODYxMzQsLTEzMTA5ODY3NzcsLTE2NjM2MTY4ODQsOTIx
-ODQyNjE0XX0=
+eyJoaXN0b3J5IjpbMTY5Mjg5NTk1OSwtNDEyMjYzNDE5LDgwMz
+E0OTEwNCwtMTgwNDQwMTI0NSwxMjM2MjgxNjcyLC05OTc4ODYw
+MzUsMTY2NjA0NzM5MywxODU3NjAwOTE4LDcxODY0MjY4MSwxMT
+EyNzMwODg4LDIxNDMzOTI3MDEsMTI2NTQxODExMCw4MzM4OTIx
+MjUsLTkwNDE1MjUxOSwtMTQ2ODUwMzI5NiwxNDcwNjU5ODgxLD
+IwMDg5NzczMTksMjAxMDg4NjEzNCwtMTMxMDk4Njc3NywtMTY2
+MzYxNjg4NF19
 -->
