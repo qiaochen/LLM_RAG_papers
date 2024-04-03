@@ -46,7 +46,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 		- External knowledge base (on the fly): Knowledge 2)
 	-  Important components in a RAG framework:
 		- LLM
-		- Retriever []
+		- Retriever (useful packages: [pyserini](https://github.com/castorini/pyserini))
 			- Dense embedding-based ([Huggingface leaderboard](https://huggingface.co/spaces/mteb/leaderboard)):
 				- Query encoder
 				- Document encoder
@@ -170,11 +170,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwNDU0MjAsLTE3OTI1Nzc0NjIsMjA0MD
-g2Mzg4MSwzMzE2NTAyNTcsMzI4MzM5OTAsLTE2MDA4MjgyNzYs
-LTQxMjI2MzQxOSw4MDMxNDkxMDQsLTE4MDQ0MDEyNDUsMTIzNj
-I4MTY3MiwtOTk3ODg2MDM1LDE2NjYwNDczOTMsMTg1NzYwMDkx
-OCw3MTg2NDI2ODEsMTExMjczMDg4OCwyMTQzMzkyNzAxLDEyNj
-U0MTgxMTAsODMzODkyMTI1LC05MDQxNTI1MTksLTE0Njg1MDMy
-OTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMDg5MTk5NTIsLTE3OTI1Nzc0NjIsMj
+A0MDg2Mzg4MSwzMzE2NTAyNTcsMzI4MzM5OTAsLTE2MDA4Mjgy
+NzYsLTQxMjI2MzQxOSw4MDMxNDkxMDQsLTE4MDQ0MDEyNDUsMT
+IzNjI4MTY3MiwtOTk3ODg2MDM1LDE2NjYwNDczOTMsMTg1NzYw
+MDkxOCw3MTg2NDI2ODEsMTExMjczMDg4OCwyMTQzMzkyNzAxLD
+EyNjU0MTgxMTAsODMzODkyMTI1LC05MDQxNTI1MTksLTE0Njg1
+MDMyOTZdfQ==
 -->
