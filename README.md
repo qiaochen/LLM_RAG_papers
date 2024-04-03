@@ -118,6 +118,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > Becoming a standard RAG evaluation task. See github for how evaluation is conducted. 
 - Xiong, G., Jin, Q., Lu, Z., & Zhang, A. (2024). [Benchmarking retrieval-augmented generation for medicine.](https://arxiv.org/abs/2402.13178) _arXiv preprint arXiv:2402.13178_.
 > A new benchmark is created from five medical QA datasets.
+> A toolkit MedRag is introducted.
 
 #### e. Combining Knowledge Graph and LLM by RAG
 - Yang, R., Liu, H., Zeng, Q., Ke, Y. H., Li, W., Cheng, L., ... & Li, I. (2024). [KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques.](https://arxiv.org/abs/2403.05881) _arXiv preprint arXiv:2403.05881_.
@@ -167,11 +168,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDI1MDA5MiwtNDEyMjYzNDE5LDgwMz
-E0OTEwNCwtMTgwNDQwMTI0NSwxMjM2MjgxNjcyLC05OTc4ODYw
-MzUsMTY2NjA0NzM5MywxODU3NjAwOTE4LDcxODY0MjY4MSwxMT
-EyNzMwODg4LDIxNDMzOTI3MDEsMTI2NTQxODExMCw4MzM4OTIx
-MjUsLTkwNDE1MjUxOSwtMTQ2ODUwMzI5NiwxNDcwNjU5ODgxLD
-IwMDg5NzczMTksMjAxMDg4NjEzNCwtMTMxMDk4Njc3NywtMTY2
-MzYxNjg4NF19
+eyJoaXN0b3J5IjpbLTE2MDA4MjgyNzYsLTQxMjI2MzQxOSw4MD
+MxNDkxMDQsLTE4MDQ0MDEyNDUsMTIzNjI4MTY3MiwtOTk3ODg2
+MDM1LDE2NjYwNDczOTMsMTg1NzYwMDkxOCw3MTg2NDI2ODEsMT
+ExMjczMDg4OCwyMTQzMzkyNzAxLDEyNjU0MTgxMTAsODMzODky
+MTI1LC05MDQxNTI1MTksLTE0Njg1MDMyOTYsMTQ3MDY1OTg4MS
+wyMDA4OTc3MzE5LDIwMTA4ODYxMzQsLTEzMTA5ODY3NzcsLTE2
+NjM2MTY4ODRdfQ==
 -->
