@@ -60,6 +60,7 @@ Note, both plain fine tuning and instruct tuning may result in a LLM forgetting 
 	- In a vanila RAG system, LLM is fixed, so the upper bound of the response quality is determined by the retrieval system and the external resources. 
 		- At a small resource scale (e.g., < 10k documents), dense vector approach with vector databases (e.g., [qdrant](https://qdrant.tech/articles/sparse-vectors/), [faiss](https://faiss.ai/index.html)) can be a good solution. However, the vectors and indexes (e.g., by [Hierarchical Navigable Small World (HNSW)](https://arxiv.org/abs/1603.09320)) are loaded to RAM, which may not be applicable to a larger scale.
 		- Traditional  retrieval system such as [Lucene](https://lucene.apache.org/) based [Solr](https://solr.apache.org/) and  [Elasticsearch](https://www.elastic.co/downloads/elasticsearch) can be a rescue in such scenarios. They are based on classic techniques such as BM25 and inverted index.
+		- Update: The vector base Faiss has index stored in disc rather than in RAM, in such case larger-scale RAG using dense vectors seems possible.
 
 > Comments
 > With a competent LLM and good retrieval system accompanied by techniques like [Chain of Thoughts Prompting](https://arxiv.org/abs/2201.11903), RAG has the potential to perform comparably well or even better than fine-tuned LLMs in a new domain. It is also much more flexible to manipulate external knowledge for updating or filtering information. However, the potentially incurred new bottlenecks now are:
@@ -169,11 +170,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDg2Mzg4MSwzMzE2NTAyNTcsMzI4Mz
-M5OTAsLTE2MDA4MjgyNzYsLTQxMjI2MzQxOSw4MDMxNDkxMDQs
-LTE4MDQ0MDEyNDUsMTIzNjI4MTY3MiwtOTk3ODg2MDM1LDE2Nj
-YwNDczOTMsMTg1NzYwMDkxOCw3MTg2NDI2ODEsMTExMjczMDg4
-OCwyMTQzMzkyNzAxLDEyNjU0MTgxMTAsODMzODkyMTI1LC05MD
-QxNTI1MTksLTE0Njg1MDMyOTYsMTQ3MDY1OTg4MSwyMDA4OTc3
-MzE5XX0=
+eyJoaXN0b3J5IjpbLTE3OTI1Nzc0NjIsMjA0MDg2Mzg4MSwzMz
+E2NTAyNTcsMzI4MzM5OTAsLTE2MDA4MjgyNzYsLTQxMjI2MzQx
+OSw4MDMxNDkxMDQsLTE4MDQ0MDEyNDUsMTIzNjI4MTY3MiwtOT
+k3ODg2MDM1LDE2NjYwNDczOTMsMTg1NzYwMDkxOCw3MTg2NDI2
+ODEsMTExMjczMDg4OCwyMTQzMzkyNzAxLDEyNjU0MTgxMTAsOD
+MzODkyMTI1LC05MDQxNTI1MTksLTE0Njg1MDMyOTYsMTQ3MDY1
+OTg4MV19
 -->
