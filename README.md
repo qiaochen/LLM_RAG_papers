@@ -115,7 +115,8 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > Comment: _In a sense it is like preparing a fine-grained router that can redirect the query to different handlers. It might be some lower level sub-router in a more sophisticated dialogue management architecture_ 
 
 - (2024) [RQ-RAG: Learning to Refine Queries for Retrieval Augmented Generation](https://arxiv.org/abs/2404.00610)
-
+> This paper reiterated the benefits of query rewriting. Imaging a complex query the entails multiple
+> 
 #### d. Evaluation
 - Gao, T., Yen, H., Yu, J., & Chen, D. (2023). Enabling large language models to generate text with citations.  _arXiv preprint arXiv:2305.14627_.
 > Becoming a standard RAG evaluation task. See github for how evaluation is conducted. 
@@ -172,11 +173,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzEzMjMyMiwtMTAwODkxOTk1MiwtMT
-c5MjU3NzQ2MiwyMDQwODYzODgxLDMzMTY1MDI1NywzMjgzMzk5
-MCwtMTYwMDgyODI3NiwtNDEyMjYzNDE5LDgwMzE0OTEwNCwtMT
-gwNDQwMTI0NSwxMjM2MjgxNjcyLC05OTc4ODYwMzUsMTY2NjA0
-NzM5MywxODU3NjAwOTE4LDcxODY0MjY4MSwxMTEyNzMwODg4LD
-IxNDMzOTI3MDEsMTI2NTQxODExMCw4MzM4OTIxMjUsLTkwNDE1
-MjUxOV19
+eyJoaXN0b3J5IjpbOTQ3NTM2MjEyLC0xMDA4OTE5OTUyLC0xNz
+kyNTc3NDYyLDIwNDA4NjM4ODEsMzMxNjUwMjU3LDMyODMzOTkw
+LC0xNjAwODI4Mjc2LC00MTIyNjM0MTksODAzMTQ5MTA0LC0xOD
+A0NDAxMjQ1LDEyMzYyODE2NzIsLTk5Nzg4NjAzNSwxNjY2MDQ3
+MzkzLDE4NTc2MDA5MTgsNzE4NjQyNjgxLDExMTI3MzA4ODgsMj
+E0MzM5MjcwMSwxMjY1NDE4MTEwLDgzMzg5MjEyNSwtOTA0MTUy
+NTE5XX0=
 -->
