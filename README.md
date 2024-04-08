@@ -117,7 +117,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 - Asai, A., Wu, Z., Wang, Y., Sil, A., & Hajishirzi, H. (2023). [Self-rag: Learning to retrieve, generate, and critique through self-reflection.] (https://arxiv.org/abs/2310.11511)_arXiv preprint arXiv:2310.11511_.
 
 - (2024) [RQ-RAG: Learning to Refine Queries for Retrieval Augmented Generation](https://arxiv.org/abs/2404.00610)
-> This paper reiterated the benefits of query rewriting. Imaging a complex query the entails multiple hops of reasoning, breaking it into separate simple queries for RAG would potentially retrieve better references. This work tries to learn a model to refine query for RAG. Their result is very exciting: A 7B model with query refining ability outperformed Chat-GPT3.5 on three multi-hop inferencing QA benchmarks.
+> This paper reiterated the benefits of query rewriting. Imaging a complex query that entails multiple hops of reasoning, breaking it into separate simple queries would potentially retrieve better references. This work tries to learn a model to refine query for RAG. Their result is very exciting: A 7B model with query refining ability outperformed Chat-GPT3.5 on three multi-hop inferencing QA benchmarks.
 > RAG here again indicated better performance than supervised fine-tuning (SFT).
 >  
 #### d. Evaluation
@@ -176,11 +176,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTU1NDEwNSwtMTAwODkxOTk1MiwtMT
-c5MjU3NzQ2MiwyMDQwODYzODgxLDMzMTY1MDI1NywzMjgzMzk5
-MCwtMTYwMDgyODI3NiwtNDEyMjYzNDE5LDgwMzE0OTEwNCwtMT
-gwNDQwMTI0NSwxMjM2MjgxNjcyLC05OTc4ODYwMzUsMTY2NjA0
-NzM5MywxODU3NjAwOTE4LDcxODY0MjY4MSwxMTEyNzMwODg4LD
-IxNDMzOTI3MDEsMTI2NTQxODExMCw4MzM4OTIxMjUsLTkwNDE1
-MjUxOV19
+eyJoaXN0b3J5IjpbMjg0OTYwNzg2LDE0MTE1NTQxMDUsLTEwMD
+g5MTk5NTIsLTE3OTI1Nzc0NjIsMjA0MDg2Mzg4MSwzMzE2NTAy
+NTcsMzI4MzM5OTAsLTE2MDA4MjgyNzYsLTQxMjI2MzQxOSw4MD
+MxNDkxMDQsLTE4MDQ0MDEyNDUsMTIzNjI4MTY3MiwtOTk3ODg2
+MDM1LDE2NjYwNDczOTMsMTg1NzYwMDkxOCw3MTg2NDI2ODEsMT
+ExMjczMDg4OCwyMTQzMzkyNzAxLDEyNjU0MTgxMTAsODMzODky
+MTI1XX0=
 -->
