@@ -115,7 +115,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > Comment: _In a sense it is like preparing a fine-grained router that can redirect the query to different handlers. It might be some lower level sub-router in a more sophisticated dialogue management architecture_ 
 
 - Asai, A., Wu, Z., Wang, Y., Sil, A., & Hajishirzi, H. (2023). [Self-rag: Learning to retrieve, generate, and critique through self-reflection.] (https://arxiv.org/abs/2310.11511)_arXiv preprint arXiv:2310.11511_.
-> LLMs are not trained to exploit facts from provided passages. Authors train a LM to learn to reflect on its own generation processing 
+> LLMs are not trained to exploit facts from provided passages. Authors train a LM to learn to reflect on its own generation processing given a input, by generating both task output and intermediate special tokens (reflection tokens: retrieval and critique). 
 
 - (2024) [RQ-RAG: Learning to Refine Queries for Retrieval Augmented Generation](https://arxiv.org/abs/2404.00610)
 > This paper reiterated the benefits of query rewriting. Imaging a complex query that entails multiple hops of reasoning, breaking it into separate simple queries would potentially retrieve better references. This work tries to learn a model to refine query for RAG. Their result is very exciting: A 7B model with query refining ability outperformed Chat-GPT3.5 on three multi-hop inferencing QA benchmarks.
@@ -177,7 +177,7 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzEzMTI4OCwyODQ5NjA3ODYsMTQxMT
+eyJoaXN0b3J5IjpbMTM3OTg2MTUwOCwyODQ5NjA3ODYsMTQxMT
 U1NDEwNSwtMTAwODkxOTk1MiwtMTc5MjU3NzQ2MiwyMDQwODYz
 ODgxLDMzMTY1MDI1NywzMjgzMzk5MCwtMTYwMDgyODI3NiwtND
 EyMjYzNDE5LDgwMzE0OTEwNCwtMTgwNDQwMTI0NSwxMjM2Mjgx
