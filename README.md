@@ -115,7 +115,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > Comment: _In a sense it is like preparing a fine-grained router that can redirect the query to different handlers. It might be some lower level sub-router in a more sophisticated dialogue management architecture_ 
 
 - Asai, A., Wu, Z., Wang, Y., Sil, A., & Hajishirzi, H. (2023). [Self-rag: Learning to retrieve, generate, and critique through self-reflection.] (https://arxiv.org/abs/2310.11511)_arXiv preprint arXiv:2310.11511_.
-> LLMs are not trained to exploit facts from provided passages. Authors train a LM to learn to reflect on its own generation processing given a input, by generating both task output and intermediate special tokens (reflection tokens: retrieval and critique). "Retrieval" indicates retrieving documents on demand, while critique
+> LLMs are not trained to exploit facts from provided passages. Authors train a LM to learn to reflect on its own generation processing given a input, by generating both task output and intermediate special tokens (reflection tokens: retrieval and critique). "Retrieval" indicates retrieving documents on demand (input prompt + ), while critique refers to 
 
 - (2024) [RQ-RAG: Learning to Refine Queries for Retrieval Augmented Generation](https://arxiv.org/abs/2404.00610)
 > This paper reiterated the benefits of query rewriting. Imaging a complex query that entails multiple hops of reasoning, breaking it into separate simple queries would potentially retrieve better references. This work tries to learn a model to refine query for RAG. Their result is very exciting: A 7B model with query refining ability outperformed Chat-GPT3.5 on three multi-hop inferencing QA benchmarks.
@@ -177,11 +177,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDc5MjgzMiwxMzc5ODYxNTA4LDI4ND
-k2MDc4NiwxNDExNTU0MTA1LC0xMDA4OTE5OTUyLC0xNzkyNTc3
-NDYyLDIwNDA4NjM4ODEsMzMxNjUwMjU3LDMyODMzOTkwLC0xNj
-AwODI4Mjc2LC00MTIyNjM0MTksODAzMTQ5MTA0LC0xODA0NDAx
-MjQ1LDEyMzYyODE2NzIsLTk5Nzg4NjAzNSwxNjY2MDQ3MzkzLD
-E4NTc2MDA5MTgsNzE4NjQyNjgxLDExMTI3MzA4ODgsMjE0MzM5
-MjcwMV19
+eyJoaXN0b3J5IjpbNzQzNzgxNTY2LDEzNzk4NjE1MDgsMjg0OT
+YwNzg2LDE0MTE1NTQxMDUsLTEwMDg5MTk5NTIsLTE3OTI1Nzc0
+NjIsMjA0MDg2Mzg4MSwzMzE2NTAyNTcsMzI4MzM5OTAsLTE2MD
+A4MjgyNzYsLTQxMjI2MzQxOSw4MDMxNDkxMDQsLTE4MDQ0MDEy
+NDUsMTIzNjI4MTY3MiwtOTk3ODg2MDM1LDE2NjYwNDczOTMsMT
+g1NzYwMDkxOCw3MTg2NDI2ODEsMTExMjczMDg4OCwyMTQzMzky
+NzAxXX0=
 -->
