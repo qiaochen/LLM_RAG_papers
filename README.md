@@ -116,7 +116,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 
 - Asai, A., Wu, Z., Wang, Y., Sil, A., & Hajishirzi, H. (2023). [Self-rag: Learning to retrieve, generate, and critique through self-reflection.] (https://arxiv.org/abs/2310.11511)_arXiv preprint arXiv:2310.11511_.
 > LLMs are not trained to exploit facts from provided passages. Authors train a LM to learn to reflect on its own generation processing given a input, by generating both task output and intermediate special tokens (reflection tokens: retrieval and critique). "Retrieval" indicates retrieving documents on demand (input prompt + last generations -> retrieval or not ), while critique refers to evaluation (isRelevant; is Fully, partially, or not supported; is useful 5-1) of its own output after generating task outputs with retrieved passages and the input.
-> Self-RAG need to train both the generator M and the critic C.
+> Self-RAG need to train both the generator M and the critic C .
 
 - (2024) [RQ-RAG: Learning to Refine Queries for Retrieval Augmented Generation](https://arxiv.org/abs/2404.00610)
 > This paper reiterated the benefits of query rewriting. Imaging a complex query that entails multiple hops of reasoning, breaking it into separate simple queries would potentially retrieve better references. This work tries to learn a model to refine query for RAG. Their result is very exciting: A 7B model with query refining ability outperformed Chat-GPT3.5 on three multi-hop inferencing QA benchmarks.
@@ -178,11 +178,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDczNzM1MjgsLTExMDkzMzg1NywzMT
-k2ODk5NzksMTM3OTg2MTUwOCwyODQ5NjA3ODYsMTQxMTU1NDEw
-NSwtMTAwODkxOTk1MiwtMTc5MjU3NzQ2MiwyMDQwODYzODgxLD
-MzMTY1MDI1NywzMjgzMzk5MCwtMTYwMDgyODI3NiwtNDEyMjYz
-NDE5LDgwMzE0OTEwNCwtMTgwNDQwMTI0NSwxMjM2MjgxNjcyLC
-05OTc4ODYwMzUsMTY2NjA0NzM5MywxODU3NjAwOTE4LDcxODY0
-MjY4MV19
+eyJoaXN0b3J5IjpbLTYyNjY2MTM4MCwtMTYwNzM3MzUyOCwtMT
+EwOTMzODU3LDMxOTY4OTk3OSwxMzc5ODYxNTA4LDI4NDk2MDc4
+NiwxNDExNTU0MTA1LC0xMDA4OTE5OTUyLC0xNzkyNTc3NDYyLD
+IwNDA4NjM4ODEsMzMxNjUwMjU3LDMyODMzOTkwLC0xNjAwODI4
+Mjc2LC00MTIyNjM0MTksODAzMTQ5MTA0LC0xODA0NDAxMjQ1LD
+EyMzYyODE2NzIsLTk5Nzg4NjAzNSwxNjY2MDQ3MzkzLDE4NTc2
+MDA5MThdfQ==
 -->
