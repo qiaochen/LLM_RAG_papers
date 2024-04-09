@@ -142,7 +142,7 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > Steps: 1) entity recognition from user prompt, 2) biomedical concept extraction from KG (one/two hops), vector similarity based on embedding model (MiniLM & PubMedBert*). 3) prompt-aware context generation, conversion to language, prompt assembly, and 4) answer retrieval.
 > Entity grounding (step 2) is implemented via vector similarity between extracted input entities and pre-embedded disease names (nodes in SPOKE) stored in 'Chroma' vector database. edges and nodes from one/two hops of neighbours are then retrieved. A further filtering step is applied to the triples to retain 25% of the KG pieces that > 0.5 cosine similarity.
 > Performance boost is huge with the KG-RAG approach.
-  
+  -Delile, J., Mukherjee, S., Van Pamel, A., & Zhukov, L. (2024). [Graph-Based Retriever Captures the Long Tail of Biomedical Knowledge](). _arXiv preprint arXiv:2402.12352_.
 #### f. Survey, Position articles
 - Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., ... & Wang, H. (2023). [Retrieval-augmented generation for large language models: A survey](https://arxiv.org/abs/2312.10997). _arXiv preprint arXiv:2312.10997_. 
 > Simply a pertinent albeit somewhat boring survey.
@@ -178,11 +178,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTUyMTE4NCwtMTYwNzM3MzUyOCwtMT
-EwOTMzODU3LDMxOTY4OTk3OSwxMzc5ODYxNTA4LDI4NDk2MDc4
-NiwxNDExNTU0MTA1LC0xMDA4OTE5OTUyLC0xNzkyNTc3NDYyLD
-IwNDA4NjM4ODEsMzMxNjUwMjU3LDMyODMzOTkwLC0xNjAwODI4
-Mjc2LC00MTIyNjM0MTksODAzMTQ5MTA0LC0xODA0NDAxMjQ1LD
-EyMzYyODE2NzIsLTk5Nzg4NjAzNSwxNjY2MDQ3MzkzLDE4NTc2
-MDA5MThdfQ==
+eyJoaXN0b3J5IjpbMzAyMjA1ODk4LC03NDE1MjExODQsLTE2MD
+czNzM1MjgsLTExMDkzMzg1NywzMTk2ODk5NzksMTM3OTg2MTUw
+OCwyODQ5NjA3ODYsMTQxMTU1NDEwNSwtMTAwODkxOTk1MiwtMT
+c5MjU3NzQ2MiwyMDQwODYzODgxLDMzMTY1MDI1NywzMjgzMzk5
+MCwtMTYwMDgyODI3NiwtNDEyMjYzNDE5LDgwMzE0OTEwNCwtMT
+gwNDQwMTI0NSwxMjM2MjgxNjcyLC05OTc4ODYwMzUsMTY2NjA0
+NzM5M119
 -->
