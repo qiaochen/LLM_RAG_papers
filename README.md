@@ -144,7 +144,9 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > Performance boost is huge with the KG-RAG approach.
  - Delile, J., Mukherjee, S., Van Pamel, A., & Zhukov, L. (2024). [Graph-Based Retriever Captures the Long Tail of Biomedical Knowledge](https://arxiv.org/pdf/2402.12352.pdf). _arXiv preprint arXiv:2402.12352_.
 
-- 
+- Li, H., Ning, Y., Liao, Z., Wang, S., Li, X. L., Lu, X., ... & Ren, X. (2023). [In Search of the Long-Tail: Systematic Generation of Long-Tail Knowledge via Logical Rule Guided Search.  _arXiv preprint arXiv:2311.07237_.
+
+Chicago
 
 #### f. Survey, Position articles
 - Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., ... & Wang, H. (2023). [Retrieval-augmented generation for large language models: A survey](https://arxiv.org/abs/2312.10997). _arXiv preprint arXiv:2312.10997_. 
@@ -181,11 +183,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Nzg0NDA4MywtNzQxNTIxMTg0LC0xNj
-A3MzczNTI4LC0xMTA5MzM4NTcsMzE5Njg5OTc5LDEzNzk4NjE1
-MDgsMjg0OTYwNzg2LDE0MTE1NTQxMDUsLTEwMDg5MTk5NTIsLT
-E3OTI1Nzc0NjIsMjA0MDg2Mzg4MSwzMzE2NTAyNTcsMzI4MzM5
-OTAsLTE2MDA4MjgyNzYsLTQxMjI2MzQxOSw4MDMxNDkxMDQsLT
-E4MDQ0MDEyNDUsMTIzNjI4MTY3MiwtOTk3ODg2MDM1LDE2NjYw
-NDczOTNdfQ==
+eyJoaXN0b3J5IjpbLTYxOTA4NjAxMywxODY3ODQ0MDgzLC03ND
+E1MjExODQsLTE2MDczNzM1MjgsLTExMDkzMzg1NywzMTk2ODk5
+NzksMTM3OTg2MTUwOCwyODQ5NjA3ODYsMTQxMTU1NDEwNSwtMT
+AwODkxOTk1MiwtMTc5MjU3NzQ2MiwyMDQwODYzODgxLDMzMTY1
+MDI1NywzMjgzMzk5MCwtMTYwMDgyODI3NiwtNDEyMjYzNDE5LD
+gwMzE0OTEwNCwtMTgwNDQwMTI0NSwxMjM2MjgxNjcyLC05OTc4
+ODYwMzVdfQ==
 -->
