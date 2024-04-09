@@ -142,7 +142,10 @@ The above literature demonstrate the promising role of RAG in domain adaptation.
 > Steps: 1) entity recognition from user prompt, 2) biomedical concept extraction from KG (one/two hops), vector similarity based on embedding model (MiniLM & PubMedBert*). 3) prompt-aware context generation, conversion to language, prompt assembly, and 4) answer retrieval.
 > Entity grounding (step 2) is implemented via vector similarity between extracted input entities and pre-embedded disease names (nodes in SPOKE) stored in 'Chroma' vector database. edges and nodes from one/two hops of neighbours are then retrieved. A further filtering step is applied to the triples to retain 25% of the KG pieces that > 0.5 cosine similarity.
 > Performance boost is huge with the KG-RAG approach.
-  -Delile, J., Mukherjee, S., Van Pamel, A., & Zhukov, L. (2024). [Graph-Based Retriever Captures the Long Tail of Biomedical Knowledge](). _arXiv preprint arXiv:2402.12352_.
+ - Delile, J., Mukherjee, S., Van Pamel, A., & Zhukov, L. (2024). [Graph-Based Retriever Captures the Long Tail of Biomedical Knowledge](https://arxiv.org/pdf/2402.12352.pdf). _arXiv preprint arXiv:2402.12352_.
+
+- 
+
 #### f. Survey, Position articles
 - Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., ... & Wang, H. (2023). [Retrieval-augmented generation for large language models: A survey](https://arxiv.org/abs/2312.10997). _arXiv preprint arXiv:2312.10997_. 
 > Simply a pertinent albeit somewhat boring survey.
@@ -178,11 +181,11 @@ Lu, W., Zhang, J., Zhang, J., & Chen, Y. (2024). [Large Language Model for Table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMjA1ODk4LC03NDE1MjExODQsLTE2MD
-czNzM1MjgsLTExMDkzMzg1NywzMTk2ODk5NzksMTM3OTg2MTUw
-OCwyODQ5NjA3ODYsMTQxMTU1NDEwNSwtMTAwODkxOTk1MiwtMT
-c5MjU3NzQ2MiwyMDQwODYzODgxLDMzMTY1MDI1NywzMjgzMzk5
-MCwtMTYwMDgyODI3NiwtNDEyMjYzNDE5LDgwMzE0OTEwNCwtMT
-gwNDQwMTI0NSwxMjM2MjgxNjcyLC05OTc4ODYwMzUsMTY2NjA0
-NzM5M119
+eyJoaXN0b3J5IjpbMTg2Nzg0NDA4MywtNzQxNTIxMTg0LC0xNj
+A3MzczNTI4LC0xMTA5MzM4NTcsMzE5Njg5OTc5LDEzNzk4NjE1
+MDgsMjg0OTYwNzg2LDE0MTE1NTQxMDUsLTEwMDg5MTk5NTIsLT
+E3OTI1Nzc0NjIsMjA0MDg2Mzg4MSwzMzE2NTAyNTcsMzI4MzM5
+OTAsLTE2MDA4MjgyNzYsLTQxMjI2MzQxOSw4MDMxNDkxMDQsLT
+E4MDQ0MDEyNDUsMTIzNjI4MTY3MiwtOTk3ODg2MDM1LDE2NjYw
+NDczOTNdfQ==
 -->
