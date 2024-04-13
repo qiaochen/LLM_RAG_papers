@@ -18,8 +18,10 @@ Kim, H., Hwang, H., Lee, J., Park, S., Kim, D., Lee, T., ... & Kang, J. (2024). 
 > Apart from top performance, their model analysis also show interesting model behaviors. They try to investigate the impact of bidirectional attention, with a dataset where sentences share same prefix but may have different meaning with later part, this can allow the bidirectional encoder to excel in token level tasks at the prefix part, since they can gain insights from future tokens.  Moreover, particularly for Mistral 7B chat, they find the token wise embeddings between uni and bi attention are much more consistent than other models, which may indicate there can be some bidirectional attention training strategies in Mistral 7B training.
 > Overall, this is a clever and computationally more efficient way of turning decoder-llm's into universal text encoders.
 
+- Lee, J., Dai, Z., Ren, X., Chen, B., Cer, D., Cole, J. R., ... & Naim, I. (2024). [Gecko: Versatile Text Embeddings Distilled from Large Language Models](https://arxiv.org/abs/2403.20327). _arXiv preprint arXiv:2403.20327_.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTQ2OTg1MiwtNTE2OTY0NDkxLC0xOD
-k4NDQ4NjUzLC02OTg5ODc0NzcsLTIwMTI2MDMyMDEsLTQ1NzU0
-NjQwMiwtMTAwODQwMzA0MV19
+eyJoaXN0b3J5IjpbLTE2MzQxMTM1OTgsMjA4NTQ2OTg1MiwtNT
+E2OTY0NDkxLC0xODk4NDQ4NjUzLC02OTg5ODc0NzcsLTIwMTI2
+MDMyMDEsLTQ1NzU0NjQwMiwtMTAwODQwMzA0MV19
 -->
