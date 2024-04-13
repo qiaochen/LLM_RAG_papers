@@ -5,7 +5,8 @@
 
 ### [Knowledge editing](https://github.com/zjunlp/KnowledgeEditingPapers)
 
-
+### Fine-tuning
+Kim, H., Hwang, H., Lee, J., Park, S., Kim, D., Lee, T., ... & Kang, J. (2024). [Small Language Models Learn Enhanced Reasoning Skills from Medical Textbooks](https://arxiv.org/abs/2404.00376v1). _arXiv preprint arXiv:2404.00376_.
 
 ### Embedding
 [MTEB leaderboard](https://huggingface.co/spaces/mteb/leaderboard)
@@ -18,7 +19,7 @@
 > Overall, this is a clever and computationally more efficient way of turning decoder-llm's into universal text encoders.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjk2NDQ5MSwtMTg5ODQ0ODY1MywtNj
-k4OTg3NDc3LC0yMDEyNjAzMjAxLC00NTc1NDY0MDIsLTEwMDg0
-MDMwNDFdfQ==
+eyJoaXN0b3J5IjpbMjA4NTQ2OTg1MiwtNTE2OTY0NDkxLC0xOD
+k4NDQ4NjUzLC02OTg5ODc0NzcsLTIwMTI2MDMyMDEsLTQ1NzU0
+NjQwMiwtMTAwODQwMzA0MV19
 -->
