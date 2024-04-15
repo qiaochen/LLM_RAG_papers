@@ -3,7 +3,7 @@
 - RAT
 	- Wang, Z., Liu, A., Lin, H., Li, J., Ma, X., & Liang, Y. (2024). [RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation.](https://arxiv.org/abs/2403.05313) _arXiv preprint arXiv:2403.05313_.
 > Chain-of-Thought, CoT, may create hallucinations in the intermediate steps of reasoning chain, this paper try to use RAG to overcome some of the reasoning hallucinations.
-> Step 1: the initial zero-shot CoT serve as the queries for retrieving information; Step 2:
+> Step 1: the initial zero-shot CoT serve as the queries for retrieving information; Step 2: progressive approach.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTcyNTkyMCwtMTg1MTUxOTA0Nl19
+eyJoaXN0b3J5IjpbMTM4MzMzMDI4NywtMTg1MTUxOTA0Nl19
 -->
